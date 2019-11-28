@@ -25,6 +25,7 @@ public class Actions
 		    getConnection("jdbc:oracle:thin:@192.168.14.53:1522:orcl","c##x5","c##x5");
 		    Statement statement = connection.createStatement())	{
 			
+				connection.setAutoCommit(false);
 		    	lr.log_message("Connection Success");
 		    	IDset = new HashSet<>();
 		    	
@@ -40,7 +41,7 @@ public class Actions
 				
 		    	updateIDs(connection, statement);
 		    	addTasks(connection, statement);
-
+				connection.commit();
 				
 	    }
          catch (SQLException e) {
@@ -53,22 +54,20 @@ public class Actions
 	}
 	
 	public void updateIDs(Connection connection, Statement statement) throws Throwable{
-		connection.setAutoCommit(false);
+		
         try {
 			String str = "UPDATE ticket SET state_id = '1'" +
 			"WHERE id in (select id from ticket where state_id =  '-1')";
 	        statement.execute(str);
-			connection.commit();
             lr.log_message("Update Success");
             } catch (SQLException e) {
             	e.printStackTrace();
                 connection.rollback();
             }
-        connection.setAutoCommit(true);
 	}
 	
 	public void addTasks(Connection connection, Statement statement) throws Throwable{
-		connection.setAutoCommit(false);
+		
 		try {
 			for(String id: IDset) {
 				    String insert_query = "INSERT INTO task (id, change_id," +
@@ -82,14 +81,11 @@ public class Actions
 	            	"'3', '2', '106', '1511190000000', 'ASKO')";
 	            statement.execute(insert_query);
        		}
-			connection.commit();
 			lr.log_message("Insert Success");
 		} catch (SQLException e) {
 	    	e.printStackTrace();
 	        connection.rollback();
-	    }
-        connection.setAutoCommit(true);
-        
+	    }                
     }
 	
 	public int end() {

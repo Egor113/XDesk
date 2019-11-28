@@ -7,5 +7,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: learning2.pflb.ru:56902
-Cookie: SESSION=889e3401-da1f-461b-81ea-a9a855764dcd
+Cookie: SESSION=15286504-239f-4f1c-a7df-a37231ae0e3e
 

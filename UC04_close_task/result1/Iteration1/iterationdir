@@ -1,6 +1,10 @@
 [vuser_init]
 SnapshotIndex=I1_vuser_init
-[Action]
-SnapshotIndex=I1_Action
+[UC04_Login]
+SnapshotIndex=I1_UC04_Login
+[UC04_Logout]
+SnapshotIndex=I1_UC04_Logout
 [vuser_end]
 SnapshotIndex=I1_vuser_end
+[UC04_Close_task]
+SnapshotIndex=I1_UC04_Close_task

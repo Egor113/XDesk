@@ -2598,13 +2598,10 @@ vuser_init()
 }
 # 4 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
-# 1 "Action.c" 1
-int task_index;
-
-Action()
+# 1 "UC04_Login.c" 1
+UC04_Login()
 {
-
-	web_url("/", 
+		web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2703,7 +2700,16 @@ Action()
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_end_transaction("UC04_TR01_Login",2);
-	
+	return 0;
+}
+# 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+
+# 1 "UC04_Close_task.c" 1
+int task_index;
+
+UC04_Close_task()
+{
+
 	lr_think_time(10);
 
 	lr_start_transaction("UC04_TR02_Tasks");
@@ -2910,6 +2916,13 @@ Action()
 
 	lr_think_time(10);
 
+	return 0;
+}
+# 6 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+
+# 1 "UC04_Logout.c" 1
+UC04_Logout()
+{
 	lr_start_transaction("UC04_TR06_Logout");
 
 	web_url("/api/logout", 
@@ -2932,15 +2945,15 @@ Action()
 		"LAST");
 
 	lr_end_transaction("UC04_TR06_Logout",2);
-
+	
 	return 0;
 }
-# 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 7 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 8 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 

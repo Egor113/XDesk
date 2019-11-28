@@ -24,7 +24,9 @@ Description=
 ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
+UC04_Login=UC04_Login.c
+UC04_Close_task=UC04_Close_task.c
+UC04_Logout=UC04_Logout.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -36,22 +38,30 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=1
+UC04_Login=1
+UC04_Close_task=1
+UC04_Logout=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=1
+UC04_Login=0
+UC04_Close_task=1
+UC04_Logout=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action=1
+UC04_Login=1
+UC04_Close_task=1
+UC04_Logout=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action=cci
+UC04_Login=cci
+UC04_Close_task=cci
+UC04_Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC04_TR01_Login__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR06_Logout"
+Order="UC04_TR01_Login__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR06_Logout__*delimiter*__UC04_TR06_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,7 +70,7 @@ ActiveRunName=result1
 [Transactions]
 UC04_TR01_Login=
 UC04_TR02_Tasks=
-UC04_TR03_Choose_task=
-UC04_TR04_To_Incident=
 UC04_TR05_Close_Incident=
+UC04_TR04_To_Incident=
+UC04_TR03_Choose_task=
 UC04_TR06_Logout=

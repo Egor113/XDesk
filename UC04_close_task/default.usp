@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,Action,vuser_end
+Profile Actions name=vuser_init,UC04_Login,UC04_Close_task,UC04_Logout,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,16 +53,28 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="Action"
+MercIniTreeSons="UC04_Login,UC04_Close_task,UC04_Logout"
 Name="Run"
-RunLogicActionOrder="Action"
+RunLogicActionOrder="UC04_Login,UC04_Close_task,UC04_Logout"
 RunLogicActionType="VuserRun"
 RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
-[RunLogicRunRoot:Action]
+[RunLogicRunRoot:UC04_Close_task]
 MercIniTreeFather="RunLogicRunRoot"
-MercIniTreeSectionName="Action"
-Name="Action"
+MercIniTreeSectionName="UC04_Close_task"
+Name="UC04_Close_task"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UC04_Login]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC04_Login"
+Name="UC04_Login"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UC04_Logout]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC04_Logout"
+Name="UC04_Logout"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"

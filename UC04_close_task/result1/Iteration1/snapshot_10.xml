@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="10">
-  <HTTPTask id="66" path="/IE11/1478281996/iecompatviewlist.xml" url="https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml" ip="152.199.19.161" port="443" client_ip="192.168.14.226" client_port="22705" connectionId="2128" origin="Primary" encodingType="ANSI" startDateTime="2019-11-28T14:46:33.178+03:00" startTime="3380" endTime="3564" blockedTime="-1" dnsTime="0" connectTime="73" sendTime="4294967295" waitTime="4294967295" receiveTime="3545" sslNegotiateTime="51" responseBodySize="26561">
+  <HTTPTask id="66" path="/IE11/1478281996/iecompatviewlist.xml" url="https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml" ip="152.199.19.161" port="443" client_ip="192.168.14.226" client_port="23086" connectionId="2092" origin="Primary" encodingType="ANSI" startDateTime="2019-11-28T17:00:09.282+03:00" startTime="3249" endTime="3428" blockedTime="-1" dnsTime="0" connectTime="71" sendTime="4294967295" waitTime="4294967295" receiveTime="3411" sslNegotiateTime="48" responseBodySize="26560">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name=":method" index="0">
@@ -177,7 +177,7 @@
         <HTTPHeaderEntity name="date" index="5">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxMTo0NjozNSBHTVQ=</ActualData>
+              <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxNDowMDoxMSBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -241,7 +241,7 @@
         <HTTPHeaderEntity name="x-ms-request-id" index="13">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>NTk1ZDRhYmQtMDAxZS0wMDgwLTBhYmYtYTU0ZWE4MDAwMDAw</ActualData>
+              <ActualData>OWI5YWE4YTEtMDAxZS0wMDZlLTNmZjEtYTU0NDJiMDAwMDAw</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -265,7 +265,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0KY29udGVudC1lbmNvZGluZzogZ3ppcA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT0yMTYwMA0KY29udGVudC1tZDU6IGV4WlZOelp1SEF0dy9lK2xFOG04Umc9PQ0KY29udGVudC10eXBlOiB0ZXh0L3htbA0KZGF0ZTogVGh1LCAyOCBOb3YgMjAxOSAxMTo0NjozNSBHTVQNCmV0YWc6IDB4OEQ3NkVCQTE5QzVGNTVGDQpsYXN0LW1vZGlmaWVkOiBUaHUsIDIxIE5vdiAyMDE5IDE5OjM2OjI3IEdNVA0Kc2VydmVyOiBFQ0FjYyAoc2thL0Y2RTUpDQp2YXJ5OiBBY2NlcHQtRW5jb2RpbmcNCngtY2FjaGU6IEhJVA0KeC1tcy1ibG9iLXR5cGU6IEJsb2NrQmxvYg0KeC1tcy1sZWFzZS1zdGF0dXM6IHVubG9ja2VkDQp4LW1zLXJlcXVlc3QtaWQ6IDU5NWQ0YWJkLTAwMWUtMDA4MC0wYWJmLWE1NGVhODAwMDAwMA0KeC1tcy12ZXJzaW9uOiAyMDA5LTA5LTE5DQpjb250ZW50LWxlbmd0aDogMjYyOTINCg0K</ActualData>
+              <ActualData>SFRUUC8yLjAgMjAwDQpTdGF0dXM6IDIwMA0KY29udGVudC1lbmNvZGluZzogZ3ppcA0KY2FjaGUtY29udHJvbDogbWF4LWFnZT0yMTYwMA0KY29udGVudC1tZDU6IGV4WlZOelp1SEF0dy9lK2xFOG04Umc9PQ0KY29udGVudC10eXBlOiB0ZXh0L3htbA0KZGF0ZTogVGh1LCAyOCBOb3YgMjAxOSAxNDowMDoxMSBHTVQNCmV0YWc6IDB4OEQ3NkVCQTE5QzVGNTVGDQpsYXN0LW1vZGlmaWVkOiBUaHUsIDIxIE5vdiAyMDE5IDE5OjM2OjI3IEdNVA0Kc2VydmVyOiBFQ0FjYyAoc2thL0Y2RTUpDQp2YXJ5OiBBY2NlcHQtRW5jb2RpbmcNCngtY2FjaGU6IEhJVA0KeC1tcy1ibG9iLXR5cGU6IEJsb2NrQmxvYg0KeC1tcy1sZWFzZS1zdGF0dXM6IHVubG9ja2VkDQp4LW1zLXJlcXVlc3QtaWQ6IDliOWFhOGExLTAwMWUtMDA2ZS0zZmYxLWE1NDQyYjAwMDAwMA0KeC1tcy12ZXJzaW9uOiAyMDA5LTA5LTE5DQpjb250ZW50LWxlbmd0aDogMjYyOTINCg0K</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -281,7 +281,7 @@
       </HTTPBody>
       <HTTPPropertySet>
         <HTTPProperty name="StreamID">1</HTTPProperty>
-        <HTTPProperty name="TotalHeadersSize">269</HTTPProperty>
+        <HTTPProperty name="TotalHeadersSize">268</HTTPProperty>
       </HTTPPropertySet>
     </HTTPResponse>
   </HTTPTask>

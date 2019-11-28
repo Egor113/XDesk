@@ -1,3 +1,5 @@
+int task_index;
+
 Action()
 {
 
@@ -191,7 +193,15 @@ Action()
 		"Snapshot=t39.inf", 
 		"Mode=HTML", 
 		LAST);
-
+	
+	web_reg_save_param_json(
+        "ParamName=taskIdS",
+        "QueryString=$.content[?(@.stateId = 1)].id",
+        "SelectALL=Yes",
+        SEARCH_FILTERS,
+        "Scope=Body",
+        "LAST");
+	
 	web_custom_request("task", 
 		"URL=http://learning2.pflb.ru:56902/api/task/?state=1&page=0&size=10", 
 		"Method=GET", 
@@ -204,12 +214,16 @@ Action()
 		"EncType=application/json; charset=utf-8", 
 		LAST);
 
+	task_index = rand() % atoi(lr_eval_string("{taskIdS_count}")) + 1;
+	
+	lr_save_string(lr_paramarr_idx("taskIdS", task_index), "taskID");
+	
 	lr_end_transaction("UC04_TR02_Tasks",LR_AUTO);
 
 	lr_start_transaction("UC04_TR03_Choose_task");
 
-	web_url("149599", 
-		"URL=http://learning2.pflb.ru:56902/api/task/149599", 
+	web_url("{taskID}", 
+		"URL=http://learning2.pflb.ru:56902/api/task/{taskID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -229,7 +243,7 @@ Action()
 		LAST);
 
 	web_url("comment", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/149599/comment/", 
+		"URL=http://learning2.pflb.ru:56902/api/ticket/{taskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -242,8 +256,8 @@ Action()
 
 	lr_start_transaction("UC04_TR04_To_Incident");
 
-	web_custom_request("149599_2", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/149599", 
+	web_custom_request("{taskID}_2", 
+		"URL=http://learning2.pflb.ru:56902/api/ticket/{taskID}", 
 		"Method=GET", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -254,7 +268,7 @@ Action()
 		LAST);
 
 	web_url("comment_2", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/149599/comment/", 
+		"URL=http://learning2.pflb.ru:56902/api/ticket/{taskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
@@ -270,7 +284,7 @@ Action()
 	lr_start_transaction("UC04_TR05_Close_Incident");
 
 	web_custom_request("solve", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/149599/solve/", 
+		"URL=http://learning2.pflb.ru:56902/api/ticket/{taskID}/solve/", 
 		"Method=POST", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -332,7 +346,7 @@ Action()
 		"Snapshot=t50.inf", 
 		"Mode=HTML", 
 		EXTRARES, 
-		"Url=/api/report/149599?timeZoneOffset=3", "Referer=", ENDITEM, 
+		"Url=/api/report/{taskID}?timeZoneOffset=3", "Referer=", ENDITEM, 
 		LAST);
 
 	web_url("countByState_3", 

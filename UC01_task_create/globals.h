@@ -2,7 +2,7 @@
 #define _GLOBALS_H
 
 //Значение thinktime будет рассчитываться исходя из pacing
-#define TNINKTIME 10
+#define THINKTIME 10
 
 //--------------------------------------------------------------------
 // Include Files

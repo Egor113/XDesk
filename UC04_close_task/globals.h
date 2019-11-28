@@ -1,6 +1,6 @@
 #ifndef _GLOBALS_H 
 #define _GLOBALS_H
-
+#define THINKTIME 10
 //--------------------------------------------------------------------
 // Include Files
 #include "lrun.h"

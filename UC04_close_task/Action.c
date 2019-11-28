@@ -102,6 +102,8 @@ Action()
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_end_transaction("UC04_TR01_Login",LR_AUTO);
+	
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC04_TR02_Tasks");
 
@@ -140,6 +142,8 @@ Action()
 	lr_save_string(lr_paramarr_idx("taskIdS", task_index), "taskID");
 	
 	lr_end_transaction("UC04_TR02_Tasks",LR_AUTO);
+	
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC04_TR03_Choose_task");
 
@@ -174,6 +178,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("UC04_TR03_Choose_task",LR_AUTO);
+	
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC04_TR04_To_Incident");
 
@@ -200,7 +206,7 @@ Action()
 
 	lr_end_transaction("UC04_TR04_To_Incident",LR_AUTO);
 
-	lr_think_time(39);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC04_TR05_Close_Incident");
 
@@ -301,7 +307,7 @@ Action()
 
 	lr_end_transaction("UC04_TR05_Close_Incident",LR_AUTO);
 
-	lr_think_time(91);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC04_TR06_Logout");
 

@@ -108,7 +108,7 @@ Action()
 
 	lr_end_transaction("UC01_TR01_Login",LR_AUTO);
 	
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR02_Create_incident");
 
@@ -124,7 +124,7 @@ Action()
 
 	lr_end_transaction("UC01_TR02_Create_incident",LR_AUTO);
 
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR03_Incident_data");
 	
@@ -429,7 +429,7 @@ Action()
 
 	lr_end_transaction("UC01_TR03_Incident_data",LR_AUTO);
 
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR04_Logout");
 

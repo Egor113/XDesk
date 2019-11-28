@@ -2,7 +2,7 @@ int task_index;
 
 UC03_Comment()
 {
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 	
 	lr_start_transaction("UC03_TR02_Show_tasks");
 
@@ -42,7 +42,7 @@ UC03_Comment()
 
 	lr_end_transaction("UC03_TR02_Show_tasks",LR_AUTO);
 	
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC03_TR03_Open_task");
 
@@ -78,7 +78,7 @@ UC03_Comment()
 
 	lr_end_transaction("UC03_TR03_Open_task",LR_AUTO);
 
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC03_TR04_Add_comment");
 
@@ -97,7 +97,7 @@ UC03_Comment()
 
 	lr_end_transaction("UC03_TR04_Add_comment",LR_AUTO);
 
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC03_TR05_Submit_comment");
 
@@ -126,7 +126,7 @@ UC03_Comment()
 
 	lr_end_transaction("UC03_TR05_Submit_comment",LR_AUTO);
 
-	lr_think_time(TNINKTIME);
+	lr_think_time(THINKTIME);
 
 	return 0;
 }

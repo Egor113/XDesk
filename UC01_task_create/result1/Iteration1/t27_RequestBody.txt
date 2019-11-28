@@ -1,2 +1,2 @@
-"{"text":"Some text 3","header":"Не работает верту�\x88ка","ticketStateId": 0,"
-""serviceId": "2888","files": [5000],"shopId": "4"}"
+"{"text":"Some text 2","header":"Не работает �\x98корны�\xB9/Бытово�\xB9 �"
+"�олодильник","ticketStateId": 0,"serviceId": "2968","files": [5002],"shopId": "1"}"

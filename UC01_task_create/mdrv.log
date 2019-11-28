@@ -1,4 +1,4 @@
-Virtual User Script started at: 28.11.2019 17:27:13
+Virtual User Script started at: 28.11.2019 17:40:27
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (��� 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -136,8 +136,8 @@ Action.c(96): Notify: Parameter Substitution: parameter "Host" =  "http://learni
 Action.c(96): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(96): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(96): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(96): web_custom_request("/api/ticket/") was successful, 12784 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(109): Notify: Transaction "UC01_TR01_Login" ended with a "Pass" status (Duration: 1.6919 Wasted Time: 0.1362).
+Action.c(96): web_custom_request("/api/ticket/") was successful, 12748 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(109): Notify: Transaction "UC01_TR01_Login" ended with a "Pass" status (Duration: 1.5639 Wasted Time: 0.1320).
 Action.c(113): Notify: Transaction "UC01_TR02_Create_incident" started.
 Action.c(115): web_url("/api/user/catalog/node/0/children/") started  	[MsgId: MMSG-26355]
 Action.c(115): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
@@ -145,7 +145,7 @@ Action.c(115): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(115): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(115): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(115): web_url("/api/user/catalog/node/0/children/") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(125): Notify: Transaction "UC01_TR02_Create_incident" ended with a "Pass" status (Duration: 0.0868 Wasted Time: 0.0192).
+Action.c(125): Notify: Transaction "UC01_TR02_Create_incident" ended with a "Pass" status (Duration: 0.0866 Wasted Time: 0.0231).
 Action.c(129): Notify: Transaction "UC01_TR03_Incident_data" started.
 Action.c(131): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(131): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
@@ -163,8 +163,8 @@ Action.c(139): Notify: Saving Parameter "shopIDs_6 = 2".
 Action.c(139): Notify: Saving Parameter "shopIDs_count = 6".
 Action.c(139): web_url("/api/shops") was successful, 1015 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(149): Notify: Parameter Substitution: parameter "shopIDs_count" =  "6"
-Action.c(151): Notify: Parameter Substitution: parameter "shopIDs_2" =  "-2"
-Action.c(151): Notify: Saving Parameter "shopID = -2".
+Action.c(151): Notify: Parameter Substitution: parameter "shopIDs_3" =  "4"
+Action.c(151): Notify: Saving Parameter "shopID = 4".
 Action.c(153): web_url("/api/shops") started  	[MsgId: MMSG-26355]
 Action.c(153): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(153): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -184,7 +184,7 @@ Action.c(181): Registering web_reg_save_param_json was successful  	[MsgId: MMSG
 Action.c(189): web_url("/api/user/catalog/treeview") started  	[MsgId: MMSG-26355]
 Action.c(189): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(189): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(189): Notify: Parameter Substitution: parameter "shopID" =  "-2"
+Action.c(189): Notify: Parameter Substitution: parameter "shopID" =  "4"
 Action.c(189): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(189): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(189): Notify: Saving Parameter "serviceIdS_1 = 2782".
@@ -651,8 +651,8 @@ Action.c(189): Notify: Saving Parameter "serviceIdS_count = 230".
 Action.c(189): Notify: Saving Parameter "serviceNames_count = 230".
 Action.c(189): web_url("/api/user/catalog/treeview") was successful, 75659 body bytes, 316 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(199): Notify: Parameter Substitution: parameter "serviceIdS_count" =  "230"
-Action.c(201): Notify: Parameter Substitution: parameter "serviceIdS_211" =  "2871"
-Action.c(201): Notify: Saving Parameter "serviceId = 2871".
+Action.c(201): Notify: Parameter Substitution: parameter "serviceIdS_46" =  "2888"
+Action.c(201): Notify: Saving Parameter "serviceId = 2888".
 Action.c(203): web_url("/api/user/catalog/node/146/children/") started  	[MsgId: MMSG-26355]
 Action.c(203): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(203): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -676,21 +676,21 @@ Action.c(233): Registering web_reg_save_param_json was successful  	[MsgId: MMSG
 Action.c(242): web_url("/api/inventoryNumbers") started  	[MsgId: MMSG-26355]
 Action.c(242): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(242): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(242): Notify: Parameter Substitution: parameter "serviceId" =  "2871"
-Action.c(242): Notify: Parameter Substitution: parameter "shopID" =  "-2"
+Action.c(242): Notify: Parameter Substitution: parameter "serviceId" =  "2888"
+Action.c(242): Notify: Parameter Substitution: parameter "shopID" =  "4"
 Action.c(242): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(242): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(242): Warning -35060: No matches were found for the specified query: "$..services..name"  	[MsgId: MWAR-35060]
 Action.c(242): Notify: Saving Parameter "inventoryNumbers_count = 0".
-Action.c(242): web_url("/api/inventoryNumbers") highest severity level was "warning", 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(242): web_url("/api/inventoryNumbers") highest severity level was "warning", 236 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
 Action.c(253): web_url("/api/inventoryNumbers") started  	[MsgId: MMSG-26355]
 Action.c(253): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(253): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(253): Notify: Parameter Substitution: parameter "shopID" =  "-2"
-Action.c(253): Notify: Parameter Substitution: parameter "serviceId" =  "2871"
+Action.c(253): Notify: Parameter Substitution: parameter "shopID" =  "4"
+Action.c(253): Notify: Parameter Substitution: parameter "serviceId" =  "2888"
 Action.c(253): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(253): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(253): web_url("/api/inventoryNumbers") was successful, 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(253): web_url("/api/inventoryNumbers") was successful, 236 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(264): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(264): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(271): web_submit_data("/api/ticket/file/") started  	[MsgId: MMSG-26355]
@@ -699,17 +699,17 @@ Action.c(271): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(271): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(271): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(271): Notify: Parameter Substitution: parameter "File" =  "File1.txt"
-Action.c(271): Notify: Saving Parameter "FileID = 4998".
+Action.c(271): Notify: Saving Parameter "FileID = 5000".
 Action.c(271): web_submit_data("/api/ticket/file/") was successful, 117082 body bytes, 316 header bytes, 124 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(284): Notify: Saving Parameter "c_buffer = ".
 Action.c(286): Notify: Parameter Substitution: parameter "inventoryNumbers_count" =  "0"
 Action.c(288): Notify: Parameter Substitution: parameter "c_buffer" =  ""
-Action.c(288): Notify: Parameter Substitution: parameter "Text" =  "Some text 5"
-Action.c(288): Notify: Parameter Substitution: parameter "serviceNames_211" =  "Замена фасадно�\xb9 плитки (м2)"
-Action.c(288): Notify: Parameter Substitution: parameter "serviceId" =  "2871"
-Action.c(288): Notify: Parameter Substitution: parameter "FileID" =  "4998"
-Action.c(288): Notify: Parameter Substitution: parameter "shopID" =  "-2"
-Action.c(288): Notify: Saving Parameter "c_buffer = {"text":"Some text 5","header":"Замена фасадно�\xb9 плитки (м2)","ticketStateId": 0,"serviceId": "2871","files": [4998],"shopId": "-2"}".
+Action.c(288): Notify: Parameter Substitution: parameter "Text" =  "Some text 3"
+Action.c(288): Notify: Parameter Substitution: parameter "serviceNames_46" =  "Не работает верту�\x88ка"
+Action.c(288): Notify: Parameter Substitution: parameter "serviceId" =  "2888"
+Action.c(288): Notify: Parameter Substitution: parameter "FileID" =  "5000"
+Action.c(288): Notify: Parameter Substitution: parameter "shopID" =  "4"
+Action.c(288): Notify: Saving Parameter "c_buffer = {"text":"Some text 3","header":"Не работает верту�\x88ка","ticketStateId": 0,"serviceId": "2888","files": [5000],"shopId": "4"}".
 c_buffer
 Action.c(320): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(320): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
@@ -718,10 +718,10 @@ Action.c(331): Notify: Parameter Substitution: parameter "Host" =  "http://learn
 Action.c(331): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(331): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(331): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(331): Notify: Parameter Substitution: parameter "c_buffer" =  "{"text":"Some text 5","header":"Замена фасадно�\xb9 плитки (м2)","ticketStateId": 0,"serviceId": "2871","files": [4998],"shopId": "-2"}"
-Action.c(331): Notify: Saving Parameter "ID = 149653".
-Action.c(331): web_custom_request("/api/ticket/") was successful, 1086 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(345): Notify: Parameter Substitution: parameter "ID" =  "149653"
+Action.c(331): Notify: Parameter Substitution: parameter "c_buffer" =  "{"text":"Some text 3","header":"Не работает верту�\x88ка","ticketStateId": 0,"serviceId": "2888","files": [5000],"shopId": "4"}"
+Action.c(331): Notify: Saving Parameter "ID = 149655".
+Action.c(331): web_custom_request("/api/ticket/") was successful, 1070 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(345): Notify: Parameter Substitution: parameter "ID" =  "149655"
 Action.c(348): web_url("/") started  	[MsgId: MMSG-26355]
 Action.c(348): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(348): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -792,14 +792,14 @@ Action.c(406): Notify: Parameter Substitution: parameter "Host" =  "http://learn
 Action.c(406): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(406): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(406): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(406): web_custom_request("/api/ticket") was successful, 12562 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(406): web_custom_request("/api/ticket") was successful, 12444 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(418): web_custom_request("/api/ticket") started  	[MsgId: MMSG-26355]
 Action.c(418): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(418): Notify: Parameter Substitution: parameter "Port" =  "56902"
 Action.c(418): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 Action.c(418): Notify: Parameter Substitution: parameter "Port" =  "56902"
-Action.c(418): web_custom_request("/api/ticket") was successful, 12562 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(430): Notify: Transaction "UC01_TR03_Incident_data" ended with a "Pass" status (Duration: 4.3395 Wasted Time: 0.4147).
+Action.c(418): web_custom_request("/api/ticket") was successful, 12444 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(430): Notify: Transaction "UC01_TR03_Incident_data" ended with a "Pass" status (Duration: 4.1644 Wasted Time: 0.4374).
 Action.c(434): Notify: Transaction "UC01_TR04_Logout" started.
 Action.c(436): web_url("/api/logout") started  	[MsgId: MMSG-26355]
 Action.c(436): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
@@ -833,11 +833,11 @@ Action.c(445): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js
 Action.c(445): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(445): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(445): web_url("/login") was successful, 873 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
-Action.c(455): Notify: Transaction "UC01_TR04_Logout" ended with a "Pass" status (Duration: 0.1127 Wasted Time: 0.0466).
+Action.c(455): Notify: Transaction "UC01_TR04_Logout" ended with a "Pass" status (Duration: 0.1359 Wasted Time: 0.0561).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 11664), ended OK."
+Vuser 0 (thread 3608), ended OK."

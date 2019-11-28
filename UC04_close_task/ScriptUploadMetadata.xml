@@ -15,7 +15,10 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_UC04_close_task.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="187593480440.idx" Filter="1" />
     <FileEntry Name="205283614440.idx" Filter="1" />
+    <FileEntry Name="3358960440.idx" Filter="1" />
+    <FileEntry Name="68552256440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -36,6 +39,7 @@
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC04_close_task.c.pickle" Filter="1" />
     <FileEntry Name="UC04_close_task.ci" Filter="1" />
+    <FileEntry Name="UC04_close_task.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

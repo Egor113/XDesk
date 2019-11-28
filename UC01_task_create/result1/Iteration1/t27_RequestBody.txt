@@ -1,2 +1,2 @@
-"{"text":"Some text 5","header":"Замена фасадно�\xB9 плитки (м2)","ticketSt"
-"ateId": 0,"serviceId": "2871","files": [4998],"shopId": "-2"}"
+"{"text":"Some text 3","header":"Не работает верту�\x88ка","ticketStateId": 0,"
+""serviceId": "2888","files": [5000],"shopId": "4"}"

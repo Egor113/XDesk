@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149595/solve/
+Total=2
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_149595.pdf
+URL2=http://learning2.pflb.ru:56902/api/report/149595?timeZoneOffset=3
+[ProtocolInfo]
+ProtocolId=QTWeb

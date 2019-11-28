@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28.htm
+URL1=http://learning2.pflb.ru:56902/login
+Total=1
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_28.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

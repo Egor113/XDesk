@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\student\Desktop\Ogdanets\Project\UC03_Comment_task
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\student\desktop\ogdanets\project\uc03_comment_task\\logfile.log
+c:\users\student\desktop\ogdanets\project\uc03_comment_task\\combined_UC03_Comment_task.c
+c:\users\student\desktop\ogdanets\project\uc03_comment_task\\pre_cci.c

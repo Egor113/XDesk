@@ -1,0 +1,17 @@
+[t50]
+FileName1=t50_4.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/4
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_50.xml
+RequestHeaderFile=t50_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t50_ResponseHeader.txt
+FileName2=t50_149599.pdf
+URL2=http://learning2.pflb.ru:56902/api/report/149599?timeZoneOffset=3
+FileName3=t50_tickets.html
+URL3=http://learning2.pflb.ru:56902/engineer/tickets/tickets.dust
+FileName4=t50_tickets.html
+URL4=http://learning2.pflb.ru:56902/engineer/tickets/tickets.js
+[ProtocolInfo]
+ProtocolId=QTWeb

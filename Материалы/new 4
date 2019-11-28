@@ -1,0 +1,28 @@
+{\"text\":\"Some action\",\"header\":\"\\xD0\\x9E\\xD1\\x82\\xD1\\x81\\xD1\\x83\\xD1\\x82\\xD1\\x81\\xD1\\x82\\xD0\\xB2\\xD0\\xB8\\xD0\\xB5 \\xD1\\x83\\xD0\\xB1\\xD0\\xBE\\xD1\\x80\\xD0\\xBA\\xD0\\xB8 \\xD0\\xBF\\xD1\\x80\\xD0\\xB8\\xD0\\xBB\\xD0\\xB5\\xD0\\xB3\\xD0\\xB0\\xD1\\x8E\\xD1\\x89\\xD0\\xB5\\xD0\\xB9 \\xD1\\x82\\xD0\\xB5\\xD1\\x80\\xD1\\x80\\xD0\\xB8\\xD1\\x82\\xD0\\xBE\\xD1\\x80\\xD0\\xB8\\xD0\\xB8\",\"ticketStateId\":0,\"serviceId\":\"2782\",\"files\":[4383],\""
+		"inventoryNumberId\":\"6\",\"shopId\":\"4\"}
+		
+		
+		{
+    "text": "Some action",
+    "header": "Отсутствие уборки прилегающей территории",
+    "ticketStateId": 0,
+    "serviceId": "2782",
+    "files": [
+            4383
+        ],
+    "inventoryNumberId": "6",
+    "shopId": "4"
+}
+
+{"text": "Some action","header": "Отсутствие уборки прилегающей территории","ticketStateId": 0,"serviceId": "2782","files": [4383],"inventoryNumberId": "6","shopId": "4"}
+
+{"text":"Some action","header":"Вывалились перекладины из стоек","ticketStateId": 0,"serviceId": "2891","files": [4383],"inventoryNumberId": "6","shopId": "4"}
+
+{"text":"Some action","header":"РЈРЅРёС‡С‚РѕР¶РµРЅРёРµ РјСѓС…","ticketStateId":0,"serviceId": "2806","files": [4383],"inventoryNumberId": "6","shopId": "4"}".
+c_buffer
+
+
+	lr_param_sprintf("c_buffer", "%s{\"text\":\"Some action\",\"header\":\"%s\",\"ticketStateId\": 0,\"serviceId\": \"%s\",\"files\": [4383],\"inventoryNumberId\": \"6\",\"shopId\": \"4\"}",
+		   lr_eval_string("{c_buffer}"),
+		   lr_paramarr_idx("serviceNames", j),
+		   lr_paramarr_idx("serviceIdS", j));

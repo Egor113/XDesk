@@ -1,0 +1,76 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=UC03_Comment_task.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+UC03_Login=UC03_Login.c
+UC03_Comment=UC03_Comment.c
+UC03_Logout=UC03_Logout.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+UC03_Login=1
+UC03_Comment=1
+UC03_Logout=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+UC03_Login=0
+UC03_Comment=1
+UC03_Logout=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+UC03_Login=1
+UC03_Comment=1
+UC03_Logout=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+UC03_Login=cci
+UC03_Comment=cci
+UC03_Logout=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="UC03_TR01_Login__*delimiter*__UC03_TR03_Open_task__*delimiter*__UC03_TR02_Show_tasks__*delimiter*__UC03_TR02_Show_tasks__*delimiter*__UC03_TR03_Open_task__*delimiter*__UC03_TR04_Add_comment__*delimiter*__UC03_TR05_Submit_comment__*delimiter*__UC03_TR06_Logout__*delimiter*__UC03_TR04_Add_comment__*delimiter*__UC03_TR05_Submit_comment__*delimiter*__UC03_TR06_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+UC03_TR01_Login=
+UC03_TR03_Open_task=
+UC03_TR02_Show_tasks=
+UC03_TR04_Add_comment=
+UC03_TR05_Submit_comment=
+UC03_TR06_Logout=

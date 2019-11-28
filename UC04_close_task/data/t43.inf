@@ -1,0 +1,17 @@
+[t43]
+FileName1=t43.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149599/comment/
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_43.xml
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+FileName2=t43_attachment.png
+URL2=http://learning2.pflb.ru:56902/images/attachment.png
+FileName3=t43_ticket.html
+URL3=http://learning2.pflb.ru:56902/engineer/ticket/ticket.dust
+FileName4=t43_ticket.html
+URL4=http://learning2.pflb.ru:56902/engineer/ticket/ticket.js
+[ProtocolInfo]
+ProtocolId=QTWeb

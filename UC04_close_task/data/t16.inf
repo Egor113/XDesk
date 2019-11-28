@@ -1,0 +1,15 @@
+[t16]
+FileName1=t16_149595.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149595
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+FileName2=t16_custom.png
+URL2=http://learning2.pflb.ru:56902/images/custom.png
+FileName3=t16_comment.html
+URL3=http://learning2.pflb.ru:56902/tpl/comment.dust
+[ProtocolInfo]
+ProtocolId=QTWeb

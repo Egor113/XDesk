@@ -1,0 +1,2 @@
+"{"text":"Some text 5","header":"Сломана кнопка кассы","ticketStateId": 0,"se"
+"rviceId": "2883","files": [4966],"shopId": "1"}"

@@ -1,0 +1,15 @@
+[t51]
+FileName1=t51.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_51.xml
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t51_ResponseHeader.txt
+FileName2=t51_tasks.html
+URL2=http://learning2.pflb.ru:56902/engineer/tasks/tasks.dust
+FileName3=t51_tasks.html
+URL3=http://learning2.pflb.ru:56902/engineer/tasks/tasks.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t15]
+FileName1=t15.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149595/comment/
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_15.xml
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+FileName2=t15_ticket.html
+URL2=http://learning2.pflb.ru:56902/engineer/ticket/ticket.dust
+FileName3=t15_ticket.html
+URL3=http://learning2.pflb.ru:56902/engineer/ticket/ticket.js
+[ProtocolInfo]
+ProtocolId=QTWeb

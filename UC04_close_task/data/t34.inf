@@ -1,0 +1,15 @@
+[t34]
+FileName1=t34_info.json
+URL1=http://learning2.pflb.ru:56902/api/user/info
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+FileName2=t34_wrapper.html
+URL2=http://learning2.pflb.ru:56902/engineer/wrapper/wrapper.dust
+FileName3=t34_wrapper.html
+URL3=http://learning2.pflb.ru:56902/engineer/wrapper/wrapper.js
+[ProtocolInfo]
+ProtocolId=QTWeb

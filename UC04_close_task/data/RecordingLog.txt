@@ -1,0 +1,1101 @@
+[API Trapper      (1a10: 904)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1730:2fe4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (242c:240c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (242c:15a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (242c:15a4)] Load Network Traffic Analyzers:
+[Network Analyzer (242c:15a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (242c:15a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (242c:15a4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (242c:15a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (242c:15a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (242c:15a4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (242c:15a4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (242c:15a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (242c:1c84)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:15a4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:15a4)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (242c:1c84)] "GET /"   
+[Network Analyzer (242c:1c84)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 666 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/core/material_icons.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  1) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (242c:1110)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: c1c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:15a4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:15dc)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1110)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (242c:1c84)] "GET /css/core/quill.snow.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (242c: c1c)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (242c:1c84)] "GET /css/core/uploadfile.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (242c:15a4)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (242c:14f8)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Web Request      (242c:1c84)] "GET /css/core/materialize.min.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer (242c:15dc)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (242c:1c84)] "GET /css/core/select2.min.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 365 bytes (Service=HTTP)
+[Network Analyzer (242c:14f8)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (242c:1c84)] "GET /css/core/ee-file-upload.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  6) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 7240 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 15379 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 1029 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 1383 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16245 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/company_2.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 358 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/style.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 354 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jquery-3.1.1.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  1) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 3804 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 391 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/legacy.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  6) Client -> Server @ : 378 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/clamp.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 377 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jquery.cookie.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 385 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 633 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 3317 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 9538 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 226 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jquery.uploadfile.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  6) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jquery.maskedinput.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 390 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jquery.ee.router.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 388 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5982 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/select2.full.min.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 388 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/readmore.min.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 4368 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 3602 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 3080 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 141 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/roboto/Roboto-Thin.eot?"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/roboto/Roboto-Light.eot?"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 405 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 74 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 9666 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 37 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/roboto/Roboto-Regular.eot?"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 407 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/roboto/Roboto-Medium.eot?"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/roboto/Roboto-Bold.eot?"   
+[Network Analyzer (242c:1c84)]   (Sid:  6) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 4948 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 5248 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 4948 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 531 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5184 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/dust.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  1) Client -> Server @ : 376 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 380 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 192 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/dust-helpers.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 4786 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/materialize.min.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 387 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/materialize-select.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 390 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/custom-helpers.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:2608)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 12737 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/materialize-pagination.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  6) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 15252 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/polyphills.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 10208 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/helpers.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 379 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 8565 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 2211 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1043 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Server -> Client : 1270 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/materialTable.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  3) Client -> Server @ : 385 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/jqueryformplugin.js?_=1574941122280"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 507 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/index.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (242c:2608)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Server -> Client : 15368 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Server -> Client : 10404 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 9470 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 12743 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 11320 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /favicon.ico"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 258 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 13996 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/checkLogin"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 379 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 518 bytes  (Service=HTTP)
+[Network Analyzer (242c:194c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1110)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 962 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1110)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (242c:1c84)] "GET /login"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1265 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/core/materialize.css"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 391 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/core/materialize.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 409 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /js/page/authorisation.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  2) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (242c:298c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  2) Server -> Client : 2725 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:256c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 13904 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2578 bytes  (Service=HTTP)
+[Network Analyzer (242c:256c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (242c:1c84)] "GET /tpl/login/login.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1788 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /images/logo_2.png"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 432 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5918 bytes  (Service=HTTP)
+[Network Analyzer (242c:186c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c: 4b4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: bd0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: bd0)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (242c: 4b4)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 9572 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 11276 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 4464 bytes  (Service=HTTP)
+[Network Analyzer (242c: 8fc)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: 8fc)] Request Connection: Remote Server @ 95.101.142.49:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 11032 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 6912 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 15736 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 12752 bytes  (Service=HTTP)
+[Net An. Error    (242c:186c)] SSLAccept(ssl_id = 255517544 = 0F3AE368) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:194c)] SSLAccept(ssl_id = 254290784 = 0F282B60) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:186c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (242c:194c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (242c:298c)] SSLAccept(ssl_id = 139321960 = 084DE268) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:298c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:2608)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (242c:2608)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (242c: 828)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (242c: 828)] SSLAccept(ssl_id = 139321960 = 084DE268) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c: 828)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:1c84)]   (Sid: 13) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent UC04_TR01_Login [Network Analyzer (1730:1984)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1730:1984)] Load Network Traffic Analyzers:
+[Network Analyzer (1730:1984)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1730:1984)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1730:1984)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1730:1984)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1730:1984)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1730:1984)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1730:1984)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1730:1984)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1730:1e9c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 511 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "POST /api/login"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 42 bytes (Service=HTTP)
+[Network Analyzer (1730:1984)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (1730:1984)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 485 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 499 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 100 bytes  (Service=HTTP)
+[Network Analyzer (242c: c1c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (1730: ba0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: c1c)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1730: ba0)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1730:2f8c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (242c:1c84)] "GET /js/core/jqueryformplugin.js?_=1574941150069"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 9860 bytes  (Service=HTTP)
+[Network Analyzer (242c:2440)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1110)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Web Request      (242c:1c84)] "GET /api/checkLogin"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (242c:14f8)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 414 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 10) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1110)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (242c:1c84)] "GET /api/user/info"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 472 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 600 bytes  (Service=HTTP)
+[Network Analyzer (242c:14f8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 10) Client -> Server @ : 281 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/wrapper/wrapper.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2574 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/wrapper/wrapper.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 14228 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 4420 bytes  (Service=HTTP)
+[Network Analyzer (242c: e68)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1432 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/countByState/4"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 484 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 374 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 1500 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 10) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Server -> Client : 1139 bytes  (Service=HTTP)
+[Network Analyzer (242c:2b20)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /css/fonts/material_icons/MaterialIcons-Regular.woff"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 516 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 4436 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 5924 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 11) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 7204 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 4436 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Server -> Client : 7384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 166 bytes (Service=HTTP)
+[Net An. Error    (242c:2440)] SSLAccept(ssl_id = 139230736 = 084C7E10) Failed, ctx = 0F145E90, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:2440)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 5940 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 12) Client -> Server @ : 209 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tickets/tickets.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1105 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tickets/tickets.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 39 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Server -> Client : 7400 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/countByState/"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 483 bytes (Service=HTTP)
+[Net An. Error    (242c: e68)] SSLAccept(ssl_id = 351445904 = 14F2A390) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:2b20)] SSLAccept(ssl_id = 352146624 = 14FD54C0) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c: e68)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (242c:2b20)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (242c:1c84)] "GET /api/ticket/?state=-1,0,1,5&page=0&size=10"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 547 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 539 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1730:2050)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1107 bytes  (Service=HTTP)
+[Network Analyzer (1730:2588)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (1730:2588)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1730:1dac)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Web Request      (1730:1e9c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (1730:1dac)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1730:1e9c)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (1730:1e9c)]   (Sid:  4) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  4) Server -> Client : 1139 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 11356 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 6852 bytes  (Service=HTTP)
+[Web Request      (1730:1e9c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Server -> Client : 1500 bytes  (Service=HTTP)
+[Network Analyzer (1730:2588)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (1730:2588)] Request Connection: Remote Server @ 37.29.19.120:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1730:1e9c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 12492 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 2488 bytes  (Service=HTTP)
+[Web Request      (1730:1e9c)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 11680 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Server -> Client : 12708 bytes  (Service=HTTP)
+[Net An. Error    (1730:2f8c)] SSLAccept(ssl_id = 1572824709984 = 0000016E33A87B60) Failed, ctx = 0000016E330FC5B0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1730:2f8c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (1730:2050)] SSLAccept(ssl_id = 1572826556928 = 0000016E33C4AA00) Failed, ctx = 0000016E330FC5B0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (1730:2050)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1730:2d0c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (1730:1e9c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1730:1e9c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1730:2d0c)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1730:2be0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (1730:2be0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (1730:1e9c)] "GET /IE11/1478281996/iecompatviewlist.xml"   
+[Network Analyzer (1730:1e9c)]   (Sid:  6) Client -> Server @ : 447 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  6) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  6) Server -> Client : 15916 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  6) Server -> Client : 10376 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent UC04_TR01_Login [User action                 ] StartTransactionEvent UC04_TR02_Tasks [Network Analyzer (242c:1c84)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  6) Connection Terminated (by Client)
+[Web Request      (242c:1c84)] "GET /engineer/tasks/tasks.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 1019 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1277 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tasks/tasks.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 1017 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 15023 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/task/countByState/"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 1016 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/task/?state=1&page=0&size=10"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 1073 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 493 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 12380 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent UC04_TR02_Tasks [User action                 ] StartTransactionEvent UC04_TR03_Choose_task [Web Request      (242c:1c84)] "GET /engineer/task/task.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 894 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2908 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 419 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/task/task.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 892 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1136 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 467 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /images/logo-5ka.png"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 914 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/task/149599"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 886 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 8287 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 1863 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/checkLogin"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 885 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 414 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/file/4946/S"   
+[Network Analyzer (242c:1c84)]   (Sid:  5) Client -> Server @ : 917 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /tpl/support/ticketComment.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 930 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1290 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/149599/comment/"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 897 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 442 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (242c:2608)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2608)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 323 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /images/attachment.png"   
+[Network Analyzer (242c:1c84)]   (Sid: 17) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 17) Server -> Client : 581 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent UC04_TR03_Choose_task [Network Analyzer (1730:1e9c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 12) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent UC04_TR04_To_Incident [Web Request      (242c:1c84)] "GET /engineer/ticket/ticket.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 898 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2908 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 13140 bytes  (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1730:1e9c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1268 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/ticket/ticket.js"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 896 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 7868 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 563 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/149599"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 935 bytes (Service=HTTP)
+[Network Analyzer (1730:1e9c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 449 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /images/custom.png"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 912 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/file/4946/S"   
+[Network Analyzer (242c:1c84)]   (Sid: 17) Client -> Server @ : 917 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 3545 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 17) Server -> Client : 442 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /tpl/comment.dust"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1121 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/149599/comment/"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 897 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 323 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent UC04_TR04_To_Incident [User action                 ] StartTransactionEvent UC04_TR05_Close_Incident [Web Request      (242c:1c84)] "POST /api/ticket/149599/solve/"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 940 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 299 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/report/149599?timeZoneOffset=3"   
+[Network Analyzer (242c:1c84)]   (Sid:  4) Client -> Server @ : 874 bytes (Service=HTTP)
+[Network Analyzer (242c:2608)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2608)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (242c:1c84)] "GET /"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 932 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 100 bytes  (Service=HTTP)
+[Network Analyzer (242c: 32c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: 32c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (242c:1c84)] "GET /js/core/jqueryformplugin.js?_=1574941306125"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 1013 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 9860 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/checkLogin"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 885 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 414 bytes  (Service=HTTP)
+[Network Analyzer (242c:1110)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1608)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/user/info"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 884 bytes (Service=HTTP)
+[Network Analyzer (242c:1110)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 600 bytes  (Service=HTTP)
+[Network Analyzer (242c:2a40)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2a40)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 21) Client -> Server @ : 240 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/wrapper/wrapper.dust"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 900 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 21) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 21) Server -> Client : 1139 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 21) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (242c:274c)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1c84)]   (Sid: 21) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (242c:2a40)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2a40)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 22) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 2574 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/wrapper/wrapper.js"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 898 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 2908 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 14276 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 11032 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 9816 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1396 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/countByState/4"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 896 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 22) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 374 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Server -> Client : 5924 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:2888)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Web Request      (242c:1c84)] "GET /engineer/tickets/tickets.dust"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 900 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1105 bytes  (Service=HTTP)
+[Network Analyzer (242c:2888)] Request Connection: Remote Server @ 37.29.19.120:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 23) Client -> Server @ : 166 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tickets/tickets.js"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 898 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 15492 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 13952 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 931 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 9832 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/countByState/"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 895 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 23) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 539 bytes  (Service=HTTP)
+[Network Analyzer (242c:2888)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:2a40)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Server -> Client : 7400 bytes  (Service=HTTP)
+[Network Analyzer (242c:2888)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/ticket/?state=-1,0,1,5&page=0&size=10"   
+[Network Analyzer (242c:1c84)]   (Sid: 18) Client -> Server @ : 959 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tasks/tasks.dust"   
+[Network Analyzer (242c:1c84)]   (Sid: 24) Client -> Server @ : 896 bytes (Service=HTTP)
+[Network Analyzer (242c:2a40)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Net An. Error    (242c:1608)] SSLAccept(ssl_id = 255517392 = 0F3AE2D0) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:1608)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 24) Server -> Client : 1277 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /engineer/tasks/tasks.js"   
+[Network Analyzer (242c:1c84)]   (Sid: 25) Client -> Server @ : 894 bytes (Service=HTTP)
+[Net An. Error    (242c:274c)] SSLAccept(ssl_id = 354037984 = 151A30E0) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:274c)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 25) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 25) Server -> Client : 1559 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/task/countByState/"   
+[Network Analyzer (242c:1c84)]   (Sid: 24) Client -> Server @ : 893 bytes (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /api/task/?state=1&page=0&size=10"   
+[Network Analyzer (242c:1c84)]   (Sid: 25) Client -> Server @ : 950 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 24) Server -> Client : 493 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Server -> Client : 12045 bytes  (Service=HTTP)
+[API Trapper      (20c4:14d0)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AcroRd32.exe
+[Network Analyzer (242c:1c84)]   (Sid: 25) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 25) Server -> Client : 12839 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 18) Server -> Client : 13230 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent UC04_TR05_Close_Incident [User action                 ] StartTransactionEvent UC04_TR06_Logout [Network Analyzer (242c:1c84)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (242c: 32c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2bcc)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: 32c)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (242c:1c84)] "GET /api/logout"   
+[Network Analyzer (242c:1c84)]   (Sid: 26) Client -> Server @ : 881 bytes (Service=HTTP)
+[Network Analyzer (242c:2bcc)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid: 26) Server -> Client : 421 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /login"   
+[Network Analyzer (242c:1c84)]   (Sid: 26) Client -> Server @ : 841 bytes (Service=HTTP)
+[Network Analyzer (242c: 5fc)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: 5fc)] Request Connection: Remote Server @ 94.159.69.182:56902   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (242c:1c84)]   (Sid: 26) Server -> Client : 1265 bytes  (Service=HTTP)
+[Network Analyzer (242c: 32c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:1da0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c: 32c)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (242c:1da0)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (242c: 7f8)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (242c:1c84)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (242c:2e1c)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2e1c)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (242c:18d8)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 31) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 31) Server -> Client : 2599 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (242c:1c84)]   (Sid: 31) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 31) Server -> Client : 2599 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (242c:2f78)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2f78)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 32) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 9572 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 11276 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 32) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 32) Server -> Client : 5924 bytes  (Service=HTTP)
+[Network Analyzer (242c:2f78)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (242c:2f78)] Request Connection: Remote Server @ 37.29.19.113:80   (Service=)  (Sid= 33)  PROXIED!
+[User action                 ] EndTransactionEvent UC04_TR06_Logout [Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 33) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 12492 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 1072 bytes  (Service=HTTP)
+[Web Request      (242c:1c84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (242c:1c84)]   (Sid: 33) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 10220 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 8760 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 14600 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (242c:1c84)]   (Sid: 33) Server -> Client : 5128 bytes  (Service=HTTP)
+[Net An. Error    (242c: 7f8)] SSLAccept(ssl_id = 138149368 = 083BFDF8) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c: 7f8)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (242c:18d8)] SSLAccept(ssl_id = 351136672 = 14EDEBA0) Failed, ctx = 08375448, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (242c:18d8)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (242c:1c84)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (242c:1c84)]   (Sid: 30) Connection Terminated (by Client)

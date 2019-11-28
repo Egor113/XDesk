@@ -1,4 +1,4 @@
-GET /api/ticket/149644 HTTP/1.1
+GET /api/ticket/149630 HTTP/1.1
 Referer: http://learning2.pflb.ru:56902/
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Accept-Encoding: gzip, deflate
@@ -6,5 +6,5 @@ Accept-Language: ru,en-US;q=0.7,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: learning2.pflb.ru:56902
-Cookie: SESSION=9fdb42c2-8b6c-47b3-bb84-aa111277be9f
+Cookie: SESSION=95ddf0cd-9482-46c4-9c84-1c1b28c39a46
 

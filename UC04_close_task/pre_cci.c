@@ -2612,14 +2612,6 @@ Action()
 		"Referer=", 
 		"Snapshot=t29.inf", 
 		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/css/fonts/roboto/Roboto-Light.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Thin.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Regular.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Medium.eot?", "ENDITEM", 
-		"Url=/css/fonts/roboto/Roboto-Bold.eot?", "ENDITEM", 
-		"Url=/js/core/jqueryformplugin.js?_=1574941122280", "ENDITEM", 
-		"Url=/favicon.ico", "Referer=", "ENDITEM", 
 		"LAST");
 
 	web_url("login", 
@@ -2630,9 +2622,6 @@ Action()
 		"Referer=http://learning2.pflb.ru:56902/", 
 		"Snapshot=t30.inf", 
 		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/tpl/login/login.dust", "ENDITEM", 
-		"Url=/images/logo_2.png", "ENDITEM", 
 		"LAST");
 
 	lr_start_transaction("UC04_TR01_Login");
@@ -2657,24 +2646,6 @@ Action()
 		"Referer=http://learning2.pflb.ru:56902/login", 
 		"Snapshot=t32.inf", 
 		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/js/core/jqueryformplugin.js?_=1574941150069", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.dust", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.js", "ENDITEM", 
-		"Url=/css/fonts/material_icons/MaterialIcons-Regular.woff", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.dust", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.js", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.dust", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.js", "ENDITEM", 
-		"Url=/engineer/task/task.dust", "ENDITEM", 
-		"Url=/engineer/task/task.js", "ENDITEM", 
-		"Url=/images/logo-5ka.png", "ENDITEM", 
-		"Url=/tpl/support/ticketComment.dust", "ENDITEM", 
-		"Url=/images/attachment.png", "ENDITEM", 
-		"Url=/engineer/ticket/ticket.dust", "ENDITEM", 
-		"Url=/engineer/ticket/ticket.js", "ENDITEM", 
-		"Url=/images/custom.png", "ENDITEM", 
-		"Url=/tpl/comment.dust", "ENDITEM", 
 		"LAST");
 
 	web_url("checkLogin", 
@@ -2863,14 +2834,6 @@ Action()
 		"Referer=http://learning2.pflb.ru:56902/", 
 		"Snapshot=t47.inf", 
 		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/js/core/jqueryformplugin.js?_=1574941306125", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.dust", "ENDITEM", 
-		"Url=/engineer/wrapper/wrapper.js", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.dust", "ENDITEM", 
-		"Url=/engineer/tickets/tickets.js", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.dust", "ENDITEM", 
-		"Url=/engineer/tasks/tasks.js", "ENDITEM", 
 		"LAST");
 
 	web_url("checkLogin_3", 
@@ -2901,8 +2864,6 @@ Action()
 		"Referer=http://learning2.pflb.ru:56902/", 
 		"Snapshot=t50.inf", 
 		"Mode=HTML", 
-		"EXTRARES", 
-		"Url=/api/report/{taskID}?timeZoneOffset=3", "Referer=", "ENDITEM", 
 		"LAST");
 
 	web_url("countByState_3", 

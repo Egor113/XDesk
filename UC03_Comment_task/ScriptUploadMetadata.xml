@@ -15,10 +15,12 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="UC03_Comment_task.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
-    <FileEntry Name="Comment.dat" Filter="2" />
     <FileEntry Name="File.dat" Filter="2" />
+    <FileEntry Name="Comment.dat" Filter="2" />
     <FileEntry Name="combined_UC03_Comment_task.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="199055018440.idx" Filter="1" />
+    <FileEntry Name="225656474440.idx" Filter="1" />
     <FileEntry Name="232439730440.idx" Filter="1" />
     <FileEntry Name="23243973044_0Gy.165.idx" Filter="1" />
     <FileEntry Name="23243973044_0TW.979.idx" Filter="1" />
@@ -54,10 +56,14 @@
     <FileEntry Name="23243973044_TtZ.967.idx" Filter="1" />
     <FileEntry Name="23243973044_uwf.497.idx" Filter="1" />
     <FileEntry Name="23243973044_V9m.721.idx" Filter="1" />
+    <FileEntry Name="256108693440.idx" Filter="1" />
     <FileEntry Name="36364888440.idx" Filter="1" />
     <FileEntry Name="39623263440.idx" Filter="1" />
+    <FileEntry Name="4098348440.idx" Filter="1" />
+    <FileEntry Name="4620460440.idx" Filter="1" />
     <FileEntry Name="4632158440.idx" Filter="1" />
     <FileEntry Name="62801971440.idx" Filter="1" />
+    <FileEntry Name="91239682440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -77,7 +83,6 @@
     <FileEntry Name="UC03_Comment_task.ci" Filter="1" />
     <FileEntry Name="UC03_Comment_task.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

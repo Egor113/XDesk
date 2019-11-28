@@ -1,4 +1,4 @@
-# 1 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c"
+# 1 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 1 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 2 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "globals.h" 1
 
@@ -2588,7 +2588,7 @@ void
  
 
 
-# 3 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 3 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "vuser_init.c" 1
 int rc = 0;
@@ -2605,7 +2605,7 @@ vuser_init()
 	
 	return 0;
 }
-# 4 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 4 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "UC03_Login.c" 1
 UC03_Login()
@@ -2715,7 +2715,7 @@ UC03_Login()
 	lr_end_transaction("UC03_TR01_Login",2);
 	return 0;
 }
-# 5 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "UC03_Comment.c" 1
 int task_index;
@@ -2850,7 +2850,7 @@ UC03_Comment()
 
 	return 0;
 }
-# 6 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 6 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "UC03_Logout.c" 1
 UC03_Logout()
@@ -2880,7 +2880,7 @@ UC03_Logout()
 	
 	return 0;
 }
-# 7 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 7 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
@@ -2889,5 +2889,5 @@ vuser_end()
 		
 	return 0;
 }
-# 8 "c:\\users\\student\\desktop\\ogdanets\\project\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
+# 8 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 

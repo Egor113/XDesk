@@ -1,4 +1,4 @@
-Virtual User Script started at: 28.11.2019 17:15:54
+Virtual User Script started at: 28.11.2019 17:30:46
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -51,6 +51,8 @@ Action.c(16): Found resource "http://learning2.pflb.ru:56902/js/page/authorisati
 Action.c(16): web_url("login") was successful, 528866 body bytes, 970 header bytes  	[MsgId: MMSG-26386]
 Action.c(26): Notify: Transaction "UC04_TR01_Login" started.
 Action.c(28): web_submit_data("login_2") started  	[MsgId: MMSG-26355]
+Action.c(28): Notify: Parameter Substitution: parameter "Login" =  "master"
+Action.c(28): Notify: Parameter Substitution: parameter "Password" =  "123"
 Action.c(28): web_submit_data("login_2") was successful, 146 body bytes, 339 header bytes  	[MsgId: MMSG-26386]
 Action.c(41): web_url("learning2.pflb.ru:56902_2") started  	[MsgId: MMSG-26355]
 Action.c(41): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
@@ -91,56 +93,56 @@ Action.c(70): web_url("4") was successful, 52 body bytes, 316 header bytes, 11 c
 Action.c(80): web_url("countByState") started  	[MsgId: MMSG-26355]
 Action.c(80): web_url("countByState") was successful, 217 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(90): web_custom_request("ticket") started  	[MsgId: MMSG-26355]
-Action.c(90): web_custom_request("ticket") was successful, 12806 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(90): web_custom_request("ticket") was successful, 12747 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 Action.c(104): web_url("iecompatviewlist.xml") started  	[MsgId: MMSG-26355]
 Action.c(104): web_url("iecompatviewlist.xml") was successful, 26292 body bytes, 477 header bytes  	[MsgId: MMSG-26386]
-Action.c(114): Notify: Transaction "UC04_TR01_Login" ended with a "Pass" status (Duration: 2.7329 Wasted Time: 0.1592).
+Action.c(114): Notify: Transaction "UC04_TR01_Login" ended with a "Pass" status (Duration: 1.7883 Wasted Time: 0.1468).
 Action.c(116): Notify: Transaction "UC04_TR02_Tasks" started.
 Action.c(118): web_url("countByState_2") started  	[MsgId: MMSG-26355]
 Action.c(118): web_url("countByState_2") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(128): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(128): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(136): web_custom_request("task") started  	[MsgId: MMSG-26355]
-Action.c(136): Notify: Saving Parameter "taskIdS_1 = 149645".
-Action.c(136): Notify: Saving Parameter "taskIdS_2 = 149642".
-Action.c(136): Notify: Saving Parameter "taskIdS_3 = 149636".
-Action.c(136): Notify: Saving Parameter "taskIdS_4 = 149634".
-Action.c(136): Notify: Saving Parameter "taskIdS_5 = 149633".
-Action.c(136): Notify: Saving Parameter "taskIdS_6 = 149632".
-Action.c(136): Notify: Saving Parameter "taskIdS_7 = 149630".
+Action.c(136): Notify: Saving Parameter "taskIdS_1 = 149654".
+Action.c(136): Notify: Saving Parameter "taskIdS_2 = 149645".
+Action.c(136): Notify: Saving Parameter "taskIdS_3 = 149642".
+Action.c(136): Notify: Saving Parameter "taskIdS_4 = 149636".
+Action.c(136): Notify: Saving Parameter "taskIdS_5 = 149634".
+Action.c(136): Notify: Saving Parameter "taskIdS_6 = 149633".
+Action.c(136): Notify: Saving Parameter "taskIdS_7 = 149632".
 Action.c(136): Notify: Saving Parameter "taskIdS_8 = 149623".
 Action.c(136): Notify: Saving Parameter "taskIdS_9 = 149622".
 Action.c(136): Notify: Saving Parameter "taskIdS_10 = 149621".
 Action.c(136): Notify: Saving Parameter "taskIdS_count = 10".
-Action.c(136): web_custom_request("task") was successful, 14508 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(136): web_custom_request("task") was successful, 14755 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(148): Notify: Parameter Substitution: parameter "taskIdS_count" =  "10"
-Action.c(150): Notify: Parameter Substitution: parameter "taskIdS_7" =  "149630"
-Action.c(150): Notify: Saving Parameter "taskID = 149630".
-Action.c(152): Notify: Transaction "UC04_TR02_Tasks" ended with a "Pass" status (Duration: 0.9490 Wasted Time: 0.0410).
+Action.c(150): Notify: Parameter Substitution: parameter "taskIdS_9" =  "149622"
+Action.c(150): Notify: Saving Parameter "taskID = 149622".
+Action.c(152): Notify: Transaction "UC04_TR02_Tasks" ended with a "Pass" status (Duration: 0.8505 Wasted Time: 0.0408).
 Action.c(154): Notify: Transaction "UC04_TR03_Choose_task" started.
 Action.c(156): web_url("{taskID}") started  	[MsgId: MMSG-26355]
-Action.c(156): Notify: Parameter Substitution: parameter "taskID" =  "149630"
-Action.c(156): web_url("{taskID}") was successful, 1410 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(156): Notify: Parameter Substitution: parameter "taskID" =  "149622"
+Action.c(156): web_url("{taskID}") was successful, 1309 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(166): web_url("checkLogin_2") started  	[MsgId: MMSG-26355]
 Action.c(166): web_url("checkLogin_2") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(176): web_url("comment") started  	[MsgId: MMSG-26355]
-Action.c(176): Notify: Parameter Substitution: parameter "taskID" =  "149630"
+Action.c(176): Notify: Parameter Substitution: parameter "taskID" =  "149622"
 Action.c(176): web_url("comment") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(186): Notify: Transaction "UC04_TR03_Choose_task" ended with a "Pass" status (Duration: 0.4109 Wasted Time: 0.0545).
+Action.c(186): Notify: Transaction "UC04_TR03_Choose_task" ended with a "Pass" status (Duration: 0.6733 Wasted Time: 0.0567).
 Action.c(188): Notify: Transaction "UC04_TR04_To_Incident" started.
 Action.c(190): web_custom_request("{taskID}_2") started  	[MsgId: MMSG-26355]
-Action.c(190): Notify: Parameter Substitution: parameter "taskID" =  "149630"
-Action.c(190): web_custom_request("{taskID}_2") was successful, 1424 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(190): Notify: Parameter Substitution: parameter "taskID" =  "149622"
+Action.c(190): web_custom_request("{taskID}_2") was successful, 1323 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(201): web_url("comment_2") started  	[MsgId: MMSG-26355]
-Action.c(201): Notify: Parameter Substitution: parameter "taskID" =  "149630"
+Action.c(201): Notify: Parameter Substitution: parameter "taskID" =  "149622"
 Action.c(201): web_url("comment_2") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(211): Notify: Transaction "UC04_TR04_To_Incident" ended with a "Pass" status (Duration: 0.2499 Wasted Time: 0.0385).
+Action.c(211): Notify: Transaction "UC04_TR04_To_Incident" ended with a "Pass" status (Duration: 0.6585 Wasted Time: 0.0353).
 Action.c(215): Notify: Transaction "UC04_TR05_Close_Incident" started.
 Action.c(217): web_custom_request("solve") started  	[MsgId: MMSG-26355]
-Action.c(217): Notify: Parameter Substitution: parameter "taskID" =  "149630"
-Action.c(217): web_custom_request("solve") was successful, 1273 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(217): Notify: Parameter Substitution: parameter "taskID" =  "149622"
+Action.c(217): web_custom_request("solve") was successful, 1172 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(229): web_url("learning2.pflb.ru:56902_3") started  	[MsgId: MMSG-26355]
 Action.c(229): Retrieving data from cache for "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26558]
 Action.c(229): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -182,10 +184,10 @@ Action.c(268): web_url("countByState_3") was successful, 217 body bytes, 316 hea
 Action.c(278): web_url("countByState_4") started  	[MsgId: MMSG-26355]
 Action.c(278): web_url("countByState_4") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(288): web_custom_request("task_2") started  	[MsgId: MMSG-26355]
-Action.c(288): web_custom_request("task_2") was successful, 14465 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(288): web_custom_request("task_2") was successful, 15116 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(300): web_custom_request("ticket_2") started  	[MsgId: MMSG-26355]
-Action.c(300): web_custom_request("ticket_2") was successful, 12784 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(312): Notify: Transaction "UC04_TR05_Close_Incident" ended with a "Pass" status (Duration: 2.5824 Wasted Time: 0.1626).
+Action.c(300): web_custom_request("ticket_2") was successful, 12747 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(312): Notify: Transaction "UC04_TR05_Close_Incident" ended with a "Pass" status (Duration: 2.6526 Wasted Time: 0.1582).
 Action.c(316): Notify: Transaction "UC04_TR06_Logout" started.
 Action.c(318): web_url("logout") started  	[MsgId: MMSG-26355]
 Action.c(318): Redirecting "http://learning2.pflb.ru:56902/api/logout" (redirection depth is 0)  	[MsgId: MMSG-26694]
@@ -211,7 +213,7 @@ Action.c(327): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js
 Action.c(327): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(327): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(327): web_url("login_3") was successful, 873 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
-Action.c(337): Notify: Transaction "UC04_TR06_Logout" ended with a "Pass" status (Duration: 0.1117 Wasted Time: 0.0475).
+Action.c(337): Notify: Transaction "UC04_TR06_Logout" ended with a "Pass" status (Duration: 0.1098 Wasted Time: 0.0437).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

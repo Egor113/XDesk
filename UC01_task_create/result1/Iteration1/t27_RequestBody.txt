@@ -1,2 +1,2 @@
-"{"text":"Some text 5","header":"Сломана кнопка кассы","ticketStateId": 0,"se"
-"rviceId": "2883","files": [4966],"shopId": "1"}"
+"{"text":"Some text 5","header":"Замена фасадно�\xB9 плитки (м2)","ticketSt"
+"ateId": 0,"serviceId": "2871","files": [4998],"shopId": "-2"}"

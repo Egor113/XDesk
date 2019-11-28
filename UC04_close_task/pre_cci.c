@@ -2634,8 +2634,8 @@ Action()
 		"Snapshot=t31.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
-		"Name=login", "Value=master", "ENDITEM", 
-		"Name=password", "Value=123", "ENDITEM", 
+		"Name=login", "Value={Login}", "ENDITEM", 
+		"Name=password", "Value={Password}", "ENDITEM", 
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
 

@@ -2604,7 +2604,7 @@ int task_index;
 Action()
 {
 
-	web_url("{Domain}:{Port}", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2614,7 +2614,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("login", 
+	web_url("/login", 
 		"URL={Host}:{Port}/login", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2626,7 +2626,7 @@ Action()
 
 	lr_start_transaction("UC04_TR01_Login");
 
-	web_submit_data("login_2", 
+	web_submit_data("/api/login", 
 		"Action={Host}:{Port}/api/login", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -2639,7 +2639,7 @@ Action()
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
 
-	web_url("{Domain}:{Port}_2", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2648,7 +2648,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("checkLogin", 
+	web_url("/api/checkLogin", 
 		"URL={Host}:{Port}/api/checkLogin", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2658,7 +2658,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("info", 
+	web_url("/api/user/info", 
 		"URL={Host}:{Port}/api/user/info", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2668,7 +2668,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("4", 
+	web_url("/api/ticket/countByState/4", 
 		"URL={Host}:{Port}/api/ticket/countByState/4", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2678,7 +2678,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("countByState", 
+	web_url("/api/ticket/countByState/", 
 		"URL={Host}:{Port}/api/ticket/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2688,7 +2688,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_custom_request("ticket", 
+	web_custom_request("/api/ticket/", 
 		"URL={Host}:{Port}/api/ticket/?state=-1,0,1,5&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
@@ -2702,21 +2702,11 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	web_url("iecompatviewlist.xml", 
-		"URL=https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/xml", 
-		"Referer=", 
-		"Snapshot=t38.inf", 
-		"Mode=HTML", 
-		"LAST");
-
 	lr_end_transaction("UC04_TR01_Login",2);
 
 	lr_start_transaction("UC04_TR02_Tasks");
 
-	web_url("countByState_2", 
+	web_url("/api/task/countByState/", 
 		"URL={Host}:{Port}/api/task/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2734,7 +2724,7 @@ Action()
         "Scope=Body",
         "LAST");
 	
-	web_custom_request("task", 
+	web_custom_request("/api/task/", 
 		"URL={Host}:{Port}/api/task/?state=1&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
@@ -2754,7 +2744,7 @@ Action()
 
 	lr_start_transaction("UC04_TR03_Choose_task");
 
-	web_url("{taskID}", 
+	web_url("{/api/task/{taskID}}", 
 		"URL={Host}:{Port}/api/task/{taskID}", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2764,7 +2754,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("checkLogin_2", 
+	web_url("/api/checkLogin", 
 		"URL={Host}:{Port}/api/checkLogin", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2774,7 +2764,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("comment", 
+	web_url("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2788,7 +2778,7 @@ Action()
 
 	lr_start_transaction("UC04_TR04_To_Incident");
 
-	web_custom_request("{taskID}_2", 
+	web_custom_request("/api/ticket/{taskID}", 
 		"URL={Host}:{Port}/api/ticket/{taskID}", 
 		"Method=GET", 
 		"TargetFrame=", 
@@ -2799,7 +2789,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("comment_2", 
+	web_url("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2815,7 +2805,7 @@ Action()
 
 	lr_start_transaction("UC04_TR05_Close_Incident");
 
-	web_custom_request("solve", 
+	web_custom_request("/api/ticket/{taskID}/solve/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/solve/", 
 		"Method=POST", 
 		"TargetFrame=", 
@@ -2827,7 +2817,7 @@ Action()
 		"EncType=", 
 		"LAST");
 
-	web_url("{Domain}:{Port}_3", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2836,7 +2826,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("checkLogin_3", 
+	web_url("/api/checkLogin", 
 		"URL={Host}:{Port}/api/checkLogin", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2846,7 +2836,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("info_2", 
+	web_url("/api/user/info", 
 		"URL={Host}:{Port}/api/user/info", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2856,7 +2846,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("4_2", 
+	web_url("/api/ticket/countByState/4", 
 		"URL={Host}:{Port}/api/ticket/countByState/4", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2866,7 +2856,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("countByState_3", 
+	web_url("/api/ticket/countByState/", 
 		"URL={Host}:{Port}/api/ticket/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2876,7 +2866,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("countByState_4", 
+	web_url("/api/task/countByState/", 
 		"URL={Host}:{Port}/api/task/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2886,7 +2876,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_custom_request("task_2", 
+	web_custom_request("/api/task/", 
 		"URL={Host}:{Port}/api/task/?state=1&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
@@ -2898,7 +2888,7 @@ Action()
 		"EncType=application/json; charset=utf-8", 
 		"LAST");
 
-	web_custom_request("ticket_2", 
+	web_custom_request("/api/ticket/", 
 		"URL={Host}:{Port}/api/ticket/?state=-1,0,1,5&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
@@ -2916,7 +2906,7 @@ Action()
 
 	lr_start_transaction("UC04_TR06_Logout");
 
-	web_url("logout", 
+	web_url("/api/logout", 
 		"URL={Host}:{Port}/api/logout", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2925,7 +2915,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_url("login_3", 
+	web_url("/login", 
 		"URL={Host}:{Port}/login", 
 		"TargetFrame=", 
 		"Resource=0", 

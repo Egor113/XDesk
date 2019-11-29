@@ -1,8 +1,8 @@
 UC03_Login()
 {
-	rc = lrvtc_retrieve_messages1("Login",";");
-	lr_save_string("", "Login1");
-	rc = lrvtc_query_column("Login1", 1);
+//	rc = lrvtc_retrieve_messages1("Login",";");
+//	lr_save_string("", "Login1");
+//	rc = lrvtc_query_column("Login1", 1);
 	
                                                                                                                                                         	web_url("/", 
 		"URL={Host}:{Port}/", 

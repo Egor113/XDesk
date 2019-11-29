@@ -61,7 +61,7 @@ UC04_Close_task=cci
 UC04_Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC04_TR01_Login__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR06_Logout__*delimiter*__UC04_TR06_Logout"
+Order="UC04_TR01_Login__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR05_Close_Incident__*delimiter*__UC04_TR06_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -70,7 +70,7 @@ ActiveRunName=result1
 [Transactions]
 UC04_TR01_Login=
 UC04_TR02_Tasks=
-UC04_TR05_Close_Incident=
-UC04_TR04_To_Incident=
 UC04_TR03_Choose_task=
+UC04_TR04_To_Incident=
+UC04_TR05_Close_Incident=
 UC04_TR06_Logout=

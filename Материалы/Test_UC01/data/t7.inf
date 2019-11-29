@@ -1,0 +1,17 @@
+[t7]
+FileName1=t7_4.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/4
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7_MaterialIcons-Regular.html
+URL2=http://learning2.pflb.ru:56902/css/fonts/material_icons/MaterialIcons-Regular.woff
+FileName3=t7_tickets.html
+URL3=http://learning2.pflb.ru:56902/engineer/tickets/tickets.dust
+FileName4=t7_tickets.html
+URL4=http://learning2.pflb.ru:56902/engineer/tickets/tickets.js
+[ProtocolInfo]
+ProtocolId=QTWeb

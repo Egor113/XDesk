@@ -1,4 +1,4 @@
-Virtual User Script started at: 28.11.2019 18:21:46
+Virtual User Script started at: 29.11.2019 11:07:36
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -121,16 +121,16 @@ UC04_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://le
 UC04_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Login.c(77): web_url("/api/ticket/countByState/") was successful, 217 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Login.c(77): web_url("/api/ticket/countByState/") was successful, 168 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Login.c(87): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
 UC04_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Login.c(87): web_custom_request("/api/ticket/") was successful, 11955 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Login.c(87): web_custom_request("/api/ticket/") was successful, 12647 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Login.c(99): web_set_sockets_option started  	[MsgId: MMSG-26355]
 UC04_Login.c(99): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-UC04_Login.c(101): Notify: Transaction "UC04_TR01_Login" ended with a "Pass" status (Duration: 1.6159 Wasted Time: 0.1300).
+UC04_Login.c(101): Notify: Transaction "UC04_TR01_Login" ended with a "Pass" status (Duration: 1.7690 Wasted Time: 0.1262).
 Ending action UC04_Login.
 Starting action UC04_Close_task.
 UC04_Close_task.c(8): Notify: Transaction "UC04_TR02_Tasks" started.
@@ -150,27 +150,27 @@ UC04_Close_task.c(28): Notify: Parameter Substitution: parameter "Port" =  "5690
 UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_1 = 149659".
 UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_2 = 149645".
 UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_3 = 149632".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_4 = 149619".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_5 = 149613".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_6 = 149600".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_7 = 149598".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_8 = 149594".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_9 = 149584".
-UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_10 = 149583".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_4 = 149613".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_5 = 149600".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_6 = 149598".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_7 = 149594".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_8 = 149583".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_9 = 149578".
+UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_10 = 149571".
 UC04_Close_task.c(28): Notify: Saving Parameter "taskIdS_count = 10".
-UC04_Close_task.c(28): web_custom_request("/api/task/") was successful, 16005 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(28): web_custom_request("/api/task/") was successful, 15327 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(40): Notify: Parameter Substitution: parameter "taskIdS_count" =  "10"
-UC04_Close_task.c(42): Notify: Parameter Substitution: parameter "taskIdS_4" =  "149619"
-UC04_Close_task.c(42): Notify: Saving Parameter "taskID = 149619".
-UC04_Close_task.c(44): Notify: Transaction "UC04_TR02_Tasks" ended with a "Pass" status (Duration: 0.8292 Wasted Time: 0.0700).
+UC04_Close_task.c(42): Notify: Parameter Substitution: parameter "taskIdS_4" =  "149613"
+UC04_Close_task.c(42): Notify: Saving Parameter "taskID = 149613".
+UC04_Close_task.c(44): Notify: Transaction "UC04_TR02_Tasks" ended with a "Pass" status (Duration: 0.7738 Wasted Time: 0.0469).
 UC04_Close_task.c(48): Notify: Transaction "UC04_TR03_Choose_task" started.
 UC04_Close_task.c(50): web_url("{/api/task/{taskID}}") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "taskID" =  "149619"
+UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "taskID" =  "149613"
 UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(50): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(50): web_url("{/api/task/{taskID}}") was successful, 1670 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(50): web_url("{/api/task/{taskID}}") was successful, 1333 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(60): web_url("/api/checkLogin") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(60): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(60): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -180,35 +180,35 @@ UC04_Close_task.c(60): web_url("/api/checkLogin") was successful, 92 body bytes,
 UC04_Close_task.c(70): web_url("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "taskID" =  "149619"
+UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "taskID" =  "149613"
 UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(70): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Close_task.c(70): web_url("/api/ticket/{taskID}/comment/") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC04_Close_task.c(80): Notify: Transaction "UC04_TR03_Choose_task" ended with a "Pass" status (Duration: 0.9249 Wasted Time: 0.0545).
+UC04_Close_task.c(80): Notify: Transaction "UC04_TR03_Choose_task" ended with a "Pass" status (Duration: 0.8382 Wasted Time: 0.0538).
 UC04_Close_task.c(84): Notify: Transaction "UC04_TR04_To_Incident" started.
 UC04_Close_task.c(86): web_custom_request("/api/ticket/{taskID}") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "taskID" =  "149619"
+UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "taskID" =  "149613"
 UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(86): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(86): web_custom_request("/api/ticket/{taskID}") was successful, 1684 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(86): web_custom_request("/api/ticket/{taskID}") was successful, 1347 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(97): web_url("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "taskID" =  "149619"
+UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "taskID" =  "149613"
 UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(97): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Close_task.c(97): web_url("/api/ticket/{taskID}/comment/") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC04_Close_task.c(107): Notify: Transaction "UC04_TR04_To_Incident" ended with a "Pass" status (Duration: 0.8073 Wasted Time: 0.0414).
+UC04_Close_task.c(107): Notify: Transaction "UC04_TR04_To_Incident" ended with a "Pass" status (Duration: 0.6683 Wasted Time: 0.0389).
 UC04_Close_task.c(111): Notify: Transaction "UC04_TR05_Close_Incident" started.
 UC04_Close_task.c(113): web_custom_request("/api/ticket/{taskID}/solve/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "taskID" =  "149619"
+UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "taskID" =  "149613"
 UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(113): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(113): web_custom_request("/api/ticket/{taskID}/solve/") was successful, 1533 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(113): web_custom_request("/api/ticket/{taskID}/solve/") was successful, 1196 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(125): web_url("/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(125): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(125): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -266,7 +266,7 @@ UC04_Close_task.c(164): Notify: Parameter Substitution: parameter "Host" =  "htt
 UC04_Close_task.c(164): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Close_task.c(164): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(164): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(164): web_url("/api/ticket/countByState/") was successful, 217 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(164): web_url("/api/ticket/countByState/") was successful, 168 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(174): web_url("/api/task/countByState/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(174): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(174): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -278,14 +278,14 @@ UC04_Close_task.c(184): Notify: Parameter Substitution: parameter "Host" =  "htt
 UC04_Close_task.c(184): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Close_task.c(184): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(184): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(184): web_custom_request("/api/task/") was successful, 15722 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(184): web_custom_request("/api/task/") was successful, 15450 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC04_Close_task.c(196): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
 UC04_Close_task.c(196): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(196): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC04_Close_task.c(196): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC04_Close_task.c(196): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC04_Close_task.c(196): web_custom_request("/api/ticket/") was successful, 11955 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC04_Close_task.c(208): Notify: Transaction "UC04_TR05_Close_Incident" ended with a "Pass" status (Duration: 2.6454 Wasted Time: 0.1691).
+UC04_Close_task.c(196): web_custom_request("/api/ticket/") was successful, 12647 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC04_Close_task.c(208): Notify: Transaction "UC04_TR05_Close_Incident" ended with a "Pass" status (Duration: 3.1473 Wasted Time: 0.1685).
 Ending action UC04_Close_task.
 Starting action UC04_Logout.
 UC04_Logout.c(3): Notify: Transaction "UC04_TR06_Logout" started.
@@ -321,7 +321,7 @@ UC04_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cooki
 UC04_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 UC04_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 UC04_Logout.c(14): web_url("/login") was successful, 873 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
-UC04_Logout.c(24): Notify: Transaction "UC04_TR06_Logout" ended with a "Pass" status (Duration: 0.1158 Wasted Time: 0.0528).
+UC04_Logout.c(24): Notify: Transaction "UC04_TR06_Logout" ended with a "Pass" status (Duration: 0.1119 Wasted Time: 0.0471).
 Ending action UC04_Logout.
 Ending iteration 1.
 Ending Vuser...

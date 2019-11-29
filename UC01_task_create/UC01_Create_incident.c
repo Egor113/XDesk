@@ -1,10 +1,10 @@
+int j;
+int shopID_index;
+int inventoryNumberId_index;
+long FileVarriable;
+
 UC01_Create_incident()
 {
-	int j;
-	int shopID_index;
-	int inventoryNumberId_index;
-	long FileVarriable;
-
 	lr_think_time(THINKTIME);
 
 	lr_start_transaction("UC01_TR02_Create_incident");
@@ -158,25 +158,25 @@ UC01_Create_incident()
 		"Mode=HTML", 
 		LAST);
 
-	web_reg_save_param_json(
-        "ParamName=FileID",
-        "QueryString=$..id",
-        SEARCH_FILTERS,
-        "Scope=Body",
-        "LAST");
-	
-	web_submit_data("/api/ticket/file/", 
-		"Action={Host}:{Port}/api/ticket/file/", 
-		"Method=POST", 
-		"EncType=multipart/form-data", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer={Host}:{Port}/", 
-		"Snapshot=t21.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=files", "Value={File}", "File=yes", ENDITEM, 
-		LAST);
+//	web_reg_save_param_json(
+//        "ParamName=FileID",
+//        "QueryString=$..id",
+//        SEARCH_FILTERS,
+//        "Scope=Body",
+//        "LAST");
+//	
+//	web_submit_data("/api/ticket/file/", 
+//		"Action={Host}:{Port}/api/ticket/file/", 
+//		"Method=POST", 
+//		"EncType=multipart/form-data", 
+//		"TargetFrame=", 
+//		"RecContentType=application/json", 
+//		"Referer={Host}:{Port}/", 
+//		"Snapshot=t21.inf", 
+//		"Mode=HTML", 
+//		ITEMDATA, 
+//		"Name=files", "Value={File}", "File=yes", ENDITEM, 
+//		LAST);
 	
 	lr_save_string("", "c_buffer");
 	
@@ -184,13 +184,13 @@ UC01_Create_incident()
 		
 		lr_param_sprintf("c_buffer", "%s{\"text\":\"%s\"," 
 		                 "\"header\":\"%s\",\"ticketStateId\": 0," 
-		                 "\"serviceId\": \"%s\",\"files\": [%s]," 
+		                 "\"serviceId\": \"%s\",\"files\": []," 
 		                 "\"shopId\": \"%s\"}",
 		   lr_eval_string("{c_buffer}"),
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		   lr_eval_string("{FileID}"),
+		   //lr_eval_string("{FileID}"),
 		   lr_eval_string("{shopID}"));
 	}
 	else {
@@ -201,25 +201,16 @@ UC01_Create_incident()
 		
 		lr_param_sprintf("c_buffer", "%s{\"text\":\"%s\",\"header\":\"%s\"," 
 		                 "\"ticketStateId\": 0,\"serviceId\": \"%s\"," 
-		                 "\"files\": [%s],\"inventoryNumberId\": \"%s\"," 
+		                 "\"files\": [],\"inventoryNumberId\": \"%s\"," 
 		                 "\"shopId\": \"%s\"}",
 		   lr_eval_string("{c_buffer}"),
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		   lr_eval_string("{FileID}"),
+		   //lr_eval_string("{FileID}"),
 		   lr_eval_string("{inventoryNumberId}"),
 		   lr_eval_string("{shopID}"));
 	}
-	
-	lr_message("c_buffer");
-	
-	web_reg_save_param_json(
-        "ParamName=ID",
-        "QueryString=$..id",
-        SEARCH_FILTERS,
-        "Scope=Body",
-        "LAST");
 	
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

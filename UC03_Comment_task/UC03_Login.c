@@ -1,10 +1,6 @@
 UC03_Login()
 {
-//	rc = lrvtc_retrieve_messages1("Login",";");
-//	lr_save_string("", "Login1");
-//	rc = lrvtc_query_column("Login1", 1);
-	
-                                                                                                                                                        	web_url("/", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -103,5 +99,6 @@ UC03_Login()
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_end_transaction("UC03_TR01_Login",LR_AUTO);
+
 	return 0;
 }

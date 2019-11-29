@@ -2591,17 +2591,17 @@ void
 # 3 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "vuser_init.c" 1
-int rc = 0;
-char *VtsServer = "localhost";
-int nPort = 8888;
-
-PVCI2 pvci = 0;
+ 
+ 
+ 
+ 
+ 
 	
 	
 vuser_init()
 {
-	pvci = lrvtc_connect(VtsServer, nPort, 0x01);
-	lr_log_message("pvci=%d\n", pvci);
+ 
+ 
 	
 	return 0;
 }
@@ -2610,11 +2610,7 @@ vuser_init()
 # 1 "UC03_Login.c" 1
 UC03_Login()
 {
- 
- 
- 
-	
-                                                                                                                                                        	web_url("/", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2713,15 +2709,16 @@ UC03_Login()
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_end_transaction("UC03_TR01_Login",2);
+
 	return 0;
 }
 # 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
 
 # 1 "UC03_Comment.c" 1
-int task_index;
-
 UC03_Comment()
 {
+	int task_index;
+	
 	lr_think_time(10);
 	
 	lr_start_transaction("UC03_TR02_Show_tasks");
@@ -2802,18 +2799,25 @@ UC03_Comment()
 
 	lr_start_transaction("UC03_TR04_Add_comment");
 
-	web_submit_data("/api/ticket/file/", 
-		"Action={Host}:{Port}/api/ticket/file/", 
-		"Method=POST", 
-		"EncType=multipart/form-data", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer={Host}:{Port}/", 
-		"Snapshot=t16.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=files", "Value={File}", "File=Yes", "ENDITEM", 
-		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 	lr_end_transaction("UC03_TR04_Add_comment",2);
 
@@ -2831,7 +2835,7 @@ UC03_Comment()
 		"Snapshot=t17.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=utf-8", 
-		"Body={\"text\":\"{Comment}\",\"files\":[4696]}", 
+		"Body={\"text\":\"{Comment}\",\"files\":[]}", 
 		"LAST");
 
 	web_url("/api/ticket/{taskID}/comment/", 
@@ -2855,29 +2859,29 @@ UC03_Comment()
 # 1 "UC03_Logout.c" 1
 UC03_Logout()
 {
-	lr_start_transaction("UC03_TR06_Logout");
-
-	web_url("/api/logout", 
-		"URL={Host}:{Port}/api/logout", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"Referer={Host}:{Port}/", 
-		"Snapshot=t19.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	web_url("/login", 
-		"URL={Host}:{Port}/login", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer={Host}:{Port}/", 
-		"Snapshot=t20.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	lr_end_transaction("UC03_TR06_Logout",2);
-	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	return 0;
 }
 # 7 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2
@@ -2885,7 +2889,7 @@ UC03_Logout()
 # 1 "vuser_end.c" 1
 vuser_end()
 {
-	lrvtc_disconnect();
+ 
 		
 	return 0;
 }

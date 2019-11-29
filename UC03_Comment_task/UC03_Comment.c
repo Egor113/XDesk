@@ -1,7 +1,7 @@
-int task_index;
-
 UC03_Comment()
 {
+	int task_index;
+	
 	lr_think_time(THINKTIME);
 	
 	lr_start_transaction("UC03_TR02_Show_tasks");
@@ -82,18 +82,25 @@ UC03_Comment()
 
 	lr_start_transaction("UC03_TR04_Add_comment");
 
-	web_submit_data("/api/ticket/file/", 
-		"Action={Host}:{Port}/api/ticket/file/", 
-		"Method=POST", 
-		"EncType=multipart/form-data", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer={Host}:{Port}/", 
-		"Snapshot=t16.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=files", "Value={File}", "File=Yes", ENDITEM, 
-		LAST);
+//	web_reg_save_param_json(
+//        "ParamName=FileID",
+//        "QueryString=$[*].id",
+//         SEARCH_FILTERS,
+//        "Scope=Body",
+//        "LAST");
+//	
+//	web_submit_data("/api/ticket/file/", 
+//		"Action={Host}:{Port}/api/ticket/file/", 
+//		"Method=POST", 
+//		"EncType=multipart/form-data", 
+//		"TargetFrame=", 
+//		"RecContentType=application/json", 
+//		"Referer={Host}:{Port}/", 
+//		"Snapshot=t16.inf", 
+//		"Mode=HTML", 
+//		ITEMDATA, 
+//		"Name=files", "Value={File}", "File=Yes", ENDITEM, 
+//		LAST);
 
 	lr_end_transaction("UC03_TR04_Add_comment",LR_AUTO);
 
@@ -111,7 +118,7 @@ UC03_Comment()
 		"Snapshot=t17.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=utf-8", 
-		"Body={\"text\":\"{Comment}\",\"files\":[4696]}", 
+		"Body={\"text\":\"{Comment}\",\"files\":[]}", 
 		LAST);
 
 	web_url("/api/ticket/{taskID}/comment/", 

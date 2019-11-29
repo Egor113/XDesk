@@ -1,6 +1,6 @@
 vuser_end()
 {
-	lrvtc_disconnect();
+//	lrvtc_disconnect();
 		
 	return 0;
 }

@@ -53,7 +53,7 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="UC03_Login,UC03_Comment,UC03_Logout"
+MercIniTreeSons="UC03_Comment,UC03_Logout,UC03_Login"
 Name="Run"
 RunLogicActionOrder="UC03_Login,UC03_Comment,UC03_Logout"
 RunLogicActionType="VuserRun"

@@ -1,6 +1,6 @@
 Notify: search current JDK in Windows registry at(SOFTWARE\JavaSoft\Java Development Kit)
 Notify: JDK found at C:/Program Files (x86)/Java/jdk1.8.0_231
-Virtual User Script started at: 29.11.2019 11:04:25
+Virtual User Script started at: 29.11.2019 15:03:46
 Starting action vuser_init.
 Ending action vuser_init.
 Running Vuser...
@@ -10,7 +10,7 @@ Actions.java(16): Notify: Transaction "UC02_TR01_Add_task" started.
 Connection Success
 Update Success
 Insert Success
-Actions.java(52): Notify: Transaction "UC02_TR01_Add_task" ended with a "Pass" status (Duration: 2,1371).
+Actions.java(57): Notify: Transaction "UC02_TR01_Add_task" ended with a "Pass" status (Duration: 1,7402).
 Ending action Actions.
 Ending iteration 1.
 Ending Vuser...

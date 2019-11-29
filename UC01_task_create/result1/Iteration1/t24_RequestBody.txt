@@ -1,3 +1,2 @@
-"{"text":"Some text 2","header":"Замена кол-во плиток потолка, заме"
-"на направляющих подвисного потолка","ticketStateId": 0,"service"
-"Id": "2863","files": [],"shopId": "5"}"
+"{"text":"Ogdanets text 4","header":"Отсутсвие общего электропитани"
+"я на магазине","ticketStateId": 0,"serviceId": "2831","files": [],"shopId": "5"}"

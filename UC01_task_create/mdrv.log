@@ -1,4 +1,4 @@
-Virtual User Script started at: 29.11.2019 11:29:04
+Virtual User Script started at: 29.11.2019 15:00:59
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (��� 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -136,8 +136,8 @@ UC01_Login.c(90): Notify: Parameter Substitution: parameter "Host" =  "http://le
 UC01_Login.c(90): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Login.c(90): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Login.c(90): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC01_Login.c(90): web_custom_request("/api/ticket/") was successful, 12165 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC01_Login.c(103): Notify: Transaction "UC01_TR01_Login" ended with a "Pass" status (Duration: 1.6469 Wasted Time: 0.1299).
+UC01_Login.c(90): web_custom_request("/api/ticket/") was successful, 10760 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC01_Login.c(103): Notify: Transaction "UC01_TR01_Login" ended with a "Pass" status (Duration: 1.6398 Wasted Time: 0.1341).
 Ending action UC01_Login.
 Starting action UC01_Create_incident.
 UC01_Create_incident.c(10): Notify: Transaction "UC01_TR02_Create_incident" started.
@@ -147,7 +147,7 @@ UC01_Create_incident.c(12): Notify: Parameter Substitution: parameter "Port" =  
 UC01_Create_incident.c(12): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(12): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(12): web_url("/api/user/catalog/node/0/children/") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC01_Create_incident.c(22): Notify: Transaction "UC01_TR02_Create_incident" ended with a "Pass" status (Duration: 0.0809 Wasted Time: 0.0202).
+UC01_Create_incident.c(22): Notify: Transaction "UC01_TR02_Create_incident" ended with a "Pass" status (Duration: 0.0809 Wasted Time: 0.0184).
 UC01_Create_incident.c(26): Notify: Transaction "UC01_TR03_Incident_data" started.
 UC01_Create_incident.c(28): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(28): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
@@ -653,8 +653,8 @@ UC01_Create_incident.c(86): Notify: Saving Parameter "serviceIdS_count = 230".
 UC01_Create_incident.c(86): Notify: Saving Parameter "serviceNames_count = 230".
 UC01_Create_incident.c(86): web_url("/api/user/catalog/treeview") was successful, 75659 body bytes, 316 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC01_Create_incident.c(96): Notify: Parameter Substitution: parameter "serviceIdS_count" =  "230"
-UC01_Create_incident.c(98): Notify: Parameter Substitution: parameter "serviceIdS_202" =  "2863"
-UC01_Create_incident.c(98): Notify: Saving Parameter "serviceId = 2863".
+UC01_Create_incident.c(98): Notify: Parameter Substitution: parameter "serviceIdS_169" =  "2831"
+UC01_Create_incident.c(98): Notify: Saving Parameter "serviceId = 2831".
 UC01_Create_incident.c(100): web_url("/api/user/catalog/node/146/children/") started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(100): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(100): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -678,7 +678,7 @@ UC01_Create_incident.c(130): Registering web_reg_save_param_json was successful 
 UC01_Create_incident.c(139): web_url("/api/inventoryNumbers") started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "serviceId" =  "2863"
+UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "serviceId" =  "2831"
 UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "shopID" =  "5"
 UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(139): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -689,25 +689,25 @@ UC01_Create_incident.c(150): web_url("/api/inventoryNumbers") started  	[MsgId: 
 UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "shopID" =  "5"
-UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "serviceId" =  "2863"
+UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "serviceId" =  "2831"
 UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(150): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(150): web_url("/api/inventoryNumbers") was successful, 235 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC01_Create_incident.c(181): Notify: Saving Parameter "c_buffer = ".
 UC01_Create_incident.c(183): Notify: Parameter Substitution: parameter "inventoryNumbers_count" =  "0"
 UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "c_buffer" =  ""
-UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "Text" =  "Some text 2"
-UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "serviceNames_202" =  "Замена кол-во плиток потолка, замена направляющих подвисного потолка"
-UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "serviceId" =  "2863"
+UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "Text" =  "Ogdanets text 4"
+UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "serviceNames_169" =  "Отсутсвие общего электропитания на магазине"
+UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "serviceId" =  "2831"
 UC01_Create_incident.c(185): Notify: Parameter Substitution: parameter "shopID" =  "5"
-UC01_Create_incident.c(185): Notify: Saving Parameter "c_buffer = {"text":"Some text 2","header":"Замена кол-во плиток потолка, замена направляющих подвисного потолка","ticketStateId": 0,"serviceId": "2863","files": [],"shopId": "5"}".
+UC01_Create_incident.c(185): Notify: Saving Parameter "c_buffer = {"text":"Ogdanets text 4","header":"Отсутсвие общего электропитания на магазине","ticketStateId": 0,"serviceId": "2831","files": [],"shopId": "5"}".
 UC01_Create_incident.c(219): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "c_buffer" =  "{"text":"Some text 2","header":"Замена кол-во плиток потолка, замена направляющих подвисного потолка","ticketStateId": 0,"serviceId": "2863","files": [],"shopId": "5"}"
-UC01_Create_incident.c(219): web_custom_request("/api/ticket/") was successful, 946 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC01_Create_incident.c(219): Notify: Parameter Substitution: parameter "c_buffer" =  "{"text":"Ogdanets text 4","header":"Отсутсвие общего электропитания на магазине","ticketStateId": 0,"serviceId": "2831","files": [],"shopId": "5"}"
+UC01_Create_incident.c(219): web_custom_request("/api/ticket/") was successful, 923 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC01_Create_incident.c(232): web_url("/") started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(232): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(232): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -778,14 +778,14 @@ UC01_Create_incident.c(290): Notify: Parameter Substitution: parameter "Host" = 
 UC01_Create_incident.c(290): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(290): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(290): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC01_Create_incident.c(290): web_custom_request("/api/ticket") was successful, 12023 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC01_Create_incident.c(290): web_custom_request("/api/ticket") was successful, 10469 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC01_Create_incident.c(302): web_custom_request("/api/ticket") started  	[MsgId: MMSG-26355]
 UC01_Create_incident.c(302): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(302): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC01_Create_incident.c(302): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC01_Create_incident.c(302): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC01_Create_incident.c(302): web_custom_request("/api/ticket") was successful, 12023 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC01_Create_incident.c(314): Notify: Transaction "UC01_TR03_Incident_data" ended with a "Pass" status (Duration: 4.1107 Wasted Time: 0.4266).
+UC01_Create_incident.c(302): web_custom_request("/api/ticket") was successful, 10469 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC01_Create_incident.c(314): Notify: Transaction "UC01_TR03_Incident_data" ended with a "Pass" status (Duration: 3.9479 Wasted Time: 0.3653).
 Ending action UC01_Create_incident.
 Starting action UC01_Logout.
 UC01_Logout.c(3): Notify: Transaction "UC01_TR04_Logout" started.
@@ -821,11 +821,11 @@ UC01_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cooki
 UC01_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 UC01_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 UC01_Logout.c(14): web_url("/login") was successful, 873 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
-UC01_Logout.c(24): Notify: Transaction "UC01_TR04_Logout" ended with a "Pass" status (Duration: 0.1349 Wasted Time: 0.0468).
+UC01_Logout.c(24): Notify: Transaction "UC01_TR04_Logout" ended with a "Pass" status (Duration: 0.1156 Wasted Time: 0.0479).
 Ending action UC01_Logout.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 1392), ended OK."
+Vuser 0 (thread 8196), ended OK."

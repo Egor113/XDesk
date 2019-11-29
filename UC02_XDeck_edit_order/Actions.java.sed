@@ -15,33 +15,38 @@ public class Actions
 		
 		lr.start_transaction("UC02_TR01_Add_task");
 		
-		try {
-			Class.forName("oracle.jdbc.OracleDriver");
-		} catch (ClassNotFoundException e) {
-            e.printStackTrace();
-		}
-				
+		String url = "jdbc:oracle:thin:@" + lr.eval_string("{Host}") + ":" 
+			+ lr.eval_string("{Port}") + ":" + lr.eval_string("{SID}");
 		try (Connection connection = DriverManager.
-		    getConnection("jdbc:oracle:thin:@192.168.14.53:1522:orcl","c##x5","c##x5");
+		    getConnection(url, lr.eval_string("{Login}"), lr.eval_string("{Password}"));
 		    Statement statement = connection.createStatement())	{
 			
 				connection.setAutoCommit(false);
 		    	lr.log_message("Connection Success");
 		    	IDset = new HashSet<>();
 		    	
-		    	String sqlRead = "select * from ticket where state_id =  '-1'";
+		    	String sqlRead = "select id from ticket where state_id =  '-1' " +
+		    		"and text like 'Ogdanets%'";
 		    			    	
 		    	try (ResultSet rs = statement.executeQuery(sqlRead)){
 		    			while (rs.next()) {
 	             		IDset.add(rs.getString("id"));
 		    		}
-				} catch (SQLException e) {
-					e.printStackTrace();
+		    		
+				} catch (SQLException ex) {
+					ex.printStackTrace();
 				}
 				
-		    	updateIDs(connection, statement);
-		    	addTasks(connection, statement);
-				connection.commit();
+		    	try {
+		    		
+		    		updateIDs(connection, statement);
+		    		addTasks(connection, statement);
+		    		connection.commit();
+		    		
+		    	} catch (SQLException ex) {
+            		ex.printStackTrace();
+                	connection.rollback();
+            	}
 				
 	    }
          catch (SQLException e) {
@@ -54,38 +59,24 @@ public class Actions
 	}
 	
 	public void updateIDs(Connection connection, Statement statement) throws Throwable{
-		
-        try {
-			String str = "UPDATE ticket SET state_id = '1'" +
-			"WHERE id in (select id from ticket where state_id =  '-1')";
-	        statement.execute(str);
-            lr.log_message("Update Success");
-            } catch (SQLException e) {
-            	e.printStackTrace();
-                connection.rollback();
-            }
+		String str = "UPDATE ticket SET state_id = '1'" +
+		"WHERE id in (select id from ticket where state_id =  '-1' and text like 'Ogdanets%')";
+	    statement.execute(str);
+        lr.log_message("Update Success");
+
 	}
 	
 	public void addTasks(Connection connection, Statement statement) throws Throwable{
-		
-		try {
-			for(String id: IDset) {
-				    String insert_query = "INSERT INTO task (id, change_id," +
-					"ticket_id, guid, header, text, priority_id, state_id," +
-	            	"client_id, create_date, external_system) values ('" +
-	            	id + "','IDC2D620524153zdzPWAoX9OFgW4UB'," +
-					"'"+ id +
-					"','d830c5ee-9b77-4bd1-879a-0c4d2c282a67'," +
-					"'Уведомление о нарушении работы холодильного оборудования'," +
-	            	"'Просим решить проблему в кратчайший срок', " +
-	            	"'3', '2', '106', '1511190000000', 'ASKO')";
-	            statement.execute(insert_query);
-       		}
-			lr.log_message("Insert Success");
-		} catch (SQLException e) {
-	    	e.printStackTrace();
-	        connection.rollback();
-	    }                
+		for(String id: IDset) {
+			String insert_query = "INSERT INTO task (id, change_id," +
+			"ticket_id, guid, header, text, priority_id, state_id," +
+	        "client_id, create_date, external_system) select " + id + 
+			",'IDC2D620524153zdzPWAoX9OFgW4UB'," + id + ", guid, header, text, '3', '2'," +
+			"'106', create_date, 'ASKO' from ticket " +
+			"where id = " + id;
+	        statement.execute(insert_query);
+       	}
+		lr.log_message("Insert Success");            
     }
 	
 	public int end() {

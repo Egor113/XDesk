@@ -1,0 +1,2 @@
+"{"text":"Ogdanets text 3","header":"Не работает счётчик купюр","ticketSt"
+"ateId": 0,"serviceId": "2902","files": [],"shopId": "4"}"

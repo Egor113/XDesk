@@ -1,0 +1,225 @@
+[
+    {
+        "actionName": "UC01_Login",
+        "steps": [
+            {
+                "stepId": "STEP666",
+                "stepName": "Url: /",
+                "infFile": "t1.inf",
+                "time": 1575042768065
+            },
+            {
+                "stepId": "STEP667",
+                "stepName": "Url: /login",
+                "infFile": "t2.inf",
+                "time": 1575042768317
+            },
+            {
+                "stepId": "STEP668",
+                "stepName": "Url: {/",
+                "infFile": "t4.inf",
+                "time": 1575042768686
+            },
+            {
+                "stepId": "STEP669",
+                "stepName": "Url: /api/checkLogin",
+                "infFile": "t5.inf",
+                "time": 1575042768823
+            },
+            {
+                "stepId": "STEP670",
+                "stepName": "Url: /api/user/info",
+                "infFile": "t6.inf",
+                "time": 1575042768970
+            },
+            {
+                "stepId": "STEP671",
+                "stepName": "Url: /api/ticket/countByState/4",
+                "infFile": "t7.inf",
+                "time": 1575042769088
+            },
+            {
+                "stepId": "STEP672",
+                "stepName": "Url: /api/ticket/countByState/",
+                "infFile": "t8.inf",
+                "time": 1575042769238
+            },
+            {
+                "stepId": "STEP673",
+                "stepName": "Custom Request: /api/ticket/",
+                "infFile": "t9.inf",
+                "time": 1575042770271
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR01_Login",
+                "rawStartTime": 1575042768322,
+                "rawEndTime": 1575042770273,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5798687934875488
+            }
+        ]
+    },
+    {
+        "actionName": "UC01_Create_incident",
+        "steps": [
+            {
+                "stepId": "STEP674",
+                "stepName": "Url: /api/user/catalog/node/0/children/",
+                "infFile": "t10.inf",
+                "time": 1575042770435
+            },
+            {
+                "stepId": "STEP675",
+                "stepName": "Url: /api/shops",
+                "infFile": "t12.inf",
+                "time": 1575042770597
+            },
+            {
+                "stepId": "STEP676",
+                "stepName": "Url: /api/shops",
+                "infFile": "t13.inf",
+                "time": 1575042770752
+            },
+            {
+                "stepId": "STEP677",
+                "stepName": "Url: /api/user/catalog/node/0/children/",
+                "infFile": "t14.inf",
+                "time": 1575042770952
+            },
+            {
+                "stepId": "STEP678",
+                "stepName": "Url: /api/user/catalog/treeview",
+                "infFile": "t17.inf",
+                "time": 1575042771329
+            },
+            {
+                "stepId": "STEP679",
+                "stepName": "Url: /api/user/catalog/node/146/children/",
+                "infFile": "t18.inf",
+                "time": 1575042771479
+            },
+            {
+                "stepId": "STEP680",
+                "stepName": "Url: /api/user/catalog/node/146/service/",
+                "infFile": "t19.inf",
+                "time": 1575042771635
+            },
+            {
+                "stepId": "STEP681",
+                "stepName": "Url: }/api/user/catalog/breadcrumbs/146",
+                "infFile": "t20.inf",
+                "time": 1575042771779
+            },
+            {
+                "stepId": "STEP682",
+                "stepName": "Url: /api/inventoryNumbers",
+                "infFile": "t22.inf",
+                "time": 1575042771908
+            },
+            {
+                "stepId": "STEP683",
+                "stepName": "Url: /api/inventoryNumbers",
+                "infFile": "t23.inf",
+                "time": 1575042772067
+            },
+            {
+                "stepId": "STEP684",
+                "stepName": "Custom Request: /api/ticket/",
+                "infFile": "t24.inf",
+                "time": 1575042772658
+            },
+            {
+                "stepId": "STEP685",
+                "stepName": "Url: /",
+                "infFile": "t25.inf",
+                "time": 1575042772750
+            },
+            {
+                "stepId": "STEP686",
+                "stepName": "Url: /api/checkLogin",
+                "infFile": "t26.inf",
+                "time": 1575042772892
+            },
+            {
+                "stepId": "STEP687",
+                "stepName": "Url: /api/user/info",
+                "infFile": "t27.inf",
+                "time": 1575042773037
+            },
+            {
+                "stepId": "STEP688",
+                "stepName": "Url: /api/ticket/countByState/4",
+                "infFile": "t28.inf",
+                "time": 1575042773146
+            },
+            {
+                "stepId": "STEP689",
+                "stepName": "Url: /api/ticket/countByState/",
+                "infFile": "t29.inf",
+                "time": 1575042773296
+            },
+            {
+                "stepId": "STEP690",
+                "stepName": "Url: /api/ticket/countByState/",
+                "infFile": "t30.inf",
+                "time": 1575042773451
+            },
+            {
+                "stepId": "STEP691",
+                "stepName": "Custom Request: /api/ticket",
+                "infFile": "t31.inf",
+                "time": 1575042774518
+            },
+            {
+                "stepId": "STEP692",
+                "stepName": "Custom Request: /api/ticket",
+                "infFile": "t32.inf",
+                "time": 1575042775582
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR02_Create_incident",
+                "rawStartTime": 1575042770285,
+                "rawEndTime": 1575042770437,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08355021476745606
+            },
+            {
+                "transactionName": "UC01_TR03_Incident_data",
+                "rawStartTime": 1575042770441,
+                "rawEndTime": 1575042775583,
+                "thinkTime": 0.0,
+                "wastedTime": 1.6311061382293702
+            }
+        ]
+    },
+    {
+        "actionName": "UC01_Logout",
+        "steps": [
+            {
+                "stepId": "STEP693",
+                "stepName": "Url: /api/logout",
+                "infFile": "t33.inf",
+                "time": 1575042775734
+            },
+            {
+                "stepId": "STEP694",
+                "stepName": "Url: /login",
+                "infFile": "t34.inf",
+                "time": 1575042775850
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR04_Logout",
+                "rawStartTime": 1575042775596,
+                "rawEndTime": 1575042775852,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17778563499450684
+            }
+        ]
+    }
+]

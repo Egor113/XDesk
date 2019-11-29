@@ -57,7 +57,7 @@ MercIniTreeSons="UC01_Login,UC01_Create_incident,UC01_Logout"
 Name="Run"
 RunLogicActionOrder="UC01_Login,UC01_Create_incident,UC01_Logout"
 RunLogicActionType="VuserRun"
-RunLogicNumOfIterations="1"
+RunLogicNumOfIterations="50"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
 [RunLogicRunRoot:UC01_Create_incident]

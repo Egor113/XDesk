@@ -1,0 +1,2 @@
+"{"text":"Ogdanets text 2","header":"Не характерны�\xB9 �\x88ум","ticketStateId":"
+" 0,"serviceId": "2846","files": [],"shopId": "5"}"

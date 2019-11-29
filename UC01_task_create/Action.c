@@ -4,7 +4,6 @@ Action()
 	int shopID_index;
 	int inventoryNumberId_index;
 	long FileVarriable;
-	char FileLocation[1024] = "..\\file_id.txt";
 
 	web_url("/", 
 		"URL={Host}:{Port}/", 
@@ -340,10 +339,6 @@ Action()
 		"EncType=application/json; charset=utf-8", 
 		"BodyBinary={c_buffer}", 
 		LAST);
-	
-	 FileVarriable = fopen (FileLocation,"w+");
-     fprintf (FileVarriable, "%s \n", lr_eval_string("{ID}")); 
-     fclose (FileVarriable);
 	
 	web_url("/", 
 		"URL={Host}:{Port}/", 

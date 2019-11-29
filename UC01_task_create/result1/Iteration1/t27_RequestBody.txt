@@ -1,3 +1,2 @@
-"{"text":"Some text 5","header":"Батареи прогреваются неравномерн"
-"о (половина батареи холодная, половина тёплая)","ticketS"
-"tateId": 0,"serviceId": "2855","files": [5005],"shopId": "2"}"
+"{"text":"Some text 1","header":"DESCRIPTION","ticketStateId": 0,"serviceId": "2501","files": ["
+"5009],"shopId": "5"}"

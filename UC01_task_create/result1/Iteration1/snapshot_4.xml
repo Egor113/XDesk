@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4">
-  <HTTPTask id="34" path="//learning2.pflb.ru:56902/" url="http://learning2.pflb.ru:56902/" origin="Primary" startDateTime="2019-11-28T18:45:12.249+03:00" startTime="1197" endTime="1197" blockedTime="0" dnsTime="0" connectTime="0" sendTime="0" waitTime="0" receiveTime="0" sslNegotiateTime="0">
+  <HTTPTask id="34" path="//learning2.pflb.ru:56902/" url="http://learning2.pflb.ru:56902/" origin="Primary" startDateTime="2019-11-29T10:37:10.800+03:00" startTime="2182" endTime="2182" blockedTime="0" dnsTime="0" connectTime="0" sendTime="0" waitTime="0" receiveTime="0" sslNegotiateTime="0">
     <HTTPRequest method="GET" />
     <HTTPResponse>
       <contentLenght>0</contentLenght>

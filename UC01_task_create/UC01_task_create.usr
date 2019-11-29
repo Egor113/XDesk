@@ -24,7 +24,9 @@ Description=
 ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
-Action=Action.c
+UC01_Login=UC01_Login.c
+UC01_Create_incident=UC01_Create_incident.c
+UC01_Logout=UC01_Logout.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -36,22 +38,30 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=1
+UC01_Login=1
+UC01_Create_incident=1
+UC01_Logout=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=1
+UC01_Login=0
+UC01_Create_incident=1
+UC01_Logout=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action=1
+UC01_Login=1
+UC01_Create_incident=1
+UC01_Logout=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action=cci
+UC01_Login=cci
+UC01_Create_incident=cci
+UC01_Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC01_TR01_Login__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC01_TR04_Logout"
+Order="UC01_TR01_Login__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC01_TR04_Logout__*delimiter*__UC01_TR04_Logout__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC01_TR04_Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]

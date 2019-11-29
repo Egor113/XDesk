@@ -4,7 +4,9 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="UC01_Login.c" Filter="2" />
+    <FileEntry Name="UC01_Create_incident.c" Filter="2" />
+    <FileEntry Name="UC01_Logout.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>

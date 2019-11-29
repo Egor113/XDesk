@@ -2599,14 +2599,9 @@ vuser_init()
 }
 # 4 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
 
-# 1 "Action.c" 1
-Action()
+# 1 "UC01_Login.c" 1
+UC01_Login()
 {
-	int j;
-	int shopID_index;
-	int inventoryNumberId_index;
-	long FileVarriable;
-
 	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
@@ -2709,6 +2704,18 @@ Action()
 
 	lr_end_transaction("UC01_TR01_Login",2);
 	
+	return 0;
+}
+# 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
+
+# 1 "UC01_Create_incident.c" 1
+UC01_Create_incident()
+{
+	int j;
+	int shopID_index;
+	int inventoryNumberId_index;
+	long FileVarriable;
+
 	lr_think_time(10);
 
 	lr_start_transaction("UC01_TR02_Create_incident");
@@ -3028,6 +3035,13 @@ Action()
 
 	lr_think_time(10);
 
+	return 0;
+}
+# 6 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
+
+# 1 "UC01_Logout.c" 1
+UC01_Logout()
+{
 	lr_start_transaction("UC01_TR04_Logout");
 
 	web_url("/api/logout", 
@@ -3050,15 +3064,15 @@ Action()
 		"LAST");
 
 	lr_end_transaction("UC01_TR04_Logout",2);
-
+	
 	return 0;
 }
-# 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
+# 7 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
+# 8 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
 

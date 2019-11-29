@@ -1,2 +1,2 @@
-"{"text":"Some text 1","header":"DESCRIPTION","ticketStateId": 0,"serviceId": "2501","files": ["
-"5009],"shopId": "5"}"
+"{"text":"Some text 1","header":"Не светится несколько букв","ticketStat"
+"eId": 0,"serviceId": "2994","files": [5010],"shopId": "5"}"

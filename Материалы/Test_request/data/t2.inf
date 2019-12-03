@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.png
+URL1=https://avatars.mds.yandex.net/get-ynews-logo/50744/1014-1478692899971-square/logo-square
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=image/png
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_optimize.png
+URL2=https://avatars.mds.yandex.net/get-banana/28825/x25DNBUr1VR8xaUkLGhXLsY5X_banana_20161021_logo.png/optimize
+[ProtocolInfo]
+ProtocolId=QTWeb

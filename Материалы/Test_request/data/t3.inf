@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.png
+URL1=https://avatars.mds.yandex.net/get-ynews-logo/26056/1047-1478692902215-square/logo-square
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=image/png
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

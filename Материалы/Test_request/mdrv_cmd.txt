@@ -1,0 +1,1 @@
+-usr "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request\Test_request.usr" -compile_only -out "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request\" -drv_log_file "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request\mdrv.log" -cfg "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request\default.cfg" -product_name vugen

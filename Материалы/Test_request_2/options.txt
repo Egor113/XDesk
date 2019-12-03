@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\student\Desktop\Ogdanets\XDesk\ћатериалы\Test_request_2
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\student\desktop\ogdanets\xdesk\материалы\test_request_2\\logfile.log
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request_2\\combined_Test_request_2.c
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request_2\\pre_cci.c

@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 4","header":"Требуется замена (кол-во) бордюр"
-"ов","ticketStateId": 0,"serviceId": "2879","files": [],"shopId": "-2"}"

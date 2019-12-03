@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"Уничтожение мух","ticketStateId": 0,"service"
-"Id": "2806","files": [],"shopId": "1"}"

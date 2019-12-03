@@ -1,4 +1,4 @@
-Virtual User Script started at: 29.11.2019 12:49:56
+Virtual User Script started at: 02.12.2019 10:45:54
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -121,16 +121,16 @@ UC03_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://le
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Login.c(77): web_url("/api/ticket/countByState/") was successful, 218 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Login.c(77): web_url("/api/ticket/countByState/") was successful, 168 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Login.c(87): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Login.c(87): web_custom_request("/api/ticket/") was successful, 11335 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Login.c(87): web_custom_request("/api/ticket/") was successful, 14038 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Login.c(99): web_set_sockets_option started  	[MsgId: MMSG-26355]
 UC03_Login.c(99): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-UC03_Login.c(101): Notify: Transaction "UC03_TR01_Login" ended with a "Pass" status (Duration: 1.6012 Wasted Time: 0.1300).
+UC03_Login.c(101): Notify: Transaction "UC03_TR01_Login" ended with a "Pass" status (Duration: 1.9145 Wasted Time: 0.1227).
 Ending action UC03_Login.
 Starting action UC03_Comment.
 UC03_Comment.c(7): Notify: Transaction "UC03_TR02_Show_tasks" started.
@@ -147,30 +147,30 @@ UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Host" =  "http://
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_1 = 149688".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_2 = 149686".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_3 = 149659".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_4 = 149645".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_5 = 149632".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_6 = 149600".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_7 = 149598".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_8 = 149594".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_9 = 149583".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_10 = 149571".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_1 = 149833".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_2 = 149831".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_3 = 149762".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_4 = 149761".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_5 = 149760".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_6 = 149758".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_7 = 149757".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_8 = 149756".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_9 = 149755".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_10 = 149754".
 UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_count = 10".
-UC03_Comment.c(27): web_custom_request("/api/task/") was successful, 15363 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(27): web_custom_request("/api/task/") was successful, 14006 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Comment.c(39): Notify: Parameter Substitution: parameter "taskIdS_count" =  "10"
-UC03_Comment.c(41): Notify: Parameter Substitution: parameter "taskIdS_4" =  "149645"
-UC03_Comment.c(41): Notify: Saving Parameter "taskID = 149645".
-UC03_Comment.c(43): Notify: Transaction "UC03_TR02_Show_tasks" ended with a "Pass" status (Duration: 0.7573 Wasted Time: 0.0406).
+UC03_Comment.c(41): Notify: Parameter Substitution: parameter "taskIdS_10" =  "149754"
+UC03_Comment.c(41): Notify: Saving Parameter "taskID = 149754".
+UC03_Comment.c(43): Notify: Transaction "UC03_TR02_Show_tasks" ended with a "Pass" status (Duration: 0.8354 Wasted Time: 0.0434).
 UC03_Comment.c(47): Notify: Transaction "UC03_TR03_Open_task" started.
 UC03_Comment.c(49): web_url("/api/task/{taskID}") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(49): Notify: Parameter Substitution: parameter "taskID" =  "149645"
+UC03_Comment.c(49): Notify: Parameter Substitution: parameter "taskID" =  "149754"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(49): web_url("/api/task/{taskID}") was successful, 1421 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(49): web_url("/api/task/{taskID}") was successful, 1373 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Comment.c(59): web_url("/api/checkLogin") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(59): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(59): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -180,26 +180,26 @@ UC03_Comment.c(59): web_url("/api/checkLogin") was successful, 92 body bytes, 31
 UC03_Comment.c(69): web_url("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(69): Notify: Parameter Substitution: parameter "taskID" =  "149645"
+UC03_Comment.c(69): Notify: Parameter Substitution: parameter "taskID" =  "149754"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Comment.c(69): web_url("/api/ticket/{taskID}/comment/") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC03_Comment.c(79): Notify: Transaction "UC03_TR03_Open_task" ended with a "Pass" status (Duration: 0.3369 Wasted Time: 0.0548).
+UC03_Comment.c(79): Notify: Transaction "UC03_TR03_Open_task" ended with a "Pass" status (Duration: 0.5304 Wasted Time: 0.0488).
 UC03_Comment.c(83): Notify: Transaction "UC03_TR04_Add_comment" started.
 UC03_Comment.c(105): Notify: Transaction "UC03_TR04_Add_comment" ended with a "Pass" status (Duration: 0.0019).
 UC03_Comment.c(109): Notify: Transaction "UC03_TR05_Submit_comment" started.
 UC03_Comment.c(111): web_custom_request("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(111): Notify: Parameter Substitution: parameter "taskID" =  "149645"
+UC03_Comment.c(111): Notify: Parameter Substitution: parameter "taskID" =  "149754"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Comment" =  "New comment Ogdanets 3"
-UC03_Comment.c(111): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://learning2.pflb.ru:56902/api/ticket/149645/comment/"  	[MsgId: MERR-26612]
+UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Comment" =  "New comment Ogdanets 4"
+UC03_Comment.c(111): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://learning2.pflb.ru:56902/api/ticket/149754/comment/"  	[MsgId: MERR-26612]
 UC03_Comment.c(111): web_custom_request("/api/ticket/{taskID}/comment/") highest severity level was "ERROR", 200 body bytes, 335 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
-UC03_Comment.c(111): Notify: Transaction "UC03_TR05_Submit_comment" ended with a "Fail" status (Duration: 0.1050 Wasted Time: 0.0197).
+UC03_Comment.c(111): Notify: Transaction "UC03_TR05_Submit_comment" ended with a "Fail" status (Duration: 1.3985 Wasted Time: 0.0184).
 UC03_Comment.c(111): Notify: Transaction "UC03_TR05_Submit_comment" has 1 error message(s).
-UC03_Comment.c(111): Notify: The 1st error message associated with transaction "UC03_TR05_Submit_comment" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://learning2.pflb.ru:56902/api/ticket/149645/comment/""
+UC03_Comment.c(111): Notify: The 1st error message associated with transaction "UC03_TR05_Submit_comment" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://learning2.pflb.ru:56902/api/ticket/149754/comment/""
 Ending action UC03_Comment.
 Ending iteration 1.
 Ending Vuser...

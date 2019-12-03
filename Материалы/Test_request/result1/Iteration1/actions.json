@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.icicall.ru",
+                "infFile": "t1.inf",
+                "time": 1575283016296
+            }
+        ],
+        "transactions": []
+    }
+]

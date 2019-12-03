@@ -2859,29 +2859,29 @@ UC03_Comment()
 # 1 "UC03_Logout.c" 1
 UC03_Logout()
 {
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+	lr_start_transaction("UC03_TR06_Logout");
+
+	web_url("/api/logout", 
+		"URL={Host}:{Port}/api/logout", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"Referer={Host}:{Port}/", 
+		"Snapshot=t19.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	web_url("/login", 
+		"URL={Host}:{Port}/login", 
+		"TargetFrame=", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer={Host}:{Port}/", 
+		"Snapshot=t20.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("UC03_TR06_Logout",2);
+	
 	return 0;
 }
 # 7 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc03_comment_task\\\\combined_UC03_Comment_task.c" 2

@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"От двери отваливаются детали","ti"
-"cketStateId": 0,"serviceId": "2941","files": [],"shopId": "1"}"

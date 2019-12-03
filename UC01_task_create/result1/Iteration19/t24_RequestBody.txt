@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 4","header":"Лифт не поднимает / не опускает","
-""ticketStateId": 0,"serviceId": "2913","files": [],"shopId": "4"}"

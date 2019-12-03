@@ -6,58 +6,58 @@
                 "stepId": "STEP1",
                 "stepName": "Url: /",
                 "infFile": "t1.inf",
-                "time": 1575021011064
+                "time": 1575272772201
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: /login",
                 "infFile": "t2.inf",
-                "time": 1575021011240
+                "time": 1575272772644
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: /",
                 "infFile": "t4.inf",
-                "time": 1575021011460
+                "time": 1575272772850
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: /api/checkLogin",
                 "infFile": "t5.inf",
-                "time": 1575021011542
+                "time": 1575272772927
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: /api/user/info",
                 "infFile": "t6.inf",
-                "time": 1575021011622
+                "time": 1575272773006
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: /api/ticket/countByState/4",
                 "infFile": "t7.inf",
-                "time": 1575021011701
+                "time": 1575272773086
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: /api/ticket/countByState/",
                 "infFile": "t8.inf",
-                "time": 1575021011787
+                "time": 1575272773165
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Custom Request: /api/ticket/",
                 "infFile": "t9.inf",
-                "time": 1575021012781
+                "time": 1575272774598
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC03_TR01_Login",
-                "rawStartTime": 1575021011243,
-                "rawEndTime": 1575021012786,
+                "rawStartTime": 1575272772646,
+                "rawEndTime": 1575272774603,
                 "thinkTime": 0.0,
-                "wastedTime": 0.13835692405700684
+                "wastedTime": 0.12490081787109375
             }
         ]
     },
@@ -68,79 +68,100 @@
                 "stepId": "STEP9",
                 "stepName": "Url: /api/task/countByState/",
                 "infFile": "t10.inf",
-                "time": 1575021012885
+                "time": 1575272774705
             },
             {
                 "stepId": "STEP10",
                 "stepName": "Custom Request: /api/task/",
                 "infFile": "t12.inf",
-                "time": 1575021013545
+                "time": 1575272775429
             },
             {
                 "stepId": "STEP11",
                 "stepName": "Url: /api/task/{taskID}",
                 "infFile": "t13.inf",
-                "time": 1575021013664
+                "time": 1575272775827
             },
             {
                 "stepId": "STEP12",
                 "stepName": "Url: /api/checkLogin",
                 "infFile": "t14.inf",
-                "time": 1575021013761
+                "time": 1575272775900
             },
             {
                 "stepId": "STEP13",
                 "stepName": "Url: /api/ticket/{taskID}/comment/",
                 "infFile": "t15.inf",
-                "time": 1575021013988
+                "time": 1575272776178
             },
             {
                 "stepId": "STEP14",
                 "stepName": "Custom Request: /api/ticket/{taskID}/comment/",
                 "infFile": "t16.inf",
-                "time": 1575021014497
+                "time": 1575272776376
             },
             {
                 "stepId": "STEP15",
                 "stepName": "Url: /api/ticket/{taskID}/comment/",
                 "infFile": "t17.inf",
-                "time": 1575021014751
+                "time": 1575272776617
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC03_TR02_Show_tasks",
-                "rawStartTime": 1575021012798,
-                "rawEndTime": 1575021013551,
+                "rawStartTime": 1575272774613,
+                "rawEndTime": 1575272775435,
                 "thinkTime": 0.0,
-                "wastedTime": 0.04253411293029785
+                "wastedTime": 0.04614400863647461
             },
             {
                 "transactionName": "UC03_TR03_Open_task",
-                "rawStartTime": 1575021013555,
-                "rawEndTime": 1575021013990,
+                "rawStartTime": 1575272775439,
+                "rawEndTime": 1575272776180,
                 "thinkTime": 0.0,
-                "wastedTime": 0.062265634536743167
+                "wastedTime": 0.05738425254821777
             },
             {
                 "transactionName": "UC03_TR04_Add_comment",
-                "rawStartTime": 1575021013994,
-                "rawEndTime": 1575021013996,
+                "rawStartTime": 1575272776184,
+                "rawEndTime": 1575272776186,
                 "thinkTime": 0.0,
                 "wastedTime": 0.0
             },
             {
                 "transactionName": "UC03_TR05_Submit_comment",
-                "rawStartTime": 1575021014000,
-                "rawEndTime": 1575021014753,
+                "rawStartTime": 1575272776190,
+                "rawEndTime": 1575272776619,
                 "thinkTime": 0.0,
-                "wastedTime": 0.08940386772155762
+                "wastedTime": 0.03421640396118164
             }
         ]
     },
     {
         "actionName": "UC03_Logout",
-        "steps": [],
-        "transactions": []
+        "steps": [
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: /api/logout",
+                "infFile": "t18.inf",
+                "time": 1575272776696
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: /login",
+                "infFile": "t19.inf",
+                "time": 1575272776744
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC03_TR06_Logout",
+                "rawStartTime": 1575272776629,
+                "rawEndTime": 1575272776745,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04755973815917969
+            }
+        ]
     }
 ]

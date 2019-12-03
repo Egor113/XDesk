@@ -1,3 +1,0 @@
-"{"text":"Ogdanets text 2","header":"Требуется вывезти отработанные"
-" люминесцентные лампы","ticketStateId": 0,"serviceId": "2814","files": [],""
-"shopId": "4"}"

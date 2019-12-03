@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 1","header":"Разбито стекло на двери","ticketStateI"
-"d": 0,"serviceId": "2894","files": [],"shopId": "-1"}"

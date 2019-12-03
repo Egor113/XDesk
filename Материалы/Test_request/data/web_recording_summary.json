@@ -1,0 +1,529 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "дек-02-2019",
+    "RecordingDuration": 12812,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1575282389,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1641143,
+    "TotalBytesSent": 13484,
+    "TotalRequests": 39,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "icicall.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "93.174.131.38",
+          "IncludeInScript": true,
+          "Name": "www.icicall.ru",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 15,
+              "EventId": 814,
+              "HttpStatus": 200,
+              "Size": 2238,
+              "URL": "http://www.icicall.ru/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 714,
+              "HttpStatus": 200,
+              "Size": 295,
+              "URL": "http://www.icicall.ru/images/footer.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 711,
+              "HttpStatus": 200,
+              "Size": 43072,
+              "URL": "http://www.icicall.ru/i18n/news.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 709,
+              "HttpStatus": 200,
+              "Size": 12611,
+              "URL": "http://www.icicall.ru/images/ideal-bubble.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 707,
+              "HttpStatus": 200,
+              "Size": 50,
+              "URL": "http://www.icicall.ru/images/footer-divider.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 705,
+              "HttpStatus": 200,
+              "Size": 20278,
+              "URL": "http://www.icicall.ru/images/info-box3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 701,
+              "HttpStatus": 200,
+              "Size": 19441,
+              "URL": "http://www.icicall.ru/images/info-box2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 698,
+              "HttpStatus": 200,
+              "Size": 149,
+              "URL": "http://www.icicall.ru/images/link-tail1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 694,
+              "HttpStatus": 200,
+              "Size": 682,
+              "URL": "http://www.icicall.ru/images/link-left1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 689,
+              "HttpStatus": 200,
+              "Size": 321,
+              "URL": "http://www.icicall.ru/images/link-right1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 687,
+              "HttpStatus": 200,
+              "Size": 6948,
+              "URL": "http://www.icicall.ru/images/box-bot.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 684,
+              "HttpStatus": 200,
+              "Size": 22363,
+              "URL": "http://www.icicall.ru/images/info-box1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 679,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "http://www.icicall.ru/images/line-ver.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 6313,
+              "URL": "http://www.icicall.ru/images/box-top.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 668,
+              "HttpStatus": 200,
+              "Size": 646,
+              "URL": "http://www.icicall.ru/images/box-tail.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 660,
+              "HttpStatus": 200,
+              "Size": 267,
+              "URL": "http://www.icicall.ru/images/menu-act.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 651,
+              "HttpStatus": 200,
+              "Size": 12269,
+              "URL": "http://www.icicall.ru/images/top-index-bg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 32,
+              "EventId": 642,
+              "HttpStatus": 200,
+              "Size": 55,
+              "URL": "http://www.icicall.ru/images/tail-bot.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 633,
+              "HttpStatus": 200,
+              "Size": 863,
+              "URL": "http://www.icicall.ru/images/top-tail.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 627,
+              "HttpStatus": 200,
+              "Size": 114921,
+              "URL": "http://www.icicall.ru/i18n/dictionary.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 5184,
+              "URL": "http://www.icicall.ru/images/logos/icicall-en.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 79,
+              "URL": "http://www.icicall.ru/images/body-tail.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 1605,
+              "URL": "http://www.icicall.ru/images/1page-title3.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 582,
+              "HttpStatus": 200,
+              "Size": 911,
+              "URL": "http://www.icicall.ru/images/1page-title2.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 579,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://www.icicall.ru/images/1page-title1.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 572,
+              "HttpStatus": 200,
+              "Size": 105892,
+              "URL": "http://www.icicall.ru/images/header.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 342159,
+              "URL": "http://www.icicall.ru/images/header_4.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 410748,
+              "URL": "http://www.icicall.ru/images/header_2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 565,
+              "HttpStatus": 200,
+              "Size": 426407,
+              "URL": "http://www.icicall.ru/images/header_1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 339,
+              "URL": "http://www.icicall.ru/images/flags/russian.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 559,
+              "HttpStatus": 200,
+              "Size": 1113,
+              "URL": "http://www.icicall.ru/images/flags/english.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 557,
+              "HttpStatus": 200,
+              "Size": 937,
+              "URL": "http://www.icicall.ru/js/effects.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 554,
+              "HttpStatus": 200,
+              "Size": 1975,
+              "URL": "http://www.icicall.ru/js/i18n.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 551,
+              "HttpStatus": 200,
+              "Size": 67884,
+              "URL": "http://www.icicall.ru/js/jquery-1.6.2.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 548,
+              "HttpStatus": 200,
+              "Size": 3295,
+              "URL": "http://www.icicall.ru/js/coin-slider.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 1490,
+              "URL": "http://www.icicall.ru/js/jquery.cookie.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 541,
+              "HttpStatus": 200,
+              "Size": 678,
+              "URL": "http://www.icicall.ru/css/layout.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 2824,
+              "URL": "http://www.icicall.ru/css/style.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 532,
+              "HttpStatus": 200,
+              "Size": 2316,
+              "URL": "http://www.icicall.ru/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.12",
+          "IncludeInScript": false,
+          "Name": "connect.facebook.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 803,
+              "HttpStatus": 200,
+              "Size": 58308,
+              "URL": "https://connect.facebook.net/ru_RU/all.js?hash=ba1d13c70e75f9e5edf6ce7fb012b76b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 15,
+              "EventId": 799,
+              "HttpStatus": 200,
+              "Size": 1778,
+              "URL": "https://connect.facebook.net/ru_RU/all.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.36",
+          "IncludeInScript": false,
+          "Name": "www.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 795,
+              "HttpStatus": 200,
+              "Size": 211,
+              "URL": "https://www.facebook.com/favicon.ico"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.12",
+          "IncludeInScript": false,
+          "Name": "staticxx.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 828,
+              "HttpStatus": 200,
+              "Size": 12411,
+              "URL": "https://staticxx.facebook.com/connect/xd_arbiter.php?version=44"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

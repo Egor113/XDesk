@@ -2622,6 +2622,26 @@ UC01_Login()
 		"Mode=HTML", 
 		"LAST");
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_start_transaction("UC01_TR01_Login");

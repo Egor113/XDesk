@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 1","header":"Гриль не крутится","ticketStateId": 0,"serv"
-"iceId": "2900","files": [],"shopId": "-1"}"

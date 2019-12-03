@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 5","header":"�\x98з Шкафа течет вода","ticketStateId": 0"
-","serviceId": "2982","files": [],"shopId": "-1"}"

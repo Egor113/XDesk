@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 4","header":"На ЦХМ горит красная лампа","ticketS"
-"tateId": 0,"serviceId": "2953","files": [],"shopId": "-2"}"

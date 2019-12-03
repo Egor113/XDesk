@@ -1,8 +1,0 @@
-[vuser_end]
-SnapshotIndex=I50_vuser_end
-[UC01_Create_incident]
-SnapshotIndex=I50_UC01_Create_incident
-[UC01_Login]
-SnapshotIndex=I50_UC01_Login
-[UC01_Logout]
-SnapshotIndex=I50_UC01_Logout

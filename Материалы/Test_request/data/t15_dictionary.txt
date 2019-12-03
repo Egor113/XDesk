@@ -1,0 +1,1070 @@
+{
+    "months": {
+
+        "jan" : {
+            "ru": "янв",
+            "en": "jan"
+        },
+        "feb" : {
+            "ru": "февр",
+            "en": "feb"
+        },
+        "march" : {
+            "ru": "март",
+            "en": "march"
+        },
+        "apr" : {
+            "ru": "апр",
+            "en": "apr"
+        },
+        "may" : {
+            "ru": "май",
+            "en": "may"
+        },
+        "june" : {
+            "ru": "июнь",
+            "en": "june"
+        },
+        "july" : {
+            "ru": "июль",
+            "en": "july"
+        },
+        "aug" : {
+            "ru": "авг",
+            "en": "aug"
+        },
+        "sept" : {
+            "ru": "сент",
+            "en": "sept"
+        },
+        "oct" : {
+            "ru": "окт",
+            "en": "oct"
+        },
+        "nov" : {
+            "ru": "ноябр",
+            "en": "nov"
+        },
+        "dec" : {
+            "ru": "дек",
+            "en": "dec"
+        }
+    },
+
+    "menu": {
+        "main": {
+            "ru":"Главная",
+            "en":"Main"
+        },
+        "about": {
+            "ru":"О компании",
+            "en":"About Us"
+        },
+        "management": {
+            "ru":"Мэнеджмент",
+            "en":"Management"
+        },
+        "mission": {
+            "ru":"Миссия",
+            "en":"Mission"
+        },
+        "services": {
+            "ru":"Услуги",
+            "en":"Services"
+        },
+        "solutions": {
+            "ru":"Решения",
+            "en":"Solutions"
+        },
+        "projects": {
+            "ru": "Проекты",
+            "en": "Projects"
+        },
+        "career": {
+            "ru":"Карьера",
+            "en":"Career"
+        },
+        "contacts": {
+            "ru":"Контакты",
+            "en":"Contacts"
+        }
+    },
+
+    "details": {
+        "ru":"подробнее",
+        "en":"details"
+    },
+    "icicall": {
+        "ru":"АйСИСОЛЛ",
+        "en":"ICICALL"
+    },
+    "response": {
+        "ru":"Отзывы:",
+        "en":"Responses:"
+    },
+    "icicall-underline": {
+        "ru":"оптимизация управления и учёта",
+        "en":"Optimization of accounting and management"
+    },
+    "icicall-in-facebook": {
+        "ru":"АйСИСОЛЛ в Facebook",
+        "en":"ICICALL in Facebook"
+    },
+    "privacy-policy": {
+        "ru":"Политика конфиденциальности",
+        "en":"Privacy Policy"
+    },
+    "all-rights-reserved" : {
+        "ru": "Все права защищены",
+        "en": "All rights reserved"
+    },
+    "nmng": {
+        "ru" : "OOO \"Нарьянмарнефтегаз\"",
+        "en" : "NARYANMARNEFTEGAZ Ltd"
+    },
+    "nmng-capital": {
+        "ru" : "ООО \"НАРЬЯНМАРНЕФТЕГАЗ\"",
+        "en" : "NARYANMARNEFTEGAZ Ltd"
+    },
+    "lukoil": {
+        "ru" : "ОАО \"ЛУКОЙЛ\"",
+        "en" : "LUKOIL Co"
+    },
+    "lukoil-inform": {
+        "ru" : "OOO \"ЛУКОЙЛ-ИНФОРМ\"",
+        "en" : "LUKOIL-INFORM Ltd"
+    },
+    "fbu-gkz": {
+        "ru" : "ФБУ \"ГКЗ\"",
+        "en" : "FBU \"GKZ\""
+    },
+    "bashneft": {
+        "ru" : "ОАО АНК \"БАШНЕФТЬ\"",
+        "en" : "JSOC BASHNEFT"
+    },
+    "forteinvest": {
+        "ru" : "ЗАО \"ФОРТЕИНВЕСТ\"",
+        "en" : "CJSC FORTEINVEST"
+    },
+    "petrocraft": {
+        "ru" : "PETROCRAFT S.A. Corp",
+        "en" : "PETROCRAFT S.A. Corp"
+    },
+    "megatrans": {
+        "ru" : "MEGATRANS S.A.",
+        "en" : "MEGATRANS S.A."
+    },
+
+
+    "index" : {
+        "slogan1" : {
+            "ru":"П",
+            "en":"H"
+        },
+        "slogan2" : {
+            "ru":"ЕРЕДОВЫЕ",
+            "en":"I-END"
+        },
+        "slogan3" : {
+            "ru":"ИТ-ТЕХНОЛОГИИ",
+            "en":"IT-TECHNOLOGIES"
+        },
+        "slogan4" : {
+            "ru":"И РЕШЕНИЯ ДЛЯ БИЗНЕСА",
+            "en":"AND BUSINESS SOLUTIONS"
+        },
+        "box1": {
+            "ru":"Информационная система управления и учета iDEAL",
+            "en":"Sales and Supply Information System iDEAL"
+        },
+        "box2": {
+            "ru":"Разработка, внедрение и интеграция комплексных ИТ-решений",
+            "en":"Development, implementation and integration of complex IT solutions"
+        },
+        "box3": {
+            "ru":"Консалтинговые услуги в сфере оптимизации бизнеса",
+            "en":"Consulting services in business optimization"
+        },
+        "news": {
+            "ru": "Новости",
+            "en": "News"
+        },
+        "all-news": {
+            "ru": "все новости",
+            "en": "all news"
+        },
+        "hide-news": {
+            "ru": "скрыть новости",
+            "en": "close news"
+        }
+    },
+
+    "ideal" : {
+        "modules" : {
+            "ru" : "Система iDEAL является комплексной системой, которая включает несколько функциональных модулей. Ключевыми модулями системы iDEAL являются:",
+            "en" : "iDEAL is comprehensive system, which contains several functional modules. Key modules of the system are:"
+        },
+        "module1" : {
+            "ru" : "Управление поставками (SCM).",
+            "en" : "Supply Chain Management (SCM)."
+        },
+        "module2" : {
+            "ru" : "Организация работы с контрагентами (CRM).",
+            "en" : "Customer Relationship Management (CRM)."
+        },
+        "module3" : {
+            "ru" : "Ведение сделок.",
+            "en" : "Deal Capture."
+        },
+        "module4" : {
+            "ru" : "Управление рисками.",
+            "en" : "Risk Management."
+        },
+        "offer1" : {
+            "ru" : "\"АйСИСОЛЛ\" предлагает компаниям нефтегазовой отрасли интегрированную систему управления и учета iDEAL, которая обеспечивает эффективное решение основных задач деятельности предприятия.",
+            "en" : "ICICALL offers oil and gas companies integrated recording and management system iDEAL, which provides effective solutions for support of main business processes."
+        },
+        "offer2" : {
+            "ru" : "Система iDEAL включает целый комплекс приложений, позволяющих наладить работу по ведению и планированию сделок, гибко управлять логистическими процессами, а также повысить качество взаимодействия с контрагентами.",
+            "en" : "iDEAL contains wide range of applications, which enable to organize the process of planning and managing transactions, provide sufficient tools for supply chain management and help to improve integration with customers."
+        },
+        "offer3" : {
+            "ru" : "Для более подробного ознакомления с системой проследуйте на <a href=\"https://idealonline.ru\">https://idealonline.ru</a>",
+            "en" : "For more detailed information please go to <a href=\"https://idealonline.ru\">https://idealonline.ru</a>"
+        },
+
+
+        "description1" : {
+            "ru" : "Система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> предназначена для автоматизации и оптимизации процесса управления и учета на предприятиях нефтегазового комплекса.",
+            "en" : "The <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system is designed for automation and optimization of business processes at oil and gas companies."
+        },
+        "description2" : {
+            "ru" : "<a  class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> позволяет формировать единое информационное пространство для взаимодействия различных структур и организаций, являющихся звеньями цепочки поставок от НПЗ до конечного потребителя. В результате использования системы клиент получает дополнительное конкурентное преимущество за счет предоставления своим контрагентам современного и функционального информационного сервиса. ",
+            "en" : "<a  class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> allows to form a unified information environment for interaction of various divisions and organizations representing different parts of supply chain involved in the process of delivery from refinery to end users. By using the system the customer gets an additional competitive advantage due to providing its counterparties with a modern and functional information service."
+        },
+        "description3" : {
+            "ru" : "Система предоставляет возможность оптимизировать такие функции, как логистическое планирование, мониторинг поставок, учет состояния хранилищ, учет сделок и расходов, связанных с выполнением контракта, контроль материально-стоимостного баланса, а также обеспечить интеграцию с финансовыми системами и прочее.",
+            "en" : "The iDEAL system gives an opportunity to optimize such functions as: logistic planning, supply monitoring, storage status reporting, registration of deals and costs associated with execution of contracts, control of material balance, as well as to provide the integration with financial systems, etc."
+        },
+        "description4" : {
+            "ru" : "Внедрение системы позволит повысить эффективность таких процессов, как:",
+            "en" : "System implementation will improve the effectiveness of the following processes:"
+        },
+        "description-list1" : {
+            "ru" : "Оперативное управление логистикой и планирование поставок;",
+            "en" : "Timely logistic management and supply planning;"
+        },
+        "description-list2" : {
+            "ru" : "Прогнозирование и планирование производства;",
+            "en" : "Production forecasting and planning;"
+        },
+        "description-list3" : {
+            "ru" : "Контроль материально-стоимостного баланса;",
+            "en" : "Control of material balance;"
+        },
+        "description-list4" : {
+            "ru" : "Создание аналитических отчетов;",
+            "en" : "Generation of analytical reports;"
+        },
+        "description-list5" : {
+            "ru" : "Интеграция с финансовыми системами;",
+            "en" : "Integration with financial systems;"
+        },
+        "description-list6" : {
+            "ru" : "Регистрация изменений и аудит.",
+            "en" : "Registration of modifications and audit."
+        },
+        "description5" : {
+            "ru" : "В соответствии с требованиями клиента наши специалисты осуществляют все работы по настройке, доработке и интеграции системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> с существующими автоматизированными системами, а также предоставляют услуги по обучению пользователей и поддержке системы.",
+            "en" : "In accordance with customers requests our specialists provide the whole range of services including adjustment, customization and integration of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system with the client's existing systems and applications, training of users and system support."
+        },
+        "capabilities" : {
+            "ru" : "Возможности системы:",
+            "en" : "Capabilities of the system:"
+        },
+        "capability1-title" : {
+            "ru" : "Современные технологии",
+            "en" : "Cutting-edge technology"
+        },
+        "capability1-description" : {
+            "ru" : "Система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> разработана на основе передовых информационных и управленческих технологий, с использованием современных методов разработки и системной интеграции.",
+            "en" : "The <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system is developed on the basis of cutting-edge information technology solutions and management techniques involving advanced development and system integration practices."
+        },
+        "capability2-title" : {
+            "ru" : "Знание отраслевой специфики",
+            "en" : "Industry experience"
+        },
+        "capability2-description" : {
+            "ru" : "Богатый опыт по разработке и внедрению проектов в области распределенных систем взаимодействия с контрагентами, мониторинга и оптимизации логистических потоков, систем управления различными видами рисков и других, а также знание специфики управления бизнес процессами на предприятиях многих ключевых отраслей промышленности, в частности, топливно-энергетического комплекса, легли в основу предлагаемой системы.",
+            "en" : "Extensive experience in development and implementation of projects in the field of distributed counterparty interaction systems, monitoring and optimization of logistics, management systems for various risks, and other products, as well as awareness of specific features of business processes management at companies involved in many key industries, for instance, in the energy sector, furnished the base for the System we offer."
+        },
+        "capability3-title" : {
+            "ru" : "Широкий спектр возможностей",
+            "en" : "Wide range of capabilities"
+        },
+        "capability3-description" : {
+            "ru" : "Система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> располагает широкими функциональными возможностями и позволяет решать целый комплекс задач по сбору и обмену оперативной информацией, управлению, учету и анализу данных, формированию отчетности, а также настройке существующих компонентов системы под конкретные требования клиентов.",
+            "en" : "The <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system has extensive functional capabilities and enables users to perform a wide range of tasks in collection and exchange of operational data, management, registeration and analysis of data, generation of reports, and customization of available system components according to specific client's requirements ."
+        },
+        "capability4-title" : {
+            "ru" : "Интеграция с другими системами",
+            "en" : "Integration with other systems"
+        },
+        "capability4-description" : {
+            "ru" : "Система имеет открытую архитектуру, современные средства настройки и адаптации, поддерживает существующие стандарты обмена данными и технологии Интернет, интегрируется как на уровне данных, так и на уровне приложений с другими системами.",
+            "en" : "The system has an open architecture, modern settings and adaptation means, supports current data exchange standards and Internet technology, capable of integration with other systems both on the data and application levels."
+        },
+        "capability5-title" : {
+            "ru" : "Аудит",
+            "en" : "Auditing"
+        },
+        "capability5-description" : {
+            "ru" : "С целью защитить данные клиентов от несанкционированного доступа или использования, система предлагает комплекс мер по обеспечению безопасного хранения и доступа к данным, сочетающих точную идентификацию, эффективную авторизацию, разграничение прав доступа, аудит и регистрацию всех действий пользователей.",
+            "en" : "To protect data of our clients from unauthorized access or use the system offers a set of measures for safe data storage and access, featuring precise identification, efficient authorization, differentiation of access rights, auditing and recording of all actions of users."
+        }
+    },
+
+    "services" : {
+        "blue-box" : {
+            "ru" : "Внедрение автоматизированной системы на любом предприятии требует четкой и согласованной работы заказчика и исполнителя. Большой опыт специалистов \"АйСИСОЛЛ\" позволяет наладить такое взаимодействие как в вопросах разработки, внедрения, интеграции, так и в вопросах обучения пользователей и дальнейшего обслуживания системы.",
+            "en" : "Automated system implementation requires efficient and coherent work of the customer and the executor. The wide experience of ICICALL specialists allows to improve such interaction as in the development, implementation, integration and user training, so in further system maintenance."
+        },
+        "item1-title" : {
+            "ru" : "Консалтинг",
+            "en" : "Consulting"
+        },
+        "item2-title" : {
+            "ru" : "Разработка систем",
+            "en" : "System's Development"
+        },
+        "item3-title" : {
+            "ru" : "Интеграция",
+            "en" : "Integration"
+        },
+        "item4-title" : {
+            "ru" : "Сопровождение системы и клиентская поддержка",
+            "en" : "Support"
+        },
+        "item5-title" : {
+            "ru" : "Обучение",
+            "en" : "Training"
+        },
+        "item1-description" : {
+            "ru" : "Компания АйСИСОЛЛ предоставляет консалтинговые услуги в сфере финансового, операционного и информационного менеджмента. Основная цель данного направления деятельности компании - помочь клиентам в выборе наилучших способов управления бизнес-процессами, повышения эффективности использования ресурсов, достижения большей слаженности работы, оптимизации и интеграции информационных систем.",
+            "en" : "ICICALL offers consultancy services in areas of financial, operational, and information management. The key objective of this area of our business is to empower our clients to make the best choice in terms of business processes management, enhancement of employed resources efficiency, improvement of co-ordination of operations, optimization and integration of information systems."
+        },
+        "item2-description" : {
+            "ru" : "Качественное управление материальными и информационными ресурсами в настоящее время возможно лишь с использованием соответствующих автоматизированных систем. Компания АйСИСОЛЛ решает весь комплекс задач связанных с анализом, разработкой и внедрением различных программных решений, включая создание комплексных систем управления и учета, аналитических систем, торговых площадок, информационных порталов и многих других видов приложений.",
+            "en" : "In modern world optimized management of material and information resources can only be achieved through the use of adequate automated systems. The ICICALL Company offers solutions to the entire set of objectives concerned with analysis, development and implementation of various program solutions, including creation of comprehensive management and reporting systems, analytical systems, trading platforms, information portals, and many other types of applications."
+        },
+        "item3-description" : {
+            "ru" : "Возможность быстрого и всестороннего анализа данных, получаемых из различных систем предприятия, является важнейшим фактором успешности предприятия. Компания АйСИСОЛЛ Консалтинг предлагает услуги по интеграции различных приложений и систем, обеспечивая эффективное взаимодействие компании, как со своими подразделениями, так и с партнерами.",
+            "en" : "Today one can hardly imagine a successful enterprise without rapid and comprehensive analysis of data from various corporate systems. The ICICALL Company offers services in the area of integration of different applications and systems for the purpose of effective interaction with both its subdivisions and clients."
+        },
+        "item4-description" : {
+            "ru" : "В целях бесперебойного и надежного функционирования разрабатываемых систем компания предоставляет целый комплекс услуг по их поддержке и настройке, а также предлагает оперативную помощь службы клиентской поддержки для решения возникающих вопросов.",
+            "en" : "To provide for sustained and reliable operation of systems we develop the Company offers a whole range of support and configuration services along with fast-response customer support unit to address current issues and concerns."
+        },
+        "item5-description" : {
+            "ru" : "Для адаптации пользователей к работе с новыми автоматизированными системами и обеспечения эффективного их использования компания проводит специализированные тренинги, обеспечивает сотрудников всей необходимой документацией и инструкциями.",
+            "en" : "To make users comfortable with newly installed automated systems and assure the best productivity the Company organizes specialized trainings where customers are supplied with a complete set of documentation and manuals."
+        },
+        "quot-1" : {
+            "ru" : "&ldquo; ...Специалисты \"АйСИСОЛЛ\" в тесном сотрудничестве с сотрудниками ООО \"Нарьянмарнефтегаз\" осуществили полный цикл реализации проекта от разработки технического задания до запуска системы. Результатом работы стало внедрения системы, которая позволила наладить централизованный cбор, консолидацию, хранение и обработку информации по всей цепочке поставки. ...&rdquo;",
+            "en" : "&ldquo; ...ICICALL specialists in collaboration with Naryanmarneftegaz Ltd team carried out the complete cycle of project realization: from preparation of technical requirements to system implementation. Implementation of the system enabled consolidated collection, storage and processing of the data throughout the supply chain. ...&rdquo;"
+        },
+        "quot-2" : {
+            "ru" : "&ldquo; ...Расширение возможностей системы позволило увеличить число специалистов из различных отделов ОАО \"ЛУКОЙЛ\", задействованных в работе с системой. Удобство интерфейса и богатый функционал системы способствовали быстрому включению в работу заинтересованных пользователей и налаживанию их активного взаимодействия. ...&rdquo;",
+            "en" : "&ldquo; ...Enhancement of system capabilities allowed to increase the number of involved specialists from the various JSC LUKOIL departments. Convenience of interface and wide system functionality stimulated the rapid engagement and cooperation of the users. ...&rdquo;"
+        },
+        "quot-3" : {
+            "ru" : "&ldquo; ...Внедрение системы АИС \"ГКЗ\" и создание на ее базе единой информационной среды позволило ФГУ \"ГКЗ\" централизовать и унифицировать работу своих территориально-распределенных подразделений и филиалов, наладить их оперативное взаимодействие и обмен данными, а также обеспечить мониторинг их деятельности. ...&rdquo;",
+            "en" : "&ldquo; ...Implementation of AIS “GKZ”  and designing of unified information system on its basis allowed FBU “GKZ” to centralize and unify the work of its affiliations in various regions, establish their real-time interaction and data exchange and also provide the monitoring of their work. ...&rdquo;"
+        }
+    },
+
+    "solutions" : {
+        "title1" : {
+            "ru" : "Компания \"АйСИСОЛЛ\" предлагает весь комплекс решений, связанных с анализом, разработкой и внедрением различных программ, включая создание интегрированных систем управления и учета, аналитических систем, торговых площадок, информационных порталов и многих других видов приложений.",
+            "en" : "ICICALL offers a full range of solutions in analysis, development and implementation of various programs including the development of integrated management and accounting systems, analytical systems, trading platforms, data portals, etc."
+        },
+        "title2" : {
+            "ru" : "Специалисты компании имеют большой практический опыт работы с широким спектром информационных технологий, программных платформ и средств разработки.",
+            "en" : "ICICALL specialists have a broad work experience with a wide range of information technologies, software platforms and development tools."
+        },
+        "title3" : {
+            "ru" : "Совершенствование информационных технологий, в частности оптимизация автоматизированных систем управления и учета, имеют важное значение для развития современных предприятий. В последнее время все большую актуальность для многих компаний приобретают задачи более детального и комплексного анализа существующих бизнес процессов, а также создания интегрированных решений, которые обеспечат эффективный обмен информацией и данными между всеми службами и подразделениями предприятия.",
+            "en" : "Enhancement of information technologies and optimization of integrated management and reporting systems in particular is essential for the growth of modern enterprises. Recently the tasks of detailed and complex analysis of existing business processes and implementation of integrated solutions for efficient exchange of information between different departments and divisions are becoming more relevant for many companies."
+        },
+        "title4" : {
+            "ru" : "Ключевое место в работе компании занимают проекты в сфере автоматизации оперативно-сбытовой деятельности и логистики, включая процессы планирования, распределения, контроля, управления и оптимизации материальных и связанных с ними информационных и финансовых потоков.",
+            "en" : "The key role in the company's work plays the projects in automation of operational, sales and logistics, including the processes of planning, distribution, supervision, management and optimization of material and related information and financial flows."
+        },
+        "crm-title" : {
+            "ru" : "Распределенные системы управления взаимоотношениями с клиентами (CRM)",
+            "en" : "Customer Relationship Management (CRM)"
+        },
+        "crm-description" : {
+            "ru" : "Решения по управлению взаимоотношениями с клиентами (CRM), разрабатываемые \"АйСИСОЛЛ\" на основе современных ИТ технологий и Интернет, предоставляют широкие возможности по оптимизации работы и формированию эффективной среды взаимодействия всех участников, задействованных в процессе переговоров.",
+            "en" : "CRM solutions developed by ICICALL based on advanced technologies and Internet feature wide capabilities for optimization of counterparty's relations and creating efficient interaction environment for all players involved in the process of negotiations."
+        },
+        "deals-title" : {
+            "ru" : "Ведения информации по сделкам",
+            "en" : "Deal Capture"
+        },
+        "deals-description" : {
+            "ru" : "Системы управления сделками предназначены для объединения разрозненной информации по сделкам в единое целое, они позволяют оптимизировать планирование за счет объединения различных операций, выполняемых вручную и требующих больших затрат времени, в целостные процессы, протекающие в реальном времени.",
+            "en" : "Deals transaction system is designed for consolidation of discrete information on deals and enables to optimize planning through combining different manually performed and time consuming operations into integral real-time processes. "
+        },
+        "technology-title" : {
+            "ru" : "Используемые технологии",
+            "en" : "Technologies"
+        },
+        "technology-description" : {
+            "ru" : "В настоящее время к автоматизированным системам предъявляются самые высокие требования по обеспечению достаточного уровня производительности, масштабируемости, надежности, защите информации, доступности данных и систем. Компания \"АйСИСОЛЛ\" уделяет всем этим факторам самое пристальное внимание. Мы используем новейшие технологии и проверенные разработки для максимального удовлетворения требований клиентов.",
+            "en" : "Currently the strict requirements in providing of the sufficient level of efficiency, scalability, confidentiality, information safety, visibility of data and systems are demand to automated systems. ICICALL pays close attention to all of these factors. We use the cutting-edge technologies and proven tools to satisfy the client’s demands."
+        },
+        "scm-title" : {
+            "ru" : "Системы мониторинга и оптимизации логистических потоков (SCM)",
+            "en" : "Supply Chain Management (SCM)"
+        },
+        "scm-description" : {
+            "ru" : "Системы, разрабатываемые \"АйСИСОЛЛ\", позволяют проводить мониторинг всех логистических операций, формировать разнообразные отчеты с любой степенью детализации, интегрировать данные различных поставщиков информации (НПЗ, МПС, портов и т.д.), проводить анализ данных в различных разрезах, поддерживать соответствующий документооборот и многое другое.",
+            "en" : "The systems developed by our company provide instruments for monitoring of logistic operations, generation of various detailed reports, integration of data from various information suppliers (refineries, Ministry of Railways, ports, etc.) and analysis of data as well as support of document flow and many other operations."
+        },
+        "risks-title" : {
+            "ru" : "Управление рисками (Risk Management)",
+            "en" : "Risk Management"
+        },
+        "risks-description" : {
+            "ru" : "Управление рисками играет важнейшую роль в деле успешного развития и поддержания конкурентоспособности для любой компании. \"АйСИСОЛЛ\" разрабатывает инструменты, которые позволяют рассчитывать кредитные риски, обеспечивая возможность оперативной оценки состояния кредитной линии по каждому клиенту.",
+            "en" : "Risk management is most important for successful development of a company and its sustained competitiveness. To address such issues the system features a choice of instruments for calculation of credit risks to perform express credit line status check on every client. "
+        }
+    },
+
+    "solutions-header" : {
+        "ru" : "Основными направлениями деятельности компании по созданию ИТ-решений являются:",
+        "en" : "The basic directions of company's activity are:"
+    },
+    "solutions-direction1" : {
+        "ru" : "Управление поставками (SCM).",
+        "en" : " Supply Chain Management (SCM)."
+    },
+    "solutions-direction2" : {
+        "ru" : "Организация работы с контрагентами (CRM).",
+        "en" : "Customer Relationship Management (CRM)."
+    },
+    "solutions-direction3" : {
+        "ru" : "Ведение сделок.",
+        "en" : "Deal Capture."
+    },
+    "solutions-direction4" : {
+        "ru" : "Управление рисками.",
+        "en" : "Risk management"
+    },
+
+
+    "solutions-crm" : {
+
+        "header-right1" : {
+            "ru" : "Совершенствование информационных технологий, в частности оптимизация автоматизированных систем управления и учета, имеют важное значение для развития современных предприятий. В последнее время все большую актуальность для многих компаний приобретают задачи более детального и комплексного анализа существующих бизнес процессов, а также создания интегрированных решений, которые обеспечат эффективный обмен информацией и данными между всеми службами и подразделениями предприятия.",
+            "en" : "Enhancement of information technologies and optimization of integrated management and reporting systems in particular is essential for the growth of modern enterprises. Recently the tasks of detailed and complex analysis of existing business processes and implementation of integrated solutions for efficient exchange of information between different departments and divisions are becoming more relevant for many companies. "
+        },
+        "header-right2" : {
+            "ru" : "Автоматизация систем управления и учета играет важнейшую роль в процессе оптимизации бизнеса и обеспечения менеджмента точной оперативной информацией и средствами контроля.",
+            "en" : "Automation of control systems is of paramount importance for business optimization and for providing management with precise and timely information, and controls."
+        },
+        "title" : {
+            "ru" : "Распределенные системы управления взаимоотношениями с клиентами",
+            "en" : "Customer Relationship Management (CRM)"
+        },
+        "content1" : {
+            "ru" : "В настоящее время одной из ключевых концепций успешного существования и развития современных компаний постепенно становится эффективное управление взаимоотношениями с клиентами. Данная концепция позволяет \"интегрировать\" клиента в сферу организации, за счет чего компания получает более полную и точную информацию о своих клиентах и их потребностях и, исходя из этих данных, строит свою организационную стратегию, которая касается ключевых аспектов ее деятельности: планирования, производства, продаж, поставок и прочего.",
+            "en" : "At present efficient customer relationship management becomes one of the key concepts for successful operation and development of modern companies. The following concept allows to \"integrate\" the client into the sphere of organization. By doing so the company receives the fuller and more accurate information about the clients and their needs and based on the data builds its organizational strategy that concerns key aspects of its activity: planning, production, sales, supply and other."
+        },
+        "content2" : {
+            "ru" : "Решения по управлению взаимоотношениями с клиентами (CRM), разрабатываемые \"АйСИСОЛЛ\" на основе современных ИТ технологий и Интернет, предоставляют широкие возможности по оптимизации работы и формированию эффективной среды взаимодействия всех участников, задействованных в процессе переговоров.",
+            "en" : "CRM solutions developed by ICICALL  feature wide capabilities in optimization of counterparty relations, use advanced technologies and Internet to create an efficient interaction environment for all players involved in the process, including both corporate staff and clients."
+        },
+        "content3" : {
+            "ru" : "Предлагаемые нашей компанией системы управления взаимоотношениями с клиентами позволяют решать как общие задачи по сбору и обмену информацией, ведению сделок, обеспечению оперативными данными и отчетами в интерактивном режиме, так и специальные, ориентированные на конкретные бизнес процессы.",
+            "en" : "The systems proposed by our company have rather broad functionality sufficient for both general tasks of information collection and exchange, negotiations support, provision of timely data and reports in real time, and specialized tasks designed according to unique requirements of users."
+        }
+    },
+
+    "solutions-deals" : {
+
+        "header-right1" : {
+            "ru" : "Совершенствование информационных технологий, в частности оптимизация автоматизированных систем управления и учета, имеют важное значение для развития современных предприятий. В последнее время все большую актуальность для многих компаний приобретают задачи более детального и комплексного анализа существующих бизнес процессов, а также создания интегрированных решений, которые обеспечат эффективный обмен информацией и данными между всеми службами и подразделениями предприятия.",
+            "en" : "Enhancement of information technologies and optimization of integrated management and reporting systems in particular is essential for the growth of modern enterprises. Recently the tasks of detailed and complex analysis of existing business processes and implementation of integrated solutions for efficient exchange of information between different departments and divisions are becoming more relevant for many companies."
+        },
+        "header-right2" : {
+            "ru" : "Автоматизация систем управления и учета играет важнейшую роль в процессе оптимизации бизнеса и обеспечения менеджмента точной оперативной информацией и средствами контроля.",
+            "en" : "Management and accounting systems’ automation is important for business optimization and management supporting with timely and exact information and control tools."
+        },
+        "title" : {
+            "ru" : "Системы ведения информации по сделкам",
+            "en" : "Deal Capture Systems"
+        },
+        "content1" : {
+            "ru" : "Процесс ведения сделок также является одним из важнейших звеньев в процессе реализации ресурсов. Принятие своевременных и взвешенных решений, проведение детального анализа операций, четкое планирование и налаженный документооборот, точная финансовая информация, оперативный учет движения денежных средств, формирование необходимой отчетности за любые промежутки времени, все это является средствами необходимыми руководству для эффективного контроля за деятельностью компании.",
+            "en" : "Deals transaction process is one of the key links in business activities. Timely and carefully considered decisions, detailed operations analysis, precise planning and proper documents flow, accurate financial information, duly organized cash flow accounting, generation of required reports covering any length of time - all these elements are tools corporate management needs to successfully run its company."
+        },
+        "content2" : {
+            "ru" : "Системы управления сделками предназначены для объединения разрозненной информации по сделкам в единое целое, они позволяют оптимизировать планирование за счет объединения различных операций, выполняемых вручную и требующих больших затрат времени, в целостные процессы, протекающие в реальном времени.",
+            "en" : "The ICICALL deals transaction system is designed for consolidation of disintegrated information on deals in one whole piece to optimize planning through combining different manually performed and time consuming operations into integral real-time processes. "
+        },
+        "content3" : {
+            "ru" : "В частности, система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> компании \"АйСИСОЛЛ\" является эффективным инструментом построения и получения разнообразной отчетности, что позволяет клиенту иметь постоянно обновляемую информацию о состоянии сделок, о движении денежных средств, помогает строить прогнозы на основе плановой и фактической информации и многое другое.",
+            "en" : "The company develops effective instruments for generation of various reports. For example, <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system enables companies to have constantly updated data on deals status and cash flow movement, furnishes them forecasting aids based on planned and actual figures, and much more."
+        }
+    },
+
+    "solutions-risks" : {
+        "header-right1" : {
+            "ru" : "Совершенствование информационных технологий, в частности оптимизация автоматизированных систем управления и учета, имеют важное значение для развития современных предприятий. В последнее время все большую актуальность для многих компаний приобретают задачи более детального и комплексного анализа существующих бизнес процессов, а также создания интегрированных решений, которые обеспечат эффективный обмен информацией и данными между всеми службами и подразделениями предприятия.",
+            "en" : "Enhancement of information technologies and optimization of integrated management and reporting systems in particular is essential for the growth of modern enterprises. Recently the tasks of detailed and complex analysis of existing business processes and implementation of integrated solutions for efficient exchange of information between different departments and divisions are becoming more relevant for many companies."
+        },
+        "header-right2" : {
+            "ru" : "Автоматизация систем управления и учета играет важнейшую роль в процессе оптимизации бизнеса и обеспечения менеджмента точной оперативной информацией и средствами контроля.",
+            "en" : "Management and accounting systems’ automation is important for business optimization and management supporting with timely and exact information and control tools."
+        },
+        "title" : {
+            "ru" : "Системы управления рисками",
+            "en" : "Risk Management Systems"
+        },
+        "content1" : {
+            "ru" : "Возможности по оценке, анализу и управлению рыночными и кредитными рисками позволяют компаниям уменьшить ценовые риски, связанные с закупками сырья и поставкой готовой продукции, и обеспечить более эффективный финансовый менеджмент.",
+            "en" : "This function is used to assess in real time positions and risks on groups of portfolios, an individual portfolio or contract. The component enables a user to run fast efficiency assessment of current hedging strategy."
+        },
+        "content2" : {
+            "ru" : "Управление рисками играет важнейшую роль в деле успешного развития и поддержания конкурентоспособности для любой компании. \"АйСИСОЛЛ\" разрабатывает инструменты, которые позволяют рассчитывать кредитные риски, обеспечивая возможность оперативной оценки состояния кредитной линии по каждому клиенту.",
+            "en" : "Risk management is most important for successful development of a company and its sustained competitiveness. To address such issues the System features a choice of instruments for calculation of credit risks to perform express credit line status check on every client."
+        },
+        "content3" : {
+            "ru" : "Кроме этого, они позволяют проводить анализ потенциальных рисков, связанных с изменением рынка. Например, расчет показателей VaR, которые дают возможность оценивать степени риска по интересующим пользователя критериям в реальном времени. Данная функциональность позволяет наиболее эффективным образом определять стратегию поведения компании на рынке.",
+            "en" : "It can also run an analysis of potential risks related to volatile market situation. It can calculate VaR (Value at risk) to assess the degree of risk in criteria relevant for the user in real time. This function is one of the best tools for effective corporate market strategy determination."
+        },
+        "content4" : {
+            "ru" : "Для оперативного управления и принятия решений необходимы данные о приведенных ценах по контрактам. Возможность расчета цен по методам \"netback\" и \"netforward\" позволяет осуществлять выбор оптимального варианта реализации своей продукции.",
+            "en" : "To provide for timely management and decision making one would require data on net prices used in contracts. By calculating netback and netforward prices the user can choose the best option in terms of products sales. "
+        },
+        "content5" : {
+            "ru" : "Помимо этого, с целью оценки финансовой деятельности компаниям требуется точный расчет движения денежных средств - \"cash flow\". В частности, система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> позволяет эффективно анализировать оборот денежных средств, получаемых (или используемых) компанией в результате операционной деятельности по производству и продаже продукции.",
+            "en" : "In order to assess financial performance of a company it is necessary to have in place accurate cash flow calculation techniques. The <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system offers efficient capabilities for analysis of cycle of money received (or used) by the company as a result of its production and sales operations. "
+        },
+        "content6" : {
+            "ru" : "Все вышеуказанные функциональные компоненты дают возможность для комплексного анализа и управления рисками, что позволяет компаниям наилучшим образом реагировать на быстро меняющиеся рыночную ситуацию и вносить необходимые коррективы.",
+            "en" : "All the above described functional system components create opportunities for comprehensive and integrated risks analysis and management, which puts a company in a better position in terms of undelayed response to rapidly changing market situation and timely corrective actions."
+        }
+    },
+
+
+    "solutions-scm" : {
+        "header-right1" : {
+            "ru" : "Совершенствование информационных технологий, в частности оптимизация автоматизированных систем управления и учета, имеют важное значение для развития современных предприятий. В последнее время все большую актуальность для многих компаний приобретают задачи более детального и комплексного анализа существующих бизнес процессов, а также создания интегрированных решений, которые обеспечат эффективный обмен информацией и данными между всеми службами и подразделениями предприятия.",
+            "en" : "Enhancement of information technologies and optimization of integrated management and reporting systems in particular is essential for the growth of modern enterprises. Recently the tasks of detailed and complex analysis of existing business processes and implementation of integrated solutions for efficient exchange of information between different departments and divisions are becoming more relevant for many companies."
+        },
+        "header-right2" : {
+            "ru" : "Автоматизация систем управления и учета играет важнейшую роль в процессе оптимизации бизнеса и обеспечения менеджмента точной оперативной информацией и средствами контроля.",
+            "en" : "Management and accounting systems’ automation is important for business optimization and management supporting with timely and exact information and control tools."
+        },
+        "title" : {
+            "ru" : "Системы мониторинга и оптимизации логистических потоков",
+            "en" : "Supply Chain Management(SCM)"
+        },
+        "content1" : {
+            "ru" : "Современные тенденции развития бизнеса, необходимость оперативного реагирования на быстро меняющуюся ситуацию на мировых и внутренних рынках, жесткая конкуренция и многие другие факторы требуют от компаний постоянного совершенствования логистических процессов и внедрения более эффективных и прогрессивных концепций межкорпоративного взаимодействия.",
+            "en" : "Driven by current trends of business development, the need to respond to rapidly changing domestic and global markets instantaneously, strong competition, and other factors, companies are under pressure to run an on-going improvement process of logistics and implement more efficient and advanced concepts of business-to-business interaction."
+        },
+        "content2" : {
+            "ru" : "Сегодня одним из передовых направлений в логистике является концепция управления цепочками поставок, которая решает задачи интегрированного управления ключевыми бизнес процессами, а именно производством, распределением и координацией всей деятельности компании с поставщиками, конечными потребителями и посредниками.",
+            "en" : "The concept of supply chain management belongs to an advanced level of logistics. It targets issues of integrated management of key business processes such as production, distribution and co-ordination of the entire set of a company's activities involving suppliers, end users and intermediaries."
+        },
+        "content3" : {
+            "ru" : "Для успешного применения данной концепции требуются комплексные решения, которые обеспечат создание единого информационного пространства, автоматизацию основных процессов и анализ получаемых данных.",
+            "en" : "Successful implementation of the concept requires comprehensive solutions sufficient to create a unified information environment, ensure automation of the main business processes and analysis of incoming data."
+        },
+        "content4" : {
+            "ru" : "Управление цепочками поставок в различных отраслях имеет как свои особенности, так и общие для всех задачи. На примере предприятий, работающих в топливно-энергетическом комплексе, можно выделить следующие ключевые вопросы, требующие решения в большинстве компаний, а именно:",
+            "en" : "On the one hand supply chain management in different industries has its specific features and on the other - targets common for all. Looking at energy sector companies one can single out certain key issues, which are to be addressed in the majority of companies, namely to:"
+        },
+
+        "content-list1" : {
+            "ru" : "организацию эффективного мониторинга подвижного состава;",
+            "en" : "put in place efficient hauling stock monitoring;"
+        },
+        "content-list2" : {
+            "ru" : "учет фактически перевезенного груза и оплаченных тарифов ж/д;",
+            "en" : "ensure accounting of cargoes actually carried and rail tariffs paid;"
+        },
+        "content-list3" : {
+            "ru" : "контроль отгруженного количества продукта и фактически дошедшего до потребителя;",
+            "en" : "control shipped quantities of the product and these actually delivered to a customer;"
+        },
+        "content-list4" : {
+            "ru" : "планирование своевременного подхода транспорта и продукта к месту назначения;",
+            "en" : "plan for timely availability of transporting vessels and arrival of product to its destination;"
+        },
+        "content-list5" : {
+            "ru" : "расчет стоимости фрахта и т.п.",
+            "en" : "calculate freight rates, etc."
+        },
+
+        "content5" : {
+            "ru" : "Для реализации этих и многих других задач, связанных с управлением поставками, компания \"АйСИСОЛЛ\" предлагает современные решения на базе своих систем.",
+            "en" : "To address above-mentioned and many other issues of supplies management, ICICALL Consulting is offering up-to-date solutions based on its systems. "
+        },
+        "content6" : {
+            "ru" : "Системы, разрабатываемые \"АйСИСОЛЛ\", позволяют проводить мониторинг всех логистических операций, формировать разнообразные отчеты с любой степенью детализации, интегрировать данные различных поставщиков информации (НПЗ, МПС, портов и т.д.), проводить анализ данных в различных разрезах, поддерживать соответствующий документооборот и многое другое.",
+            "en" : "The systems developed by our company provide instruments for monitoring of logistic operations, generation of various detailed reports, integration of data from various information suppliers (refineries, Ministry of Railways, ports, etc.) and analysis of data as well as support of document flow and many other operations."
+        },
+        "content7" : {
+            "ru" : "Использование системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> в качестве инструмента оперативного получения и обработки фактических данных позволяет компаниям успешно прогнозировать и оптимизировать логистические потоки.",
+            "en" : "Use of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system as a tool for timely acquisition and processing of the actual data allows the companies to successfully forecast and optimize logistical process."
+        }
+    },
+
+    "solutions-technology" : {
+        "header" : {
+            "ru" : "В настоящее время к автоматизированным системам предъявляются самые высокие требование по обеспечению достаточного уровня производительности, масштабируемости, надежности, защите информации, доступности данных и систем. Компания \"АйСИСОЛЛ\" уделяет всем этим факторам самое пристальное внимание. Мы используем новейшие технологии и проверенные разработки для максимального удовлетворения требований клиентов.",
+            "en" : "Currently, information systems have to meet strict requirements in oder to ensure high level of efficiency, scalability, confidence, information safety, visibility of data. ICICALL company pays close attention to all of these factors. We use the cutting-edge technologies and proven tools to satisfy the client’s demands."
+        },
+        "content1" : {
+            "ru" : "Системы, разрабатываемые \"АйСИСОЛЛ\", имеют открытую архитектуру, поддерживают современные стандарты обмена данными, интегрируются как на уровне данных, так и на уровне приложений, имеют средства настройки и адаптации, поддерживают технологии Интернет.",
+            "en" : "ICICALL’s systems have an open architecture, maintain current data transfer standards, support integration on both data and application levels, have customization tools, maintain the Internet technologies."
+        },
+        "content2" : {
+            "ru" : "Компания предъявляет к своим программам самые высокие требования по обеспечению достаточного уровня производительности, масштабируемости, надежности, доступности данных и систем. \"АйСИСОЛЛ\" постоянно развивает функциональные возможности систем и совершенствует технологии их внедрения.",
+            "en" : "The company sets strict requirements upon its programs in terms of maintaining high performance level, scalability, reliability, safety of data and systems. It constantly develops functionality and improves system implementation technologies."
+        },
+        "content3" : {
+            "ru" : "Помимо этого компания стремится создавать не только высокотехнологичные и эффективные средства автоматизации управления и учета, максимально отвечающие требованиям заказчиков, но обеспечивать их современными средствами аудита, которые необходимы в современных условиях для защиты данных от несанкционированного использования.",
+            "en" : "In addition, company aims to develop not only high-tech and efficient automation and accounting tools that satisfy customer’s demands, but to provide the customer with audition tools, which are essential in nowadays conditions for data protection."
+        },
+        "content4" : {
+            "ru" : "Система реализована в виде web-приложения, обеспечивающего доступ пользователей к единой базе данных, и построена по трехуровневой архитектуре «клиент-сервер приложения-база данных».",
+            "en" : "System is implemented as a web-application which provides customer access to the single database and built in a three-level architecture “customer-application server-database”."
+        },
+        "content5" : {
+            "ru" : "Для разработки системы применяются следующие технологии и языки программирования:",
+            "en" : "For development of the system the following technologies and languages are used:"
+        },
+        "content-list1" : {
+            "ru" : "Технология Java - объектно-ориентированная, платформо-независимая, многопоточная среда программирования. Java позволяет надежно и безопасно наращивать информационную структуру предприятия без зависимости от отдельной платформы. С технологией Java приложение можно исполнять на любом типе машин.",
+            "en" : "Java Technology is an object-oriented, cross-independent, multithreading  programming language. Java provides safety of building an information structure of the enterprise without depending on single platform. Using Java technology an application can be executed on any type on machine."
+        },
+        "content-list2" : {
+            "ru" : "Web-Server Apache Tomcat является промышленным стандартом для реализации интернет и интранет приложений.",
+            "en" : "Web-Server Apache Tomcat represents industrial standard for implementing Internet and Intranet applications."
+        },
+        "content-list3" : {
+            "ru" : "Готовое портальное решение, входящее в состав системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>, позволяет быстро и эффективно разрабатывать приложения, не затрачивая усилий на такие базовые компоненты, как работа с пользователями, ролями, правами доступа, аутентификация пользователей и т.д. Генерация HTML страниц осуществляется с использованием технологии XML-XSLT трансформации.",
+            "en" : "Complete portal solution as part of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system allows to develop applications quickly and effectively without expending efforts on work with users, roles, access rights, user authentication etc. Generation of HTML is implemented by using XML-XSLT technology of transformation."
+        },
+        "content-list4" : {
+            "ru" : "В качестве базы данных возможно использование одного из следующих SQL серверов: Oracle, PostgreSQL, MS SQL Server.",
+            "en" : "As data base can be used the following servers: Oracle, PostgreSQL, MS SQL Server."
+        },
+        "content-list5" : {
+            "ru" : "SOAP – стандартный протокол для взаимодействия приложений на базе языка XML.",
+            "en" : "SOAP is a standard protocol for interaction of applications on the base of XML language."
+        },
+
+        "quot-1" : {
+            "ru" : "&ldquo;...Специалисты ООО «АйСИСОЛЛ Консалтинг» в тесном сотрудничестве с сотрудниками ООО «Нарьянмарнефтегаз» осуществили полный цикл реализации проекта от разработки технического задания до запуска системы. Результатом работы стало внедрения системы, которая позволила наладить централизованный cбор, консолидацию, хранение и обработку информации по всей цепочке поставки. ...&rdquo;",
+            "en" : "&ldquo;...ICICALL specialists in collaboration with Naryanmarneftegaz Ltd team carried out the complete cycle of project realization: from preparation of technical requirements to system implementation. Implementation of the system enabled consolidated collection, storage and processing of the data throughout the supply chain. ...&rdquo;"
+        },
+        "quot-2" : {
+            "ru" : "&ldquo;...Расширение возможностей системы позволило увеличить число специалистов из различных отделов ОАО «ЛУКОЙЛ», задействованных в работе с системой. Удобство интерфейса и богатый функционал системы способствовали быстрому включению в работу заинтересованных пользователей и налаживанию их активного взаимодействия. ...&rdquo;",
+            "en" : "&ldquo;...Enhancement of system capabilities allowed to increase the number of involved specialists from the various JSC LUKOIL departments. Convenience of interface and wide system functionality stimulated the rapid engagement and cooperation of the users. ...&rdquo;"
+        },
+        "quot-3" : {
+            "ru" : "&ldquo;...Внедрение системы АИС «ГКЗ» и создание на ее базе единой информационной среды позволило ФГУ «ГКЗ» централизовать и унифицировать работу своих территориально-распределенных подразделений и филиалов, наладить их оперативное взаимодействие и обмен данными, а также обеспечить мониторинг их деятельности. ...&rdquo;",
+            "en" : "&ldquo;...Implementation of AIS “GKZ”  and designing of unified information system on its basis allowed FBU “GKZ” to centralize and unify the work of its affiliations in various regions, establish their real-time interaction and data exchange and also provide the monitoring of their work. ...&rdquo;"
+        },
+        "quot-4" : {
+            "ru" : "&ldquo;...Специалистами компании были разработаны ABAP-расширения ядра CRM, необходимые для адаптации бизнеса, а также создан комплекс рабочих мест, обеспечивающий доступ и работу в системе посредством Интернет и корпоративной сети, реализованы решения по интеграции со смежными системами. ...&rdquo;",
+            "en" : "&ldquo;...Company’s specialists have developed the ABAP-add-ons of the CRM-core necessary for business adaptation and also created a number of workplaces, which provide access to the system via Internet and corporate network. The integration solutions were also implemented ...&rdquo;"
+        }
+    },
+
+    "projects" : {
+        "blue-box" : {
+            "ru" : "Ключевое место в работе компании занимают проекты в сфере автоматизации оперативно-сбытовой деятельности и логистики, включая процессы планирования, распределения, контроля, управления и оптимизации материальных, и связанных с ними информационных и финансовых потоков.",
+            "en" : "The key role in the company's work play the projects on automation of operational and marketing activities, sales and logistics, including the processes of planning distribution, supervision, management and optimization of material, informational and financial flows."
+        },
+        "lukoil-item1" : {
+            "ru" : "Разработка Информационной системы «Управление Поставками и Продажами»",
+            "en" : "Development of Sales and Supply Information System."
+        },
+        "lukoil-item2" : {
+            "ru" : "Разработка технического задания по созданию Центра транспортной логистики (ЦТЛ) в качестве компонента Системы Системного проекта информационной системы Астраханского Центра технологической поддержки морских инвестиционных проектов (ИС «Северный Каспий»).",
+            "en" : "Development of technical requirements for design of the Center of Transportation Logistics (CTL) as a component of the information system for Astrakhan Technical Support Center (IS “North Caspian Sea”)."
+        },
+        "lukoil-item3" : {
+            "ru" : "Разработка и внедрение Системы управления Транспортной логистикой морских месторождений Северного Каспия.",
+            "en" : "Development and implementation of Transportation Logistics Management System for North Caspian Sea offshore oilfields."
+        },
+        "lukoil-item4" : {
+            "ru" : "Модификация Информационной системы «Управление Поставками и Продажами». Система дополнена новыми модулями, в частности модулем для расчета экономической эффективности.",
+            "en" : "Sales and Supply Information System modification. System supplemented by new modules, including module for analysis of economic efficiency."
+        },
+
+        "bashneft-item1" : {
+            "ru" : "Проведение бизнес обследования и подготовка технического задания по внедрению и модификации Системы оперативного учета и управления поставками и продажами.",
+            "en" : "Analysis of business process and preparation of technical requirements for modification and implementation of Automated Sales and Supply Management System."
+        },
+        "bashneft-item2" : {
+            "ru" : "Разработка и внедрение модуля \"Электронная торговая площадка\" на базе CRM <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>.",
+            "en" : "Development and implementation of E-Trading Platform on the basis of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> CRM."
+        },
+        "bashneft-item3" : {
+            "ru" : "Внедрение системы учета контрактов и поставок на базе системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>.",
+            "en" : "Implementation of Supply Chain Management System on the basis of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system."
+        },
+
+        
+        "forte-item1" : {
+            "ru" : "Внедрение системы учета контрактов и поставок на базе системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>.",
+            "en" : "Implementation of Supply Chain Management System on the basis of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> system."
+        },
+        "forte-item2" : {
+            "ru" : "Разработка дизайн-проекта Системы оперативного учета и управления поставками и продажами нефтепродуктов.",
+            "en" : "Development of the Design Project for the Automated Sales and Supply Management System."
+        },
+        "forte-item3" : {
+            "ru" : "Реализация функционала в Системе: личный кабинет контрагента (экспортный и внутренний рынок, самовывоз); управление отгрузками; ведение контрактов на поставку; интеграция с внутренней финансовой системой компании; электронный документооборот).",
+            "en" : "Functionality realized in the System: counterparty’s workplace (export and domestic markets, ex works delivery); shipment management; supply contract management; integration with the financial system of the company; electronic documents turnover).. "
+        },
+
+        "nmng-item1" : {
+            "ru" : "Проведение бизнес обследования и подготовка технического задания по внедрению и модификации Системы оперативного учета и управления поставками и продажами нефти.",
+            "en" : "Analysis of business process and preparation of technical requirements for modification and implementation of Automated Sales and Supply Management System."
+        },
+        "nmng-item2" : {
+            "ru" : "Внедрение Системы оперативного учета и управления поставками и продажами нефти на базе системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>.",
+            "en" : "Implementation of Automated Sales and Supply Management System."
+        },
+        "fbu-gkz-item1" : {
+            "ru" : "Разработка технического задания на создание автоматизированной системы документационного обеспечения управления и проведения экспертизы запаса полезных ископаемых.",
+            "en" : "Development of technical requirements for designing of “Reserves Expertize and Document Workflow Management” automated information system."
+        },
+        "fbu-gkz-item2" : {
+            "ru" : "Разработка и внедрение автоматизированной информационной системы документационного обеспечения управления и проведения экспертизы запасов полезных ископаемых (АИС ГКЗ «Экспертиза»).",
+            "en" : "Development and implementation of “Reserves Expertize and Document Workflow Management” automated information system."
+        },
+        "petrocraft-item1" : {
+            "ru" : "Внедрение автоматизированной информационной системы оперативного управления и учета на базе системы <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>.",
+            "en" : "Implementation of automated Sales and Supply Management system on the basis of <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a>."
+        },
+        "megatrans-item1" : {
+            "ru" : "Проведение работ по оценке перспектив развития информационной инфраструктуры",
+            "en" : "Execution of works for estimation of further development of information system infrastructure."
+        },
+        "quot-1" : {
+            "ru" : "&ldquo;...Внедрение системы АИС «ГКЗ» и создание на ее базе единой информационной среды позволило ФГУ «ГКЗ» централизовать и унифицировать работу своих территориально-распределенных подразделений и филиалов, наладить их оперативное взаимодействие и обмен данными, а также обеспечить мониторинг их деятельности...&rdquo; ",
+            "en" : "&ldquo;...Implementation of AIS “GKZ” and designing of integrated information system on its basis allowed FBU “GKZ” to centralize and unify the work of its affiliated regional offices, establish their real-time interaction and data exchange and also to provide the monitoring of their work...&rdquo;"
+        },
+        "quot-2" : {
+            "ru" : "&ldquo;...Специалистами компании были разработаны ABAP-расширения ядра CRM, необходимые для адаптации бизнеса, а также создан комплекс рабочих мест, обеспечивающий доступ и работу в системе посредством Интернет и корпоративной сети, реализованы решения по интеграции со смежными системами...&rdquo; ",
+            "en" : "&ldquo;...Company’s specialists have developed the ABAP-add-ons of the CRM-core necessary for business adaptation and also created a number of workplaces, which provide access to the system via Internet and corporate network. The integration solutions were also implemented....&rdquo; "
+        },
+        "quot-3" : {
+            "ru" : "&ldquo;...Внедрение новой функциональности автоматизированной информационной системы обеспечения управления и проведения экспертизы запасов полезных ископаемых позволило унифицировать процесс проведения экспертизы и обеспечить контроль за деятельностью филиалов со стороны головной организации, сократить трудозатраты за счет генерации стандартных документов и отчетности...&rdquo; ",
+            "en" : "&ldquo;...Implementation of new functionality of “Reserves Expertize and Document Workflow Management” system allowed to unify the expertize process and provided the tools for control of regional affiliates activities and helped to reduce time and efforts by generation of standard documents and reports...&rdquo;"
+        },
+        "quot-4" : {
+            "ru" : "&ldquo;...Совместно со специалистами компании АйСИСОЛЛ система <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> была адаптирована и внедрена для автоматизации процессов оперативно-сбытовой деятельности нашего предприятия. В процессе внедрения система была интегрирована с внутренней программой 1С (7,8), был запущен модуль учета контрактов и поставок. За время внедрения системы специалистами компании АйСИСОЛЛ были решены все поставленные задачи, выполнены в срок все обязательства с учетом установленного бюджета ...&rdquo; ",
+            "en" : "&ldquo;...For automation of the sales process, the <a class=\"dark\" href=\"https://idealonline.ru\">iDEAL</a> System was adopted and implemented in our company by the forces of the ForteInvest and ICICALL specialists. The System was integrated with internally-used 1C program (7, 8). In the course of the system implementation, the ICICALL specialists decided all tasks and fulfilled all obligations in time and in budget...&rdquo;"
+        }
+
+    },
+
+    "career": {
+        "header-title" : {
+            "ru": "Вас интересуют современные информационные и консалтинговые технологии?",
+            "en": "Are you interested in hi-end information and consulting technologies?"
+        },
+        "header-text1" : {
+            "ru": "Компания АйСИСОЛЛ реализует уникальные проекты для различных предприятий нефтегазового комплекса, повышая эффективность их функционирования посредством высоких технологий. Мы предлагаем своим сотрудникам достойную зарплату и ждем от них максимальной отдачи. В связи с расширением бизнеса компания проводит дополнительный набор специалистов. В настоящее время в компании имеются следующие вакансии:",
+            "en": "ICICALL company implements unique projects for various oil and gas companies increasing their efficiency through the IT-technologies. We offer our employees fair wage and expect them to perform maximum efficiency. Due to business expansion company is recruiting personnel. Currently the company has following vacancies:"
+        },
+        "vacancy1" : {
+            "ru": "Ведущий Java-разработчик",
+            "en": "Leading Java-developer"
+        },
+        "vacancy2" : {
+            "ru": "Java-разработчик",
+            "en": "Java-developer"
+        },
+        "vacancy3" : {
+            "ru": "Специалист службы клиентской поддержки",
+            "en": "Customer Care Support Specialist"
+        },
+        "header-text2" : {
+            "ru": "Уровень оплаты определяется по результатам собеседования. Если Вы хотите прислать информацию о себе или уточнить информацию о данной вакансии, обращайтесь, пожалуйста, по адресу эл.почты: <a href=\"mailto:resume@icicall.com\">resume@icicall.com</a>",
+            "en": "Wage level determines by the results of the interview. If you want to send your CV or receive detailed information about the vacancies please email to <a href=\"mailto:resume@icicall.com\">resume@icicall.com</a>"
+        },
+        "responsibility" : {
+            "ru": "Обязанности: ",
+            "en": "Description:"
+        },
+        "requirements" : {
+            "ru": "Требования:",
+            "en": "Requirements:"
+        },
+        "vacancy1-text1" : {
+            "ru": "Разработка программного обеспечения, сопровождение разработанного кода, участие в постановке задач и проектировании приложений.",
+            "en": "Software development, tracking of developed code, participation in target setting and application designing."
+        },
+        "vacancy1-text2" : {
+            "ru": "Документирование и сопровождение разработанного кода.",
+            "en": "Documenting and tracking of developed code."
+        },
+        "vacancy1-text3" : {
+            "ru": "Высшее техническое образование;",
+            "en": "Higher technical education;"
+        },
+        "vacancy1-text4" : {
+            "ru": "Опыт по разработке web-приложений с использованием каких-либо из перечисленных технологий:",
+            "en": "Web-application development experience with following technologies usage:"
+        },
+        "vacancy1-text5" : {
+            "ru": "- JAVA: Servlets, RMI, JDBC, J2EE, JSF, GWT, Portlets (JSR-168/286) и т.п.",
+            "en": "- JAVA: Servlets, RMI, JDBC, J2EE, JSF, GWT, Portlets (JSR-168/286), etc."
+        },
+        "vacancy1-text6" : {
+            "ru": "- Сервер приложений JBoss.",
+            "en": "- JBoss Application server ."
+        },
+        "vacancy1-text7" : {
+            "ru": "- RDBMS, что либо из: Oracle, PostgreSQL, MSSQL, MySQL.",
+            "en": "- RDBMS or: Oracle, PostgreSQL, MSSQL, MySQL."
+        },
+        "vacancy1-text8" : {
+            "ru": "- HTML, XSLT, CSS, JavaScript.",
+            "en": "- HTML, XSLT, CSS, JavaScript."
+        },
+        "vacancy1-text9" : {
+            "ru": "- Cистемы контроля версий: SVN, GIT, CVS.",
+            "en": "- Versions control systems: SVN, GIT, CVS."
+        },
+        "vacancy1-text10" : {
+            "ru": "- Понимание OOA, OOD, design patterns.",
+            "en": "- Understanding of OOA,OOD, design patterns conception."
+        },
+        "vacancy1-text11" : {
+            "ru": "Серьезным плюсом будет знание смежных технологий (OS *nix, ЯП, networking и т.п.).",
+            "en": "Knowledge of allied technologies (OS *nix, networking) will be a preference."
+        },
+
+        "vacancy2-text1" : {
+            "ru": "Разработка программного обеспечения, сопровождение разработанного кода",
+            "en": "Software development, tracking of developed code."
+        },
+        "vacancy2-text2" : {
+            "ru": "Документирование и сопровождение разработанного кода.",
+            "en": "Documenting and tracking of developed code."
+        },
+        "vacancy2-text3" : {
+            "ru": "Высшее техническое образование;",
+            "en": "Higher technical education;"
+        },
+        "vacancy2-text4" : {
+            "ru": "Опыт по разработке web-приложений с использованием каких-либо из перечисленных технологий:",
+            "en": "Web-application development experience with following technologies usage:"
+        },
+        "vacancy2-text5" : {
+            "ru": "- JAVA: Servlets, RMI, JDBC, J2EE, JSF, GWT, Portlets и т.п.",
+            "en": "- JAVA: Servlets, RMI, JDBC, J2EE, JSF, GWT, Portlets, etc."
+        },
+        "vacancy2-text6" : {
+            "ru": "- SQL.",
+            "en": "- SQL."
+        },
+        "vacancy2-text7" : {
+            "ru": "- HTML, XSLT, CSS, JavaScript.",
+            "en": "- HTML, XSLT, CSS, JavaScript."
+        },
+        "vacancy2-text8" : {
+            "ru": "- Cистемы контроля версий: SVN, GIT, CVS.",
+            "en": "- Versions control systems: SVN, GIT, CVS."
+        },
+        "vacancy3-text1" : {
+            "ru": "Обработка и регистрация входящих звонков и сообщений и их сопровождение.",
+            "en": "Incoming calls and messages support."
+        },
+        "vacancy3-text2" : {
+            "ru": "Предоставление клиентам информации по работе с программными продуктами компании по телефону и эл. почте.",
+            "en": "Providing Customers with information about products of the company by phone and email. "
+        },
+        "vacancy3-text3" : {
+            "ru": "Перевод документации (русский и английский язык).",
+            "en": "Translation of documents (Russian and English)."
+        },
+        "vacancy3-text4" : {
+            "ru": "Ведение баз данных.",
+            "en": "Databases maintenance."
+        },
+        "vacancy3-text5" : {
+            "ru": "Подготовка презентаций и отчетов.",
+            "en": "Presentations and reports."
+        },
+        "vacancy3-text6" : {
+            "ru": "Подготовка тендерной и технической документации по проектам.",
+            "en": "Tender and technical documentation"
+        },
+        "vacancy3-text7" : {
+            "ru": "Тестирование ПО",
+            "en": "Testing"
+        },
+        "vacancy3-text8" : {
+            "ru": "Образование высшее.",
+            "en": "Higher education."
+        },
+        "vacancy3-text9" : {
+            "ru": "- Опыт работы с клиентами (желательно).",
+            "en": "- Customer Care experience (desirable)."
+        },
+        "vacancy3-text10" : {
+            "ru": "- MS Office (Word, Exсel, Power Point).",
+            "en": "- MS Office (Word, Exсel, Power Point)."
+        },
+        "vacancy3-text11" : {
+            "ru": "- Навыки работы с графическими редакторами Adobe Photoshop, Corel Draw,MS Visio.",
+            "en": "- Graphic editors (Adobe Photoshop, Corel Draw, MS Visio, etc.)."
+        },
+        "vacancy3-text12" : {
+            "ru": "- Навыки перевода технической документации, научно-технических статей и деловой переписки.",
+            "en": "- Translation of technical documentation, technical articles and business correspondence."
+        },
+        "vacancy3-text13" : {
+            "ru": "- Английский язык (advanced).",
+            "en": "- English (advanced)."
+        },
+        "vacancy3-text14" : {
+            "ru": "- Грамотная письменная и устная речь.",
+            "en": "- Perfect spoken and written Russian."
+        },
+        "vacancy3-text15" : {
+            "ru": "- Коммуникабельность.",
+            "en": "- Good communication skills."
+        },
+        "vacancy3-text16" : {
+            "ru": "- Аккуратность, внимательность, умение работать в команде.",
+            "en": ""
+        },
+        "participation" : {
+            "ru": "Участие в проектах",
+            "en": "Project participation"
+        },
+        "participation1" : {
+            "ru": "Все проекты, выполняемые компанией АйСИСОЛЛ Консалтинг, независимо от их масштабов, разрабатываются на основе лучших мировых стандартов проектного менеджмента. Для их реализации используются передовые инструментальные средства и методологии разработки информационных систем.",
+            "en": "All projects of ICICALL Company are developed on the basis of best international standards of project management. The advanced technological tools and methodologies of information systems development are used for implementation of the projects. "
+        },
+        "participation2" : {
+            "ru": "В число наших заказчиков входят крупнейшие российские нефтегазовые компании, а также государственные структуры.",
+            "en": " Among our clients are major Russian oil and gas companies and government organizations."
+        },
+        "participation-list1" : {
+            "ru": "Управление поставками и продажами нефти и нефтепродуктов.",
+            "en": "Oil sales and supply management"
+        },
+        "participation-list2" : {
+            "ru": "Транспортировка нефти, грузов и вахт с морских месторождений.",
+            "en": "Oil, cargo and shift team transportation from offshore oilfields."
+        },
+        "participation-list3" : {
+            "ru": "Инвентаризация нефти и газа.",
+            "en": "Oil and gas inventory."
+        },
+        "participation-list4" : {
+            "ru": "Перевалка нефти.",
+            "en": "Oil shipment."
+        },
+        "participation-list5" : {
+            "ru": "Расчет эффективности.",
+            "en": "Calculation of economic efficiency."
+        },
+        "participation-list6" : {
+            "ru": "Риск-менеджмент.",
+            "en": "Risk management."
+        },
+        "participation3" : {
+            "ru": "Вот лишь небольшой перечень проектов, над которыми работают наши специалисты.",
+            "en": "This is the small list of our projects."
+        }
+    },
+
+    "contacts" : {
+        "col1-title1": {
+            "ru":"Контакты",
+            "en":"Contacts"
+        },
+        "col1-text1": {
+            "ru": "Более подробную информацию об услугах и программных продуктах, предлагаемых компанией, Вы сможете получить, связавших с нашими специалистами по указанному далее телефону.",
+            "en": "For more detailed information about services and software products please contact our specialists by phone +7(495)775-45-97"
+        },
+        "col1-text2": {
+            "ru": "<b>АйСИСОЛЛ <b>",
+            "en": "ICICALL"
+        },
+        "col1-text3": {
+            "ru": "Чистопрудный бульвар д. 11, строение 1, офис 501",
+            "en": "Chistoprudny Blvd.11-1, office 501"
+        },
+        "col1-text4": {
+            "ru": "Москва, 101000",
+            "en": "Moscow, 101000"
+        },
+        "col1-text5": {
+            "ru": "Тел./Факс: +7(495)775-45-97",
+            "en": "Tel./Fax: +7(495)775-45-97"
+        },
+        "col1-title2": {
+            "ru":"Служба клиентской поддержки",
+            "en":"Customer Support"
+        },
+        "col1-text6": {
+            "ru": "Специалисты АйСИСОЛЛ готовы проконсультировать вас по всем вопросам, касающимся предлагаемых нами решений, а также обсудить возможные пути совершенствования бизнес процессов и организации оптимальной информационной среды вашей компании. Вы можете связаться c нами по телефону +7(495)775-45-97 или отправить сообщение на <a href=\"mailto:info@icicall.com\">info@icicall.com</a>",
+            "en": "Please contact ICICALL specialists if you need any assistance with the system use or if you wish to discuss the ways how to improve your business processes and to organize better information environment at your company. You can call us at +7(495)775-45-97 or send a message by e-mail to <a href=\"mailto:info@icicall.com\">info@icicall.com</a>"
+        },
+        "link-to-map": {
+            "ru": "Просмотреть увеличенную карту",
+            "en": "Link to map"
+        }
+    },
+
+    "about" : {
+        "box-text-1" : {
+            "ru": "Компания \"АйСИСОЛЛ\" специализируется на разработке и внедрении комплексных решений для предприятий ТЭК с 2005 г. Решения компании успешно внедрены и активно применяются тысячами пользователей в ведущих российских нефтегазовых компаниях, а также государственных учреждениях. ",
+            "en": "ICICALL company specializes in development and implementation of complex solutions for fuel and energy complex since 2005. Company’s solutions have been successfully implemented and being used by thousands of specialist of the major oil companies and state organizations."
+        },
+        "box-text-2" : {
+            "ru": "Многолетний успешный опыт специалистов компании по разработке и внедрению различных систем, активное применение передовых технологий, глубокое знание особенностей реализации проектов на нефтегазовом рынке позволяет эффективно и в кратчайшие сроки решать сложнейшие задачи по организации и оптимизации бизнес-процессов. <br><br>Руководители и сотрудники компании являются высококлассными специалистами в своей области, создали и внедрили различные проекты в сфере управления поставками и продажами, логистики, риск менеджмента и др.",
+            "en": "Long-term and successful experience in development and implementation of various systems, extensive usage of advanced technologies and profound knowledge of projects implementation in oil and gas market allows company specialists to solve promptly and effectively the most difficult questions in arrangement and optimization of business processes. <br><br>Company’s executives and specialists are highly skilled experts in their field. They developed and implemented various projects in sales and supply management, logistics and risk management."
+        },
+        "text-1" : {
+            "ru": "Компания имеет большой опыт внедрения проектов в области распределенных систем взаимодействия с контрагентами (CRM), систем мониторинга и оптимизации логистических потоков (Supply Chain Management), систем ведения информации по сделкам (Deal Capture), а также систем управления различными видами рисков (Risk Management) и других.",
+            "en": "Company has a broad experience in development and implementation of customer relationship management (CRM), supply chain management (SCM), deal capture and risk management systems, etc."
+        },
+        "text-2" : {
+            "ru": "Все проекты по разработке и внедрению систем ведутся в тесном сотрудничестве со специалистами заказчика. Осуществление проекта всегда начинается с оценки существующих бизнес-процессов и определения возможных путей оптимизации. Работая с компанией \"АйСИСОЛЛ\", заказчик на каждом этапе внедрения имеет четкое представление о стоимости и экономической эффективности проведения данной разработки.",
+            "en": "All projects in development and implementation are carried out in close collaboration with the customer. The project always starts with evaluation of existing business processes and identification of optimization solutions. Working with ICICALL Company customer has a vision of price and economic efficiency on every stage of current project."
+        },
+        "quot-1" : {
+            "ru": "&ldquo;...Подводя итоги внедрения информационной системы, хотелось бы отметить, что разработанное компанией решение полностью отвечает современным требованиям к ИТ-системам и позволило успешно решить все поставленные задачи. Мы удовлетворены ответственным, профессиональным и качественным подходом специалистов компании к выполнению проекта и внедрению системы...&rdquo;<br><br><b>OOO \"Нарьянмарнефтегаз\"</b>",
+            "en": "&ldquo;...To sum up the implementation of information system it should be noted that the solution developed by the company meets the contemporary IT-standards. The solution allowed solving all the current tasks successfully. We are satisfied with responsible, professional and qualified approach of company experts in project execution and system implementation...&rdquo;<br><br><b> Naryanmarneftegaz Ltd.</b>"
+        },
+        "quot-2" : {
+            "ru": "&ldquo;...Консультанты «АйСИСОЛЛ Консалтинг» продемонстрировали хорошее знание отраслевой специфики и высокий профессиональный уровень. В ходе работы над проектом компания в очередной раз показала себя в качестве надежного и ответственного партнера.....&rdquo;<br><br><b>OOO \"ЛУКОЙЛ-ИНФОРМ\"</b>",
+            "en": "&ldquo;...ICICALL Company consultants have shown a profound knowledge of industry-specifics and high professional level. In the course of work company has proved itself as a reliable and responsible partner.....&rdquo;<br><br><b>LUKOIL-INFORM Ltd.</b>"
+        },
+        "quot-3" : {
+            "ru": "&ldquo;...Внедрение CRM-системы позволило автоматизировать процесс реализации нефтепродуктов и оптимизировать взаимоотношения с клиентами, регламенты работы и процессы принятия решений. Система обеспечивает наличие единой базы документов, позволяет управлять поставками нефтепродуктов на внутреннем и экспортном рынках и повышать эффективность. Система располагает удобными инструментами для формирования и ведения базы покупателей нефтепродуктов, что позволило повысить оперативность продажи и распределения нефтепродуктов среди покупателей и дочерних обществ, обеспечить прозрачность и контроль продаж нефтепродуктов.....&rdquo;<br><br><b>ОАО АНК  \"БАШНЕФТЬ\"</b>",
+            "en": "&ldquo;...Implementation of the CRM System allowed to automate oil products sales process and to optimize operations and decision-making process and hence, relationship with the clients. The CRM system provides a unified database of documents and manages oil products sales and supplies both on the export and domestic markets.The System has convenient tools to make and keep an oil product buyers database that facilitates the increase of online sales and distribution of oil products among buyers and affiliated companies. Besides, it ensures transparency and control of oil products sales process.....&rdquo;<br><br><b>JSOC BASHNEFT</b>"
+        }
+    }
+
+}

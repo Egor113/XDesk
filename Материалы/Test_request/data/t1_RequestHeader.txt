@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Host: yandex.ru
+Connection: Keep-Alive
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Cookie: _ym_visorc_93511=w; _ym_visorc_722818=b; yp=1591050255.szm.1:1920x1080:1920x962#1577874250.ygu.1; _ym_visorc_50377519=b; yc=1575541457.zen.cach%3A1575285850; yandex_gid=213; _ym_isad=2; font_loaded=YSv1; _ym_d=1575282252; yandexuid=3819863651563211408; mda=0; my=YwA=; _ym_uid=1563211448711670427; yabs-frequency=/4/0000000000000000/7MsmS9Wu8ELLi72OE267VN9mc3WWUl8zRPWu9m00/; i=4X0BF0W8L7y5NtZixGmYVeWA9K6w8K4WQ33w1uYH+29UQdp6Z5aPlTC6B8RFndXo6XlfhnfoUeJHHK1PPgV4y4djXm4=; _ym_wasSynced=%7B%22time%22%3A1575282252467%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D
+

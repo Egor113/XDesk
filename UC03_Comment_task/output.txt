@@ -1,4 +1,4 @@
-Virtual User Script started at: 29.11.2019 12:50:10
+Virtual User Script started at: 02.12.2019 10:46:11
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -39,6 +39,7 @@ UC03_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/polyphil
 UC03_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
 UC03_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/index.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
 UC03_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC03_Login.c(3): Notify: Transaction "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" will be skipped - could not calculate the transaction time (duration=0.0045, think_time=0.0000, wasted_time=0.0101).
 UC03_Login.c(3): web_url("/") was successful, 1043680 body bytes, 5400 header bytes  	[MsgId: MMSG-26386]
 UC03_Login.c(13): web_url("/login") started  	[MsgId: MMSG-26355]
 UC03_Login.c(13): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
@@ -121,16 +122,16 @@ UC03_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://le
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(77): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Login.c(77): web_url("/api/ticket/countByState/") was successful, 218 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Login.c(77): web_url("/api/ticket/countByState/") was successful, 168 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Login.c(87): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Login.c(87): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Login.c(87): web_custom_request("/api/ticket/") was successful, 11335 body bytes, 316 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Login.c(87): web_custom_request("/api/ticket/") was successful, 14038 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Login.c(99): web_set_sockets_option started  	[MsgId: MMSG-26355]
 UC03_Login.c(99): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-UC03_Login.c(101): Notify: Transaction "UC03_TR01_Login" ended with a "Pass" status (Duration: 1.5435 Wasted Time: 0.1384).
+UC03_Login.c(101): Notify: Transaction "UC03_TR01_Login" ended with a "Pass" status (Duration: 1.9575 Wasted Time: 0.1249).
 Ending action UC03_Login.
 Starting action UC03_Comment.
 UC03_Comment.c(7): Notify: Transaction "UC03_TR02_Show_tasks" started.
@@ -147,30 +148,30 @@ UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Host" =  "http://
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Port" =  "56902"
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(27): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_1 = 149688".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_2 = 149686".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_3 = 149659".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_4 = 149645".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_5 = 149632".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_6 = 149600".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_7 = 149598".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_8 = 149594".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_9 = 149583".
-UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_10 = 149571".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_1 = 149833".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_2 = 149831".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_3 = 149762".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_4 = 149761".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_5 = 149760".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_6 = 149758".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_7 = 149757".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_8 = 149756".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_9 = 149755".
+UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_10 = 149754".
 UC03_Comment.c(27): Notify: Saving Parameter "taskIdS_count = 10".
-UC03_Comment.c(27): web_custom_request("/api/task/") was successful, 15363 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(27): web_custom_request("/api/task/") was successful, 14006 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Comment.c(39): Notify: Parameter Substitution: parameter "taskIdS_count" =  "10"
-UC03_Comment.c(41): Notify: Parameter Substitution: parameter "taskIdS_10" =  "149571"
-UC03_Comment.c(41): Notify: Saving Parameter "taskID = 149571".
-UC03_Comment.c(43): Notify: Transaction "UC03_TR02_Show_tasks" ended with a "Pass" status (Duration: 0.7522 Wasted Time: 0.0425).
+UC03_Comment.c(41): Notify: Parameter Substitution: parameter "taskIdS_6" =  "149758"
+UC03_Comment.c(41): Notify: Saving Parameter "taskID = 149758".
+UC03_Comment.c(43): Notify: Transaction "UC03_TR02_Show_tasks" ended with a "Pass" status (Duration: 0.8215 Wasted Time: 0.0461).
 UC03_Comment.c(47): Notify: Transaction "UC03_TR03_Open_task" started.
 UC03_Comment.c(49): web_url("/api/task/{taskID}") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(49): Notify: Parameter Substitution: parameter "taskID" =  "149571"
+UC03_Comment.c(49): Notify: Parameter Substitution: parameter "taskID" =  "149758"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(49): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(49): web_url("/api/task/{taskID}") was successful, 1479 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(49): web_url("/api/task/{taskID}") was successful, 1414 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Comment.c(59): web_url("/api/checkLogin") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(59): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(59): Notify: Parameter Substitution: parameter "Port" =  "56902"
@@ -180,32 +181,66 @@ UC03_Comment.c(59): web_url("/api/checkLogin") was successful, 92 body bytes, 31
 UC03_Comment.c(69): web_url("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(69): Notify: Parameter Substitution: parameter "taskID" =  "149571"
+UC03_Comment.c(69): Notify: Parameter Substitution: parameter "taskID" =  "149758"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(69): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(69): web_url("/api/ticket/{taskID}/comment/") was successful, 949 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC03_Comment.c(79): Notify: Transaction "UC03_TR03_Open_task" ended with a "Pass" status (Duration: 0.4349 Wasted Time: 0.0623).
+UC03_Comment.c(69): web_url("/api/ticket/{taskID}/comment/") was successful, 371 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(79): Notify: Transaction "UC03_TR03_Open_task" ended with a "Pass" status (Duration: 0.7407 Wasted Time: 0.0574).
 UC03_Comment.c(83): Notify: Transaction "UC03_TR04_Add_comment" started.
-UC03_Comment.c(105): Notify: Transaction "UC03_TR04_Add_comment" ended with a "Pass" status (Duration: 0.0019).
+UC03_Comment.c(105): Notify: Transaction "UC03_TR04_Add_comment" ended with a "Pass" status (Duration: 0.0020).
 UC03_Comment.c(109): Notify: Transaction "UC03_TR05_Submit_comment" started.
 UC03_Comment.c(111): web_custom_request("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(111): Notify: Parameter Substitution: parameter "taskID" =  "149571"
+UC03_Comment.c(111): Notify: Parameter Substitution: parameter "taskID" =  "149758"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Comment" =  "New comment Ogdanets 1"
+UC03_Comment.c(111): Notify: Parameter Substitution: parameter "Comment" =  "New comment Ogdanets 2"
 UC03_Comment.c(111): web_custom_request("/api/ticket/{taskID}/comment/") was successful, 130 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 UC03_Comment.c(124): web_url("/api/ticket/{taskID}/comment/") started  	[MsgId: MMSG-26355]
 UC03_Comment.c(124): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(124): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(124): Notify: Parameter Substitution: parameter "taskID" =  "149571"
+UC03_Comment.c(124): Notify: Parameter Substitution: parameter "taskID" =  "149758"
 UC03_Comment.c(124): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
 UC03_Comment.c(124): Notify: Parameter Substitution: parameter "Port" =  "56902"
-UC03_Comment.c(124): web_url("/api/ticket/{taskID}/comment/") was successful, 1127 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-UC03_Comment.c(134): Notify: Transaction "UC03_TR05_Submit_comment" ended with a "Pass" status (Duration: 0.7531 Wasted Time: 0.0894).
+UC03_Comment.c(124): web_url("/api/ticket/{taskID}/comment/") was successful, 549 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC03_Comment.c(134): Notify: Transaction "UC03_TR05_Submit_comment" ended with a "Pass" status (Duration: 0.4294 Wasted Time: 0.0342).
 Ending action UC03_Comment.
 Starting action UC03_Logout.
+UC03_Logout.c(3): Notify: Transaction "UC03_TR06_Logout" started.
+UC03_Logout.c(5): web_url("/api/logout") started  	[MsgId: MMSG-26355]
+UC03_Logout.c(5): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
+UC03_Logout.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+UC03_Logout.c(5): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
+UC03_Logout.c(5): Notify: Parameter Substitution: parameter "Port" =  "56902"
+UC03_Logout.c(5): Redirecting "http://learning2.pflb.ru:56902/api/logout" (redirection depth is 0)  	[MsgId: MMSG-26694]
+UC03_Logout.c(5): To location "http://learning2.pflb.ru:56902/login.html"  	[MsgId: MMSG-26693]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/css/core/materialize.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(5): web_url("/api/logout") was successful, 873 body bytes, 675 header bytes  	[MsgId: MMSG-26386]
+UC03_Logout.c(14): web_url("/login") started  	[MsgId: MMSG-26355]
+UC03_Logout.c(14): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
+UC03_Logout.c(14): Notify: Parameter Substitution: parameter "Port" =  "56902"
+UC03_Logout.c(14): Notify: Parameter Substitution: parameter "Host" =  "http://learning2.pflb.ru"
+UC03_Logout.c(14): Notify: Parameter Substitution: parameter "Port" =  "56902"
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/css/core/materialize.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC03_Logout.c(14): web_url("/login") was successful, 873 body bytes, 392 header bytes  	[MsgId: MMSG-26386]
+UC03_Logout.c(24): Notify: Transaction "UC03_TR06_Logout" ended with a "Pass" status (Duration: 0.1160 Wasted Time: 0.0476).
 Ending action UC03_Logout.
 Ending iteration 1.
 Ending Vuser...

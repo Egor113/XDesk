@@ -1,0 +1,7 @@
+HTTP/1.0 200 Ok
+Content-Type: image/gif
+Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 43
+X-Content-Type-Options: nosniff
+

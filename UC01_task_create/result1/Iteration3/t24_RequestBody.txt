@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"Запах газа","ticketStateId": 0,"serviceId": "2842"
-"","files": [],"shopId": "1"}"

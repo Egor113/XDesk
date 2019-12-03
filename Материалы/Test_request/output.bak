@@ -1,0 +1,40 @@
+Virtual User Script started at: 02.12.2019 13:36:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(4): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_url("www.icicall.ru") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "http://www.icicall.ru/css/style.css" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/css/layout.css" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/js/jquery-1.6.2.js" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/js/jquery.cookie.js" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/js/i18n.js" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/js/coin-slider.js" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/js/effects.js" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/flags/english.png" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/flags/russian.png" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/header.jpg" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/header_1.png" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/header_2.png" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/header_4.png" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/1page-title1.gif" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/1page-title2.gif" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.icicall.ru/images/1page-title3.gif" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://www.facebook.com/favicon.ico" in HTML "http://www.icicall.ru/"  	[MsgId: MMSG-26659]
+Action.c(9): Warning -26376: Requested parameter "Region_ID" found in 18 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(9): Warning -26373: Parameter "Region_ID" saved from a resource (URL="http://www.facebook.com/favicon.ico")  	[MsgId: MWAR-26373]
+Action.c(9): web_url("www.icicall.ru") highest severity level was "warning", 1372266 body bytes, 5227 header bytes, 32 chunking overhead bytes  	[MsgId: MMSG-26387]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

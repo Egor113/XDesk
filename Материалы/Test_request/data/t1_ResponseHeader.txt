@@ -1,0 +1,18 @@
+HTTP/1.1 200 Ok
+Content-Security-Policy: report-uri https://csp.yandex.net/csp?project=morda&from=morda.big.ru&showid=1575282401.30245.139705.388477&h=sas1-3135-293-sas-portal-morda-17154&csp=new&date=20191202&yandexuid=3819863651563211408;font-src https://yastatic.net https://main.zdevx.yandex.ru https://zen.yandex.ru;script-src https://main.zdevx.yandex.ru https://yastatic.net 'unsafe-inline' 'self' https://yandex.ru https://zen.yandex.ru https://an.yandex.ru https://mc.yandex.ru;frame-src https://ott-widget.yandex.ru https://downloader.yandex.net https://*.cdn.yandex.net https://awaps.yandex.net https://zen.yandex.ru https://yandex.ru 'self' https://yastatic.net https://main.zdevx.yandex.ru https://yandexadexchange.net https://yabs.yandex.ru https://mc.yandex.ru https://browser.yandex.ru https://*.yandexadexchange.net;default-src https://yastat.net https://yastatic.net;img-src https://yastatic.net https://resize.yandex.net https://zen.s3.yandex.net 'self' https://s3.mds.yandex.net https://auto.ru https://avatars.mds.yandex.net https://favicon.yandex.net https://mc.admetrica.ru https://yabs.yandex.ru https://*.strm.yandex.net https://strm.yandex.ru https://main.zdevx.yandex.ru https://zen.yandex.ru https://yandex.ru https://leonardo.edadeal.io https://an.yandex.ru https://mc.yandex.ru data:;style-src 'unsafe-inline' https://yastatic.net https://main.zdevx.yandex.ru https://zen.yandex.ru;object-src https://avatars.mds.yandex.net;connect-src 'self' https://yastatic.net https://portal-xiva.yandex.net wss://portal-xiva.yandex.net https://api.market.yandex.ru https://games.yandex.ru https://auto.ru https://mc.admetrica.ru https://yabs.yandex.ru https://mobile.yandex.net https://zen.yandex.ru https://yandex.ru https://main.zdevx.yandex.ru https://yastat.net https://an.yandex.ru https://mc.yandex.ru
+Date: Mon, 02 Dec 2019 10:26:41 GMT
+X-Content-Type-Options: nosniff
+Set-Cookie: _ym_d=; Expires=Fri, 04-Dec-2009 10:26:41 GMT; Domain=.yandex.ru; Path=/
+Set-Cookie: _ym_wasSynced=; Expires=Fri, 04-Dec-2009 10:26:41 GMT; Domain=.yandex.ru; Path=/
+Set-Cookie: _ym_visorc_722818=; Expires=Fri, 04-Dec-2009 10:26:41 GMT; Domain=.yandex.ru; Path=/
+Set-Cookie: _ym_visorc_93511=; Expires=Fri, 04-Dec-2009 10:26:41 GMT; Domain=.yandex.ru; Path=/
+Set-Cookie: _ym_visorc_50377519=; Expires=Fri, 04-Dec-2009 10:26:41 GMT; Domain=.yandex.ru; Path=/
+X-Frame-Options: DENY
+Expires: Mon, 02 Dec 2019 10:26:41 GMT
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+Last-Modified: Mon, 02 Dec 2019 10:26:41 GMT
+Transfer-Encoding: chunked
+Cache-Control: no-cache,no-store,max-age=0,must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+

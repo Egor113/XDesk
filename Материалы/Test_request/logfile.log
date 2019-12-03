@@ -1,0 +1,10 @@
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:18: error: missing "
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:18: error: missing "
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:29: error: undeclared identifier `success'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:29: error: undeclared identifier `true'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:30: error: undeclared identifier `success'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:30: error: undeclared identifier `false'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:31: error: undeclared identifier `measurement'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:31: error: operands of = have illegal types `int' and `pointer to char'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: Action1.c:32: error: operands of = have illegal types `int' and `pointer to char'
+c:\users\student\desktop\ogdanets\xdesk\материалы\test_request\\pre_cci.c: c:\\users\\student\\desktop\\ogdanets\\xdesk\\\354\340\362\345\360\350\340\353\373\\test_request\\\\combined_Test_request.c:6: error: 9 errors, not writing pre_cci.ci

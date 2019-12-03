@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 1","header":"Проведение дезинфекции","ticketStateI"
-"d": 0,"serviceId": "2811","files": [],"shopId": "1"}"

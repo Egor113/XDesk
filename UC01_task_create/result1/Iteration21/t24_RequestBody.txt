@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 4","header":"Двери не открываются/закрывают�"
-"�я","ticketStateId": 0,"serviceId": "2944","files": [],"shopId": "-2"}"

@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 3","header":"Холодильник издает посторонние"
-" звуки","ticketStateId": 0,"serviceId": "2970","files": [],"shopId": "-1"}"
+"{"text":"Ogdanets text 5","header":"Пресс не пресует","ticketStateId": 0,"servic"
+"eId": "2905","files": [],"shopId": "-1"}"

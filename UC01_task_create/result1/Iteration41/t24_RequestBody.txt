@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 2","header":"Рассто�\xB9ка не работает","ticketStateI"
-"d": 0,"serviceId": "2895","files": [],"shopId": "4"}"

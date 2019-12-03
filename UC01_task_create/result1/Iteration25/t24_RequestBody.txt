@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"Уничтожение комаров","ticketStateId": 0,"
-""serviceId": "2810","files": [],"shopId": "4"}"

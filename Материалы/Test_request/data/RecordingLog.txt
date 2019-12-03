@@ -1,0 +1,412 @@
+[API Trapper      (2378:23f8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( b1c:1648)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2bb8:180c)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2bb8:13e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2bb8:13e4)] Load Network Traffic Analyzers:
+[Network Analyzer (2bb8:13e4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2bb8:13e4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2bb8:13e4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2bb8:13e4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2bb8:13e4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2bb8:13e4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2bb8:13e4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2bb8:13e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2bb8: f68)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:13e4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:13e4)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 1156 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /css/style.css"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 290 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /css/layout.css"   
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Client -> Server @ : 291 bytes (Service=HTTP)
+[Network Analyzer (2bb8: af0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 3123 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:13e4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2348)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:20a8)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 975 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /js/jquery-1.6.2.js"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 315 bytes (Service=HTTP)
+[Network Analyzer (2bb8: af0)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /js/jquery.cookie.js"   
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Client -> Server @ : 316 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /js/coin-slider.js"   
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Client -> Server @ : 314 bytes (Service=HTTP)
+[Network Analyzer (2bb8:20a8)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 1803 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 3608 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2348)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /js/i18n.js"   
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Client -> Server @ : 307 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 7300 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /js/effects.js"   
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (2bb8:13e4)] Request Connection: Remote Server @ 93.174.131.38:80   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/flags/english.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Client -> Server @ : 349 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 2288 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/flags/russian.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 349 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 1248 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 1365 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/header_1.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Client -> Server @ : 344 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 590 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/header.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Client -> Server @ : 342 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 11773 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/header_2.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Client -> Server @ : 344 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/header_4.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Client -> Server @ : 344 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/1page-title1.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/1page-title2.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: af0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 1734 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 1162 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/1page-title3.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 348 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 1857 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: af0)] Request Connection: Remote Server @ 31.13.72.36:443   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /images/body-tail.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 345 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 7845 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 328 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 31.13.72.36:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /images/logos/icicall-en.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 352 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 5437 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /i18n/dictionary.json"   
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Client -> Server @ : 364 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/top-tail.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/tail-bot.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 1114 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:13e4)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:1fe0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 304 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/top-index-bg.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/menu-act.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 12524 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 518 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/box-tail.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/box-top.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 367 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 490 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:13e4)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 6567 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:1ca8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Web Request      (2bb8: f68)] "GET /images/line-ver.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 368 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 14735 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/box-bot.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Client -> Server @ : 367 bytes (Service=HTTP)
+[Network Analyzer (2bb8:1fe0)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 292 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/info-box1.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/link-left1.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 370 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/link-right1.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 7202 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 572 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 6234 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 933 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/link-tail1.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 370 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/info-box2.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 399 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 1404 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 679 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/info-box3.jpg"   
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Client -> Server @ : 369 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/footer.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Client -> Server @ : 366 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/footer-divider.gif"   
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Client -> Server @ : 374 bytes (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /images/ideal-bubble.png"   
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  3) Server -> Client : 3312 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /i18n/news.json"   
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Client -> Server @ : 382 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  1) Server -> Client : 299 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  2) Server -> Client : 12865 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  5) Server -> Client : 4149 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2348)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid:  6) Server -> Client : 546 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:10bc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 10559 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2348)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2bb8:1edc)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8:2b64)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8:1600)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:1600)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2bb8: 8f8)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2bb8: f68)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEARz0IQIZE3fqX4wm1v0YMM%3D"   
+[Network Analyzer (2bb8: f68)]   (Sid: 12) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 12) Server -> Client : 764 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEARz0IQIZE3fqX4wm1v0YMM%3D"   
+[Network Analyzer (2bb8: f68)]   (Sid: 12) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 12) Server -> Client : 787 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /sha2-ha-server-g6.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 13) Client -> Server @ : 251 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 13) Server -> Client : 263 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /sha2-ha-server-g6.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 13) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 13) Server -> Client : 263 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /sha2-ha-server-g6.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Client -> Server @ : 139 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 9572 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 4220 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 12332 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 7345 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /sha2-ha-server-g6.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Client -> Server @ : 182 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 14) Server -> Client : 5081 bytes  (Service=HTTP)
+[Net An. Error    (2bb8:10bc)] SSLAccept(ssl_id = 244105008 = 0E8CBF30) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8:10bc)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2bb8:1ca8)] SSLAccept(ssl_id = 300896304 = 11EF5030) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8:2b64)] SSLAccept(ssl_id = 246783592 = 0EB59E68) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8:1ca8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2bb8:2b64)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:1fe0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Net An. Error    (2bb8:1edc)] SSLAccept(ssl_id = 301714256 = 11FBCB50) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8:1edc)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2bb8: f68)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2bb8: f68)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (2bb8: f68)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (2bb8: f68)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 31.13.72.36:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2bb8:1fe0)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2bb8: f70)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8: f70)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2bb8: f68)] "GET /favicon.ico"   
+[Network Analyzer (2bb8: f68)]   (Sid: 15) Client -> Server @ : 338 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bb8:  f4)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8: f68)]   (Sid: 15) Server -> Client : 716 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8:  f4)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2bb8: f68)] "GET /ru_RU/all.js"   
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Client -> Server @ : 315 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 835 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 377 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /ru_RU/all.js?hash=ba1d13c70e75f9e5edf6ce7fb012b76b"   
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Client -> Server @ : 353 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 850 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 907 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 16) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /favicon.ico"   
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Client -> Server @ : 227 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid:  4) Server -> Client : 2493 bytes  (Service=HTTP)
+[Network Analyzer (2bb8:2348)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2348)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2bb8: af0)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2818)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: af0)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2bb8:2818)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2bb8:1d20)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bb8: b9c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Error    (2bb8: b9c)] SSLAccept(ssl_id = 246672928 = 0EB3EE20) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8: b9c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2bb8:2348)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8: f68)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (2bb8:2348)] Request Connection: Remote Server @ 31.13.72.12:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2bb8:2828)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8: de0)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2bb8: de0)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Net An. Error    (2bb8:2828)] SSLAccept(ssl_id = 244371800 = 0E90D158) Failed, ctx = 0EB73088, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2bb8:2828)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2bb8: f68)]   (Sid: 19) Connection Terminated (by Client)
+[Web Request      (2bb8: f68)] "GET /connect/xd_arbiter.php?version=44"   
+[Network Analyzer (2bb8: f68)]   (Sid: 20) Client -> Server @ : 352 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 20) Server -> Client : 1050 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 20) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 20) Server -> Client : 3010 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 20) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2bb8:20a8)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:20a8)] Request Connection: Remote Server @ 40.114.224.200:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2bb8: d64)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2bb8:2060)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Network Analyzer (2bb8:2060)] Request Connection: Remote Server @ 152.199.19.160:80   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2bb8: bbc)] Address lookup for Msk2-Learning-07 = 10.0.75.1
+[Web Request      (2bb8: f68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (2bb8: bbc)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (2bb8: f68)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (2bb8: f68)]   (Sid: 23) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 23) Server -> Client : 2600 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Server -> Client : 7956 bytes  (Service=HTTP)
+[Web Request      (2bb8: f68)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (2bb8: f68)]   (Sid: 22) Client -> Server @ : 211 bytes (Service=HTTP)

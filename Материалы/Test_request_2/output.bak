@@ -1,0 +1,73 @@
+Virtual User Script started at: 03.12.2019 11:02:08
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\student\Desktop\Ogdanets\XDesk\Материалы\Test_request_2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action2.
+Action2.c(6): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action2.c(6): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action2.c(12): web_save_header started  	[MsgId: MMSG-26355]
+Action2.c(12): web_save_header was successful  	[MsgId: MMSG-26392]
+Action2.c(14): web_get_int_property started  	[MsgId: MMSG-26355]
+Action2.c(14): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action2.c(16): web_url("/") started  	[MsgId: MMSG-26355]
+Action2.c(16): Notify: Saving Parameter "request_header = GET /ideal.html HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: Keep-Alive\r\nHost: www.icicall.ru\r\n\r\n".
+Action2.c(16): Found resource "http://www.icicall.ru/css/style.css" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/css/layout.css" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/js/jquery-1.6.2.js" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/js/jquery.cookie.js" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/js/i18n.js" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/js/effects.js" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/flags/english.png" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/flags/russian.png" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/3page-title1.gif" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/3page-title2.gif" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/3page-img1.gif" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.icicall.ru/images/ideal.gif" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Found resource "http://www.facebook.com/favicon.ico" in HTML "http://www.icicall.ru/ideal.html"  	[MsgId: MMSG-26659]
+Action2.c(16): Notify: Saving Parameter "successStatus = OK".
+Action2.c(16): web_url("/") was successful, 103175 body bytes, 4462 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action2.c(26): Notify: Saving Parameter "timestamp = 1575360129128".
+Action2.c(28): web_get_int_property started  	[MsgId: MMSG-26355]
+Action2.c(28): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action2.c(28): Notify: Saving Parameter "sentBytes = 3648".
+Action2.c(30): web_get_int_property started  	[MsgId: MMSG-26355]
+Action2.c(30): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action2.c(30): Notify: Saving Parameter "responseCode = 200".
+Action2.c(32): web_get_int_property started  	[MsgId: MMSG-26355]
+Action2.c(32): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action2.c(32): Notify: Saving Parameter "bytes = 107658".
+Action2.c(34): web_get_int_property started  	[MsgId: MMSG-26355]
+Action2.c(34): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action2.c(34): Notify: Saving Parameter "responseTime = 395".
+Action2.c(36): Notify: Saving Parameter "measurement = loadrunner".
+Action2.c(38): Notify: Saving Parameter "label = /".
+Action2.c(40): Notify: Saving Parameter "URL = "http://www.icicall.ru/ideal.html"".
+Action2.c(42): Notify: Parameter Substitution: parameter "successStatus" =  "OK"
+Action2.c(43): Notify: Saving Parameter "success = true".
+Action2.c(46): Notify: Parameter Substitution: parameter "measurement" =  "loadrunner"
+Action2.c(46): Notify: Parameter Substitution: parameter "label" =  "/"
+Action2.c(46): Notify: Parameter Substitution: parameter "responseCode" =  "200"
+Action2.c(46): Notify: Parameter Substitution: parameter "success" =  "true"
+Action2.c(46): Notify: Parameter Substitution: parameter "responseTime" =  "395"
+Action2.c(46): Notify: Parameter Substitution: parameter "bytes" =  "107658"
+Action2.c(46): Notify: Parameter Substitution: parameter "sentBytes" =  "3648"
+Action2.c(46): Notify: Parameter Substitution: parameter "URL" =  ""http://www.icicall.ru/ideal.html""
+Action2.c(46): Notify: Parameter Substitution: parameter "timestamp" =  "1575360129128"
+Action2.c(46): Notify: Saving Parameter "result = loadrunner,label=/,responseCode=200,success=true responseTime=395000,bytes=107658,sentBytes=3648,URL="http://www.icicall.ru/ideal.html" 1575360129128000".
+Action2.c(59): web_custom_request("TestRequest") started  	[MsgId: MMSG-26355]
+Action2.c(59): Notify: Parameter Substitution: parameter "result" =  "loadrunner,label=/,responseCode=200,success=true responseTime=395000,bytes=107658,sentBytes=3648,URL="http://www.icicall.ru/ideal.html" 1575360129128000"
+Action2.c(59): Notify: Saving Parameter "request_header = POST /write?db=db0 HTTP/1.1\r\nContent-Type: application/x-www-form-urlencoded\r\nCache-Control: no-cache\r\nReferer: http://www.icicall.ru/ideal.html\r\nUser-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: Keep-Alive\r\nHost: localhost:8086\r\nContent-Length: 152\r\n\r\n".
+Action2.c(59): web_custom_request("TestRequest") was successful, 0 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
+Ending action Action2.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

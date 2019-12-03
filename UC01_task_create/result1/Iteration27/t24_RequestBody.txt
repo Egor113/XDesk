@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 5","header":"Сломан замок, отсутствует ключ","
-""ticketStateId": 0,"serviceId": "3197","files": [],"shopId": "5"}"

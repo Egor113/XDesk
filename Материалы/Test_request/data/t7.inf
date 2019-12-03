@@ -1,0 +1,13 @@
+[t7]
+FileName1=t7.png
+URL1=https://avatars.mds.yandex.net/get-ynews-logo/26056/1048-1478692902313-square/logo-square
+Total=2
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=image/png
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_widget_ya.html
+URL2=https://yastatic.net/s3/chat/1.19.0/widget_ya.js
+[ProtocolInfo]
+ProtocolId=QTWeb

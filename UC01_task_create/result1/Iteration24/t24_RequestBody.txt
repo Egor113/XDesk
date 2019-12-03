@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"Течь труб (прорыв или свищ)","ticketS"
-"tateId": 0,"serviceId": "2860","files": [],"shopId": "-1"}"

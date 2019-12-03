@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 4","header":"Кондиционер не холодит","ticketStateId"
-"": 0,"serviceId": "2933","files": [],"shopId": "-1"}"

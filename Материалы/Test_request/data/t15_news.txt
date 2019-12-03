@@ -1,0 +1,387 @@
+{
+    "2016" : {
+        "05": {
+            "30": {
+                "ru" : "Компания АйСИСОЛЛ приступила к разработке нового модуля \"Информационной системы учета, инвентаризации и управления поставками нефти iDEAL\" для ООО \"ЛУКОЙЛ-Транс\" (Варандейский отгрузочный терминал). Модуль предназначен для построения единого отчета по перевалке нефти. ",
+                "en" : "ICICALL started development of new module for iDEAL Crude Oil Inventory and Logistics Management Information System for LUKOIL-Trans (Varandey Export Termina lto  allow reporting on  general transshipment of crude oil."
+            },
+            "05": {
+                "ru" : "Компания АйСИСОЛЛ приступила к выполнению проекта по развитию и модификации информационной системы учета контрактов и поставок iDEAL для АО \"ФортеИнвест\".",
+                "en" : "ICICALL continued modification project on iDEAL Contract and Supply Management Information System for CJSC Forteinvest."
+            }
+        },
+        "04": {
+            "15": {
+                "ru" : "В газете <a href=\"http://www.bashneft.ru/press/magazine/\">Башкирская нефть</a> опубликована статья об информационной системе iDEAL. <a href=\"images/bashneft_magazine_6_apr2016.pdf\">Идеальная система</a>.",
+                "en" : "<a href=\"http://www.bashneft.ru/press/magazine/\">\"Bashkirskaya neft\"</a> newspaper published article about Information System iDEAL. <a href=\"images/bashneft_magazine_6_apr2016.pdf\">Ideal System</a>. "
+            }
+        },
+        "03": {
+            "03": {
+                "ru" : "Компанией АйСИСОЛЛ успешно проведены работы по интеграции \"Информационной системы оперативного учета и управления продажами и поставками нефтепродуктов\" для ООО \"ЛУКОЙЛ-Резервнефтепродукт\" с информационными системами предприятий нефтепродуктообеспечения ПАО \"ЛУКОЙЛ\".",
+                "en" : "ICICALL successfully completed integration of Sales and Supply Information System for LUKOIL-Rezervnefteprodukt LLC with information systems for subsidiaries of PJSOC LUKOIL working with petroleum products marketing."
+            }
+        },
+        "02": {
+            "12": {
+                "ru" : "Успешно завершены работы по развитию и модификации информационной системы учета контрактов и поставок iDEAL для ПАО АНК \"Башнефть\" \"Башнефть-Региональные продажи\". В рамках проведенных работ модифицирован процесс создания и согласования разнарядок и заявок, добавлена возможность просмотра фактических отгрузок при формировании разнарядок по мелкому опту, разработан блок отчетности по мониторингу работы в системе, а также отчет \"План-факт поставок\", реализована возможность прямой передачи документов от покупателей в КСАУП \"Лексема\" и обмен плановыми заявками с КСАУП \"Лексема\".",
+                "en" : "ICICALL successfully completed modification of iDEAL Contract and Supply Management Information System for PJSOC Bashneft  Bashneft-Regional Sales. Improvements were implemented to the process of creation and processing of orders and transportation orders. Added the ability to view information about actual shipments within the transportation orders, functionality for direct transmission of customer’s documents from iDEAL to Lexema, two new reports for planned-actual sales monitoring and work in the system monitoring. "
+            }
+        },
+        "01": {
+            "14": {
+                "ru" : "Успешно завершены работы по развитию и модификации информационной системы учета контрактов и поставок iDEAL для ПАО АНК \"Башнефть\". В рамках проведенных работ реализована функциональность по обмену информацией о простое вагонов и приему писем от контрагентов о зачете денежных средств, модифицирован отчет «Сводные заявки» и электронная торговая площадка, а также добавлена возможность формирования прайс-листов.",
+                "en" : "ICICALL successfully completed modification of iDEAL Contract and Supply Management Information System for PJSOC Bashneft. Improvements were implemented to Summary orders report and Electronic Trading Platform.  Added functionality for data exchange on demurrage, clearing documents tracking and forming price lists."
+            }
+        }
+    },
+    "2015" : {
+        "12": {
+            "23": {
+                "ru" : "В промышленную эксплуатацию введена  \"Информационная система оперативного учета и управления продажами и поставками нефтепродуктов\" для ООО \"ЛУКОЙЛ-Резервнефтепродукт\". Система предоставляет функционал по сбору, обработке, согласованию и хранению заявок, приложений и разнарядок на поставку нефтепродуктов от покупателей.",
+                "en" : "Implementation in commercial operation of Sales and Supply Information System for LUKOIL-Rezervnefteprodukt  LLC. System providing the interactive collection and processing of offers, orders and transportation orders for the supply of oil products from customers."
+            }
+        },
+        "11": {
+            "11": {
+                "ru" : "Компанией АйСИСОЛЛ успешно выполнены работы по развитию программного продукта \"Модуль ситуационного моделирования\" информационной системы \"Управление цепочками поставок\" ПАО \"ЛУКОЙЛ\". Модуль предназначен для планирования поставок сырья, а также для оперативного изменения и корректировки планов поставок на заводы ПАО \"ЛУКОЙЛ\".",
+                "en" : "ICICALL successfully completed modification of Situation Modeling Module for Sales and Supply Information System for PJSOC LUKOIL. The Module is to provide planning delivery of crude with ability to make operational changes in delivery plan of PJSOC LUKOIL refineries."
+            }
+        },
+        "07": {
+            "10": {
+                "ru" : "Компания АйСИСОЛЛ приступает к выполнению работ по развитию программного продукта \"Модуль ситуационного моделирования\" информационной системы \"Управление цепочками поставок\" ПАО \"ЛУКОЙЛ\".",
+                "en" : "ICICALL starts a new project on development of Situation Modeling Module for Supple Chain Management Information System for Public Company LUKOIL."
+            }
+        },
+        "06": {
+            "22": {
+                "ru" : "Модифицирована  и улучшена Единая электронная торговая площадка для ПАО АНК \"Башнефть\". Собственная система электронных торгов позволила Компании Башнефть учесть и реализовать все нюансы и особенности проведения торгов. Процесс полностью автоматизирован, начиная от составления плана торгово-закупочных процедур для клиентов, настройки по допуску к торгам потенциальных участников, формированию лотов, времени проведения торгов до  настраивания отчета (протокола) по результатам проведенных торгов.",
+                "en" : "Unified Electronic Trading platform for Public Company Bashneft was modified and improved.  Obtaining its own electronic trading system enabled Public Company Bashneft to consider and implement all details of bidding. This process was fully automated, starting from making a plan of trading and purchasing procedures for clients, adjusting potential clients access to auction, forming lots, setting bidding time to customizing protocols according to completed bidding."
+            }
+        },
+        "05": {
+            "22": {
+                "ru" : "Компания АйСИСОЛЛ будет осуществлять техническую поддержку и сопровождение Информационной система учета, инвентаризации и управления поставками нефти iDEAL для ООО \"ЛУКОЙЛ-Транс\" (Варандейский отгрузочный терминал). ",
+                "en" : "ICICALL will provide technical support and maintenance of iDEAL Crude Oil Inventory and Logistics Management Information System for LUKOIL-Trans (Varandey Export Terminal). "
+            }
+        },
+        "03": {
+            "25": {
+                "ru" : "Для компании ОАО АНК \"Башнефть\" реализована мобильная версия для iPhone на платформе iOS (версии не ниже 8) отчета, отображающего план-факт отгрузок в режиме он-лайн.",
+                "en" : "A new mobile version for iPhone powered by iOS (version 8 and above)  realized, representing online plan/actual of shipment dispatch."
+            },
+            "17": {
+                "ru" : "Стартовал проект по внедрению \"Информационной системы оперативного учета и управления продажами и поставками нефтепродуктов\" в ООО \"ЛУКОЙЛ-Резервнефтепродукт\". Целью является создание единого, автоматизированного механизма по сбору, обработке, согласованию и хранению заявок, приложений и разнарядок на поставку нефтепродуктов от покупателей .",
+                "en" : "A new project started: iDEAL Supply and Sales Information System for LUKOIL-Rezervnefteprodukt LLC. The final goal is to set a unified automated tool for acquisition, processing, coordination and storage of proposals, applications and purchase orders on petroleum products from the customers."
+            }
+        },
+        "01": {
+            "13": {
+                "ru" : "Компания АйСИСОЛЛ будет  осуществлять техническую поддержку и сопровождение корпоративной системы учета контрактов и поставок iDEAL в ОАО АНК \"Башнефть\" Филиала ОАО АНК \"Башнефть\" \"Башнефть–Региональные продажи\"в 2015 году.",
+                "en" : "ICICALL will provide technical support and maintenance of iDEAL Supply and Contract Management System for the branch of Bashneft and Bashneft-Regional Sales in 2015."
+            }
+        }
+    },
+    "2014" : {
+        "12": {
+            "31": {
+                "ru" : "Завершен проект по разработке Системы учета контрактов и поставок iDEAL для Филиала ОАО АНК \"Башнефть\" \"Башнефть-Региональные продажи\". Системой полностью обеспечена автоматизация оперативного взаимодействия между менеджерами компании и покупателями в режиме on-line. Завершена интеграция ИС iDEAL с корпоративными системами ОАО АНК \"Башнефть\" и Филиала ОАО АНК \"Башнефть\" \"Башнефть–Региональные продажи\".",
+                "en" : "IDEAL Contract and Supply Management System project was completely developed and put into service for a branch of JSC Bashneft-\"Bashneft-Regional sales\". The system completely ensured automated real-time interaction between company managers and customers. Completed integration of IS IDEAL with internal programs JSC Bashneft and its branch Bashneft-Regional sales."
+            },
+            "30": {
+                "ru" : "Компания АйСИСОЛЛ реализовала проект по интеграции ИС iDEAL и ИС SAP ERP ОАО АНК \"Башнефть\" на базе веб-сервисов. В результате работа в консолидированном информационном пространстве повысила эффективность бизнес-процесса за счет согласованных действий по использованию систем.",
+                "en" : "ICICALLcompany realized a project on IS IDEAL and IS SAP ERP JSC Bashneft powered by web-services. As a result work in consolidated information field enhanced business process efficiency by means of coordinated system operations."
+            },
+            "29": {
+                "ru" : "Разработана и введена в промышленную эксплуатацию \"Информационная система учета, инвентаризации и управления поставками нефти iDEAL\" для ООО \"ЛУКОЙЛ-Транс\" (Варандейский отгрузочный терминал). Система позволяет осуществлять сбор, хранение и обработку информации по всему маршруту транспортировки и перевалки нефти.",
+                "en" : "iDEAL Crude Oil Inventory and Logistics Management Information System is developed and put into commercial operation for LUKOIL-Trans (Varandey Export Terminal). The system allows to carry out reliability information throughout all transportation route and crude oil transshipment."
+            },
+            "26": {
+                "ru" : "Компания АйСИСОЛЛ запустила модуль \"Служба единого окна\" для ОАО \"ЛУКОЙЛ\". Внедрен сервис, позволяющий, в рамках Торговой политики ОАО \"ЛУКОЙЛ\", более качественно выполнять условия по реализации дизельного и автомобильного топлива в РФ. \"Служба Единого Окна\" предоставляет всем существующим и потенциальным покупателям возможность обращаться в группу \"ЛУКОЙЛ\" с целью заключения договоров на поставку нефтепродуктов.",
+                "en" : "ICICALL launched a \"single-window\" module for JSC LUKOI. The implemented service enabled, under the commercial policy of JSC LUKOIL, to carry out terms of gas and motor fuel delivery in RF. \"Single-window service\" gives all existing and potential customers an opportunity to address LUKOIL group to make petroleum supply deals."
+            }
+        },
+        "10": {
+            "07": {
+                "ru" : "Компания АйСИСОЛЛ приняла участие в Арктической нефтегазовой неделе 2014, посвященной нефтяным и газовым месторождениям Ямала и Карского моря, Тимано-Печоры и Баренцева моря и нефтегазовой логистики Арктики (Северный морской путь).",
+                "en" : "ICICALL took part in Arctic Oil and Gas Week 2014 devoted to toil and gas fields of Yamal and the Kara Sea, Timan-Pechora and the Barents Sea as week as the Arctic oil and gas logistics (The Northern Sea Route)."
+            }
+        },
+        "07": {
+            "14": {
+                "ru" : "Реализована и введена в промышленную эксплуатацию \"Информационная система управления поставками и продажами Downstream online. Версия 2\". Система предназначена для автоматизации деятельности по управлению поставками и продажами нефти и нефтепродуктов ОАО \"ЛУКОЙЛ\"",
+                "en" : "Sales and Supply Information System Downstream Online v.2 was developed and put into operation. The System is designed for automation of supply management and sales of petroleum products in JSC LUKOIL."
+            }
+        },
+        "06": {
+            "05": {
+                "ru" : "Компания АйСИСОЛЛ приступила к выполнению проекта по развитию и модификации информационной системы  учета контрактов и поставок iDEAL для ОАО АНК \"Башнефть\".",
+                "en" : "ICICALL started project development and modification of iDEAL Contract and Supply Management Information System in JSC Bashneft."
+            }
+        },
+        "05": {
+            "16": {
+                "ru" : "Компания АйСИСОЛЛ объявлена победителем открытых тендерных торгов на оказание услуг по поддержке и сопровождению КИС \"Управление поставками и продажами\" для ОАО ЛУКОЙЛ в 2014-2015 гг.",
+                "en" : "ICICALL is declared a winner in open bidding for the provision of technical support and maintenance for Sales and Supply Corporate Information System JSC LUKOIL in 2014-2015."
+            }
+        },
+        "01": {
+            "14": {
+                "ru" : "Выпущена новая версия системы iDEAL. В Системе произошли следующие изменения: улучшено быстродействие, появилась возможность применения электронной цифровой подписи (ЭЦП) на базе КРИПТО-ПРО. Также в Системе модифицирован пользовательский интерфейс, появилась новая функциональность \"Центр уведомлений\" для оперативного обмена системными сообщениями между всеми зарегистрированными пользователями исправлены незначительные ошибки.",
+                "en" : "An new version of the iDEAL system is released. The following changes are made there: speed of response is increased, electronic digital signature (EDS) on the CRYPTO-PRO basis is provided. Besides, the user interface is modified and new Notifications Center comes into being for real-time messaging among registered users, minor bugs fixed."
+            }
+        }
+    },
+    "2013" : {
+        "10": {
+            "18": {
+                "ru" : "Компанией АйСИСОЛЛ разработана адаптивная версия системы IDEAL для мобильных устройств, запущена бета версия нативного iOS приложения.",
+                "en" : "ICICALL has developed an adaptive version of the iDEAL System web-site for mobile devices. The beta version of the native application iOS is launched."
+            }
+        },
+        "06": {
+            "01": {
+                "ru" : "Введена в эксплуатацию система iDEAL для компании ЗАО \"ФортеИнвест\". В процессе внедрения были созданы удаленные рабочие места для контрагентов и менеджеров компании, что обеспечило автоматизацию взаимодействия между ними. Также система iDEAL была интегрирована с внутренними программами компании, и был запущен Модуль Учета Контрактов и Поставок.",
+                "en" : "The iDEAL system has been brought into use in the CJSC ForteInvest. In the course of implementation remote workplaces for customers and managers of the company were created to ensure automation interaction among them. Besides, the iDEAL System was integrated with internal programs of the CJSC ForteInvest and a Contracts and Supply Chains Management Module was put into operation."
+            }
+        },
+        "03": {
+            "23": {
+                "ru" : "\"МСМ\" – Модуль Ситуационного Моделирования. Компания АйСИСОЛЛ для ОАО \"Лукойл\" разработала и внедрила Модуль Ситуационного Моделирования (\"МСМ\"). Данный модуль разрабатывался для управления цепочками поставок и продаж нефтепродуктов и предназначен для внутреннего пользования сотрудников компании. Функционал системы позволяет  визуализировать цепочки поставок на карте, вести сбор и расчет данных по нефтепродуктам на всех участках пути, осуществлять прогноз движения нефтепродуктов, отслеживать возникновение проблемных ситуаций и принимать решение по их устранению",
+                "en" : "Situational Modeling Module (SMM). ICICALL has developed and implemented a Situational Modeling Module (SMM) for the OJSC LUKoil. The module is designed to control oil products sales and supply chains. The module is designed for internal use by the LUKoil specialists. The system functionality enables to visualize supply chains on the map, collect and compute data pertaining to oil products throughout the supply chains, forecast oil products movement, predict emergence of problems as well as their tracking and elimination."
+            }
+        }
+    },
+    "2012" : {
+        "10": {
+            "16": {
+                "ru" : "Компания АйСИСОЛЛ объявлена победителем открытых тендерных торгов на \"Оказание услуг по созданию специального программного продукта \"Информационная система управления поставками и продажами Downstream online. Версия 2\", проводимых ООО \"ЛУКОЙЛ-ИНФОРМ\".",
+                "en" : "ICICALL won open tenders on Modification of Information System for Supplies and Sales DOWNSTREAM ONLINE. Version 2  held by the LLC LUKOIL-INFORM  and was awarded a contract."
+            }
+        },
+        "08": {
+            "22": {
+                "ru" : "Компания \"АйСИСОЛЛ\" объявлена победителем тендерных торгов на \"Оказание услуг по доработке автоматизированной информационной системы документационного обеспечения управления и проведения экспертизы запасов полезных ископаемых (АИС ГКЗ) в 2012 г.\", проводимых ФБУ \"Государственная комиссия по запасам полезных ископаемых\" министерства природных ресурсов и экологии РФ",
+                "en" : "ICICALL won open tenders on Modification of the Automated Information System for Documentary Support of Management and Examination of Mineral Reserves held by the FBO State Commission on Mineral Reserves with the RF Ministry of Natural Resources and Ecology and was awarded a contract."
+            }
+        },
+        "07": {
+            "01": {
+                "ru" : "Компания ЗАО \"ФортеИнвест\" выбрала систему iDEAL для обеспечения автоматизации взаимодействия с контрагентами, с целью повышения эффективности сбытовой деятельности.",
+                "en" : "CJSC \"ForteInvest\" has chosen iDEAL system to provide the automation of customer relationship to increase the efficiency of the marketing activities."
+            }
+        },
+        "04": {
+            "20": {
+                "ru" : "Запущен картографический сервис map.icicall.com, разработанный на основе OpenStreetMap, который позволил осуществлять визуализацию данных на карте и повысил уровень удобства работы в системе iDEAL.",
+                "en" : "Initiation of the OpenStreetMap-based mapping service map.icicall.com. The initiation allowed visualizing of the data on a map and improvement of the usability of iDEAL system."
+            }
+        },
+        "02": {
+            "09": {
+                "ru" : "Осуществлено внедрение облачного сервиса для трейдинговых компаний.",
+                "en" : "Implementation of the cloud service for trading companies."
+            }
+        }
+    },
+    "2011" : {
+        "11": {
+            "24": {
+                "ru" : "Получено Свидетельство о регистрации программ для ЭВМ от Федеральной службы по интеллектуальной собственности, патентам и товарным знакам на новые модули Информационной системы iDEAL: \"Торговая книга\" (iDEAL.Trade), \"Моделирование и визуализация\" (iDEAL.Graf), \"Инвентаризация нефти\" (iDEAL.Inventory).",
+                "en" : "New modules of iDEAL system is officially registered in the Federal Service for Intellectual Property, Patents and Trademarks: Trade book (iDEAL.Trade), Simulation and Visualization (iDEAL.Graf), Oil inventory (iDEAL.Inventory)."
+            }
+        },
+        "06": {
+            "20": {
+                "ru": "Система iDEAL дополнена новыми модулями \"Баланс нефтепродуктов\" (iDEAL.Bаlance) и \"Моделирование и визуализация\" (iDEAL.Graf).",
+                "en": "New modules Oil Balance (iDEAL.Balance) and Simulation and Visualization (iDEAL.Graf) are added to iDEAL system."
+            },
+            "15": {
+                "ru": "Получено Свидетельство о регистрации товарного знака компании от Федеральной службы по интеллектуальной собственности, патентам и товарным знакам.",
+                "en": "Company's trade mark is officially registered in the Federal Service for Intellectual Property, Patents and Trademarks.  "
+            }
+        },
+        "02": {
+            "23": {
+                "ru" : "Осуществлена модернизация автоматизированной системы iDEAL для ОАО АНК \"Башнефть\".",
+                "en" : "Modification of iDEAL information system for JSC \"Bashneft\"."
+            }
+        }
+    },
+    "2010" : {
+        "10": {
+            "23": {
+                "ru" : "Внедрена электронная торговая площадка для ОАО АНК \"Башнефть\".",
+                "en" : "Implementation of electronic trading platform for JSOC \"Bashneft\"."
+            }
+        },
+        "09": {
+            "15": {
+                "ru" : "Внедрена подсистема расчета экономической эффективности (нетбэка) позиций заявки или позиций коммерческого предложения для ОАО АНК \"Башнефть\".",
+                "en" : "Implementation of module for calculation of economical efficiency (Netback) of orders or commercial proposal positions for JSOC \"Bashneft\"."
+            }
+        },
+        "08": {
+            "12": {
+                "ru": "Внедрена система для сбора заявок на поставку нефтепродуктов от покупателей и дочерних сбытовых структур для компании ОАО АНК \"Башнефть\".",
+                "en": "Implementation Information system for collection of oil delivery orders from customers and affiliated retail structures for JSOC \"Bashneft\"."
+            }
+        }
+    },
+    "2009": {
+        "11": {
+            "10" : {
+                "ru": "Внедрена Система учета и управления поставками и продажами нефти для ООО \"Нарьянмарнефтегаз\".",
+                "en": "Implementation and modification of Oil Sales and Supply Management System for LLC \"Naryanmarneftegas\". "
+            }
+        },
+        "09": {
+            "20": {
+                "ru": "Осуществлено внедрение Подсистемы расчета экономической эффективности экспорта нефтепродуктов в рамках Информационной системы \"Управление Поставками и Продажами\" для ОАО \"ЛУКОЙЛ\".",
+                "en": "Implementation of oil products export economic efficiency calculation module as apart of Sales and Supply Information system for JSC LUKOIL."
+            }
+        },
+        "08": {
+            "02": {
+                "ru": "Выпущена брошюра о деятельности и проектах компании \"АйСИСОЛЛ\".",
+                "en": "Publishing of broshure about \"ICICALL\" company, its activities and projects."
+            }
+        },
+        "05": {
+            "08": {
+                "ru": "Oсуществлен проект по внедрению системы iDEAL для решения задач управления транспортной логистикой морских месторождений Северного Каспия для ООО \"ЛУКОЙЛ-Нижневолжскнефть\". ",
+                "en": "The company's specialists have successfully implemented a project for implementation of iDEAL system for monitoring of transport logistics at offshore oil-fields in the Northern Caspian sea for LLC \"LUKOIL-NIZHNEVOLZHSKNEFT\"."
+            }
+        },
+        "02": {
+            "04": {
+                "ru": "Проведена интеграция с популярным программным продуктом построения корпоративной аналитической отчетности \"Business Objects\" фирмы SAP AG.",
+                "en": "Integration with \"Business Objects\" (SAP AG), the popular software for generation of corporate analytical reporting."
+            }
+        }
+    },
+    "2008": {
+        "12": {
+            "05": {
+                "ru": "Разработана Информационная система \"Управление Поставками и Продажами\" (IV очередь) для ОАО \"ЛУКОЙЛ\".",
+                "en": "Development of Sales and Supply Information system (4th stage) for JSC LUKOIL."
+            },
+            "14": {
+                "ru": "Осуществлена модернизация автоматизированной системы документационного обеспечения управления и проведения экспертизы запасов полезных ископаемых (АИС \"Экспертиза\"). ",
+                "en": "Modification of Documentation management and examination of mineral reserves information system (AIS \"Expertize\")."
+            }
+        },
+        "06": {
+            "15": {
+                "ru": "Получено Свидетельство о регистрации на Информационнную систему управления логистикой iDEAL от Федеральной службы по интеллектуальной собственности, патентам и товарным знакам.",
+                "en": "Logistics Management information system iDEAL is officially registered in the Federal Service for Intellectual Property, Patents and Trademarks .  "
+            }
+        },
+        "05": {
+            "22": {
+                "ru": "Получено Свидетельство о регистрации на Информационнную систему документационного обеспечения управления и проведения экспертизы iDEAL от Федеральной службы по интеллектуальной собственности, патентам и товарным знакам.",
+                "en": "Docflow and Expertise Management information system iDEAL is officially registered in the Federal Service for Intellectual Property, Patents and Trademarks .  "
+            }
+        }
+    },
+    "2007": {
+        "08": {
+            "14": {
+                "ru": "Проведено бизнес обследования и подготовка ТЗ по внедрению и модификации Системы оперативного учета и управления поставками и продажами нефти для ООО \"Нарьянмарнефтегаз\".",
+                "en": "Completing of business examination and preparation of Technical project for implementation and modification of Sales and Supply Management System for LLC \"Naryanmarneftegas\"."
+            }
+        },
+        "07": {
+            "11": {
+                "ru": "Внедрена 2 очередь АИС \"Экспертиза\" для документационного обеспечения управления и проведения экспертизы запасов полезных ископаемых .",
+                "en": "Implementation of 2 stage of Documentation management and examination of mineral reserves information system (AIS SRC \"Expertize\")."
+            }
+        },
+        "05": {
+            "21": {
+                "ru": "Разработан технический проект на создание Центра транспортной логистики (ЦТЛ) для ООО \"ЛУКОЙЛ-Нижневолжскнефть\".",
+                "en": "Preparation of Technical Project for development of Transportation Logistics Center for LLC \"LUKOIL-NIZHNEVOLZHSKNEFT\"."
+            }
+        },
+        "01": {
+            "23": {
+                "ru": "Подписан договор на оказание услуг по поддержке и модификации ИС \"Управление Поставками и Продажами\" для OAO \"ЛУКОЙЛ\".",
+                "en": "Signing of contract for maintenance and modification of Sales and Supply Information system with JSC LUKOIL."
+            }
+        }
+
+    },
+    "2006": {
+        "12": {
+            "25": {
+                "ru": "Внедрена АИС \"Экспертиза\" для документационного обеспечения управления и проведения экспертизы запасов полезных ископаемых.",
+                "en": "Development and implementation of Documentation management and examination of mineral reserves information system AIS \"Expertize\"."
+            }
+        },
+        "10": {
+            "11": {
+                "ru": "Участие в проекте внедрения ИСУ \"ЛЛК-Интернешнл\" на базе программного обеспечения mySAP® Business.",
+                "en": "Participation in the project on implementation of ISU \"LLK-International\" on the basis of mySAP® Business."
+            }
+        },
+        "09": {
+            "15": {
+                "ru": "Внедрена \"Система расчета экономической эффективности экспорта нефтепродуктов\" для ОАО \"ЛУКОЙЛ\".",
+                "en": "Development of information system for calculation of economic efficiency of oil products export for JSC LUKOIL."
+            }
+        },
+        "08": {
+            "10": {
+                "ru": "Разработана ИС \"Управление Поставками и Продажами\" (II очередь) для ОАО \"ЛУКОЙЛ\".",
+                "en": "Development of Sales and Supply Information system (2nd stage) for JSC LUKOIL."
+            }
+        },
+        "03": {
+            "10": {
+                "ru": "Разработано ТЗ на создание Центра транспортной логистики (ЦТЛ) для ООО \"ЛУКОЙЛ-Нижневолжскнефть\".",
+                "en": "Preparation of Technical specification for development of Transportation Logistics Center for LLC \"LUKOIL-NIZHNEVOLZHSKNEFT\"."
+            }
+        }
+
+    },
+    "2005": {
+        "10": {
+            "30": {
+                "ru": "Выпуск брошюры по автоматизации управления цепочками поставок.",
+                "en": "Publishing of broshure on Automation of Supply Chain Management."
+            },
+            "12": {
+                "ru": "Получено Свидетельство о регистрации ИС учета контрактов и поставок iDEAL от Федеральной службы по интеллектуальной собственности, патентам и товарным знакам.",
+                "en": "Contracts and Supply Management information system iDEAL is officially registered in the Federal Service for Intellectual Property, Patents and Trademarks .  "
+            }
+        },
+        "09": {
+            "05": {
+                "ru": "Заключен государственный контракт на разработку ТЗ для проведения конкурса на размещение заказа на создание автоматизированной системы документационного обеспечения управления и проведения экспертизы запаса полезных ископаемых для ФГУ \"Государственная комиссия по запасам полезных ископаемых\".",
+                "en": "Signing of state contract with \"State Reserves Committee\" for preparation of Technical specification on development of IT system for documentation management and examination of mineral reserves. "
+            }
+        },
+        "08": {
+            "25": {
+                "ru": "Разработана ИС \"Управление Поставками и Продажами\" (I очередь) для ОАО \"ЛУКОЙЛ\".",
+                "en": "Development of Sales and Supply Information system (1st stage) for JSC LUKOIL."
+            },
+            "21": {
+                "ru": "Проведены работы по оценке перспектив развития информационной инфраструктуры для компании МЕГАТРАНС.",
+                "en": "Execution of project for evaluation of possibilities of IT-infrastructure development for MEGATRANS S.A. company. "
+            },
+            "05": {
+                "ru": "В каталоге решений для нефтегазовой отрасли Microsoft опубликовал информацию о системе управления и учета iDEAL компании \"АйСИСОЛЛ\"",
+                "en": "The Microsoft solutions catalogue published the report on ICICALL solution for oil and gas industry iDEAL."
+            }
+        },
+        "06": {
+            "05": {
+                "ru": "Внедрена автоматизированная информационная система оперативного управления и учета на базе системы iDEAL для компании Петрокрафт.",
+                "en": "Implementation of automated operational management and accounting system on the basis of iDEAL system for Petrocraft company."
+
+            }
+        }
+    }
+}

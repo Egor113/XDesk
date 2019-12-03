@@ -1,4 +1,6 @@
 [vuser_init]
 SnapshotIndex=I1_vuser_init
+[UC01_Create_incident]
+SnapshotIndex=I1_UC01_Create_incident
 [UC01_Login]
 SnapshotIndex=I1_UC01_Login

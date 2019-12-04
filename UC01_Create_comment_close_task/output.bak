@@ -1,0 +1,70 @@
+Virtual User Script started at: 04.12.2019 12:27:49
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (рту 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\student\Desktop\Ogdanets\XDesk\UC01_Create_comment_close_task\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC01_Login.
+UC01_Login.c(3): web_url("/") started  	[MsgId: MMSG-26355]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/materialize.min.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/uploadfile.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/quill.snow.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/select2.min.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/style.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/css/company_2.css" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/legacy.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/clamp.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.uploadfile.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.maskedinput.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/jquery.ee.router.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/select2.full.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/readmore.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/dust.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/dust-helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/custom-helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialize.min.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialize-select.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialize-pagination.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/polyphills.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/index.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): Found resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
+UC01_Login.c(3): web_url("/") was successful, 1043680 body bytes, 5403 header bytes  	[MsgId: MMSG-26386]
+UC01_Login.c(13): web_url("/login") started  	[MsgId: MMSG-26355]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/css/core/material_icons.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Found resource "http://learning2.pflb.ru:56902/css/core/materialize.css" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/css/style.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/js/core/legacy.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/js/core/jquery-3.1.1.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/js/core/dust.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC01_Login.c(13): Found resource "http://learning2.pflb.ru:56902/js/core/materialize.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+UC01_Login.c(13): Found resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" in HTML "http://learning2.pflb.ru:56902/login"  	[MsgId: MMSG-26659]
+UC01_Login.c(13): web_url("/login") was successful, 528866 body bytes, 973 header bytes  	[MsgId: MMSG-26386]
+UC01_Login.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC01_Login.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC01_Login.c(25): Notify: Transaction "UC01_TR01_Login" started.
+UC01_Login.c(27): web_set_user started  	[MsgId: MMSG-26355]
+UC01_Login.c(27): web_set_user was successful  	[MsgId: MMSG-26392]
+UC01_Login.c(29): web_submit_data("/api/login") started  	[MsgId: MMSG-26355]
+UC01_Login.c(29): Error -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");  	[MsgId: MERR-26547]
+UC01_Login.c(29): Error -26630: HTTP Status-Code=401 (Unauthorized) for "http://learning2.pflb.ru:56902/api/login"  	[MsgId: MERR-26630]
+UC01_Login.c(29): web_submit_data("/api/login") highest severity level was "ERROR", 180 body bytes, 405 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
+UC01_Login.c(29): Notify: Transaction "UC01_TR01_Login" ended with a "Fail" status (Duration: 0.4563 Wasted Time: 0.0249).
+UC01_Login.c(29): Notify: Transaction "UC01_TR01_Login" has 2 error message(s).
+UC01_Login.c(29): Notify: The 1st error message associated with transaction "UC01_TR01_Login" is "Error -26547: Authentication required, please use "web_set_user", e.g. web_set_user("domain\\user", "password", "host:port");"
+UC01_Login.c(29): Notify: The 2nd error message associated with transaction "UC01_TR01_Login" is "Error -26630: HTTP Status-Code=401 (Unauthorized) for "http://learning2.pflb.ru:56902/api/login""
+Ending action UC01_Login.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

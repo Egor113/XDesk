@@ -1,2 +1,3 @@
-"{"text":"Ogdanets text 1","header":"Отлов птиц","ticketStateId": 0,"serviceId": "2816"
-"","files": [],"shopId": "-2"}"
+"{"text":"Ogdanets text 1","header":"Требуется покраска стены (м2), тр"
+"ебуется об�\x88ить стену гипсокартоном  (м2)","ticketStateId": "
+"0,"serviceId": "2865","files": [],"shopId": "2"}"

@@ -2861,26 +2861,6 @@ UC01_Create()
 		"Mode=HTML", 
 		"LAST");
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	
 	lr_save_string("", "c_buffer");
 	
 	if (atoi(lr_eval_string("{inventoryNumbers_count}")) == 0){
@@ -3104,26 +3084,6 @@ UC01_Comment()
 	lr_think_time(10);
 
 	lr_start_transaction("UC03_TR04_Add_comment");
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
 	lr_end_transaction("UC03_TR04_Add_comment",2);
 

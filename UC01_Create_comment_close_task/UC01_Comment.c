@@ -82,26 +82,6 @@ UC01_Comment()
 
 	lr_start_transaction("UC03_TR04_Add_comment");
 
-//	web_reg_save_param_json(
-//        "ParamName=FileID",
-//        "QueryString=$[*].id",
-//         SEARCH_FILTERS,
-//        "Scope=Body",
-//        "LAST");
-//	
-//	web_submit_data("/api/ticket/file/", 
-//		"Action={Host}:{Port}/api/ticket/file/", 
-//		"Method=POST", 
-//		"EncType=multipart/form-data", 
-//		"TargetFrame=", 
-//		"RecContentType=application/json", 
-//		"Referer={Host}:{Port}/", 
-//		"Snapshot=t16.inf", 
-//		"Mode=HTML", 
-//		ITEMDATA, 
-//		"Name=files", "Value={File}", "File=Yes", ENDITEM, 
-//		LAST);
-
 	lr_end_transaction("UC03_TR04_Add_comment",LR_AUTO);
 
 	lr_think_time(THINKTIME);

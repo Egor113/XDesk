@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 1","header":"Нет вывоза вторичного сырья","tick"
-"etStateId": 0,"serviceId": "2813","files": [],"shopId": "2"}"
+"{"text":"Ogdanets text 5","header":"Лифт работает с открыто�\xB9 двер�"
+"�е�\xB9","ticketStateId": 0,"serviceId": "2915","files": [],"shopId": "4"}"

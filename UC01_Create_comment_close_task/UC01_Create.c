@@ -156,26 +156,6 @@ UC01_Create()
 		"Mode=HTML", 
 		LAST);
 
-//	web_reg_save_param_json(
-//        "ParamName=FileID",
-//        "QueryString=$..id",
-//        SEARCH_FILTERS,
-//        "Scope=Body",
-//        "LAST");
-//	
-//	web_submit_data("/api/ticket/file/", 
-//		"Action={Host}:{Port}/api/ticket/file/", 
-//		"Method=POST", 
-//		"EncType=multipart/form-data", 
-//		"TargetFrame=", 
-//		"RecContentType=application/json", 
-//		"Referer={Host}:{Port}/", 
-//		"Snapshot=t21.inf", 
-//		"Mode=HTML", 
-//		ITEMDATA, 
-//		"Name=files", "Value={File}", "File=yes", ENDITEM, 
-//		LAST);
-	
 	lr_save_string("", "c_buffer");
 	
 	if (atoi(lr_eval_string("{inventoryNumbers_count}")) == 0){

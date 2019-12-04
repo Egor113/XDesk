@@ -1,4 +1,4 @@
-POST /api/ticket/149729/comment/ HTTP/1.1
+POST /api/ticket/150111/comment/ HTTP/1.1
 Content-Type: application/json; charset=utf-8
 Cache-Control: no-cache
 Referer: http://learning2.pflb.ru:56902/
@@ -7,6 +7,6 @@ Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
 Host: learning2.pflb.ru:56902
-Cookie: SESSION=4d5ae398-cc36-449c-8f6d-5075777c748d
+Cookie: SESSION=d0496f0b-7a2d-4d3c-bbff-a4da60c01a92
 Content-Length: 44
 

@@ -1,2 +1,3 @@
-"{"text":"Ogdanets text 1","header":"Вентиляция не греет","ticketStateId": 0,""
-"serviceId": "2935","files": [],"shopId": "-2"}"
+"{"text":"Ogdanets text 1","header":"Отсутствие индикации (не вращаю"
+"тся ролики или индикации электр. табло)","ticketStateId": 0,"s"
+"erviceId": "2822","files": [],"shopId": "5"}"

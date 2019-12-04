@@ -1,7 +1,7 @@
 Action2()
 {
 
-int request_size_before = 0;
+	int request_size_before = 0;
 	
 	web_reg_save_param_regexp("ParamName=successStatus",
         "RegExp=OK",
@@ -45,7 +45,7 @@ int request_size_before = 0;
 	
 	lr_param_sprintf("result","%s,label=%s,responseCode=%s," 
 	                 "success=%s responseTime=%s000,bytes=%s,"
-	 				 "sentBytes=%s,URL=%s %s000",
+	 				 "sentBytes=%s,URL=%s %s000000",
 		   lr_eval_string("{measurement}"),
 		   lr_eval_string("{label}"),
 		   lr_eval_string("{responseCode}"),

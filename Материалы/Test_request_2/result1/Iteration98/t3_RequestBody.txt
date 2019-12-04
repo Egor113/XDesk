@@ -1,0 +1,2 @@
+"loadrunner,label=/,responseCode=200,success=true responseTime=212000,bytes=107658,sentBytes=36"
+"48,URL="http://www.icicall.ru/ideal.html" 1575450309432000000"

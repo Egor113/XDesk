@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action2",
+        "steps": [
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: /",
+                "infFile": "t2.inf",
+                "time": 1575450261220
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Custom Request: TestRequest",
+                "infFile": "t3.inf",
+                "time": 1575450261320
+            }
+        ],
+        "transactions": []
+    }
+]

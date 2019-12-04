@@ -20,26 +20,6 @@ UC01_Login()
 		"Mode=HTML", 
 		LAST);
 
-//	String result = measurement
-//                + ",label=" + getLabel()
-//                + ",responseCode=" + getResponseCode()
-//                + ",success=" + getSuccess()
-//                + " responseTime=" + getElapsed()
-//                + ",bytes=" + getBytes()
-//                + ",sentBytes=" + getSentBytes()
-//                + ",URL=\"" + getURL()
-//                + "\" " + getTimeStamp()
-//                + timestamp0
-//                + "\n";
-//        
-//	measurement - название вашей "таблицы", например, loadrunner
-//	label - название запроса
-//
-// 	Итоговая строка выглядит как-то так:
-// 	"loadrunner,label=/getMessage,responseCode=200
-// 	,success=true responseTime=358,bytes=523133123
-// 	,sentBytes=3234123,URL=\"http://azaza.com/getMessage\" 300012123123"
-	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_start_transaction("UC01_TR01_Login");

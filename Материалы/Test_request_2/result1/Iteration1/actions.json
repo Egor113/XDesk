@@ -6,13 +6,13 @@
                 "stepId": "STEP1",
                 "stepName": "Url: /",
                 "infFile": "t2.inf",
-                "time": 1575363261592
+                "time": 1575450257609
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Custom Request: TestRequest",
                 "infFile": "t3.inf",
-                "time": 1575363261680
+                "time": 1575450257714
             }
         ],
         "transactions": []

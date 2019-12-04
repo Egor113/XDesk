@@ -1,0 +1,62 @@
+/**
+ * @author: Andrey Filatov ICICALL
+ * @created: 13.04.11 11:42
+ */
+
+/* плавное раскрытие новостей */
+$(function() {
+    $("#toggle-old-news").click(function() {
+        $("#old-news").slideToggle(600, function() {
+            if ($("#old-news").css("display") == "none") {
+                $("#toggle-old-news span span").html(translateMarker("index.all-news", $.cookie('ui_language')));
+            } else {
+                $("#toggle-old-news span span").html(translateMarker("index.hide-news", $.cookie('ui_language')));
+            }
+        });
+    });
+});
+
+/* раскрытие меню при наведении */
+$(function() {
+    $('#header ul li').hover(
+            function() {
+//                    $(this).addClass("active-menu-item");
+                $(this).find('ul').stop(true, true); // останавливаем всю текущую анимацию
+                $(this).find('ul').slideDown();
+            },
+            function() {
+//                    $(this).removeClass("active-menu-item");
+                $(this).find('ul').slideUp('fast');
+            });
+});
+
+/* bubble описания idealonline */
+function iDealBubble() {
+    var hideDelay = 500;
+
+    var tooltip = $('<div id="tooltipContainer" style="position:absolute;width:201px;height:122px;">'
+            + '<img src="../images/ideal-bubble.png">'
+            + '</div>').hide();
+
+    $('body').append(tooltip);
+
+    $('a[href="https://idealonline.ru"]').mouseover(
+            function(kmouse) {
+                tooltip.css({left:kmouse.pageX - 10, top:kmouse.pageY - 130});
+                tooltip.css({opacity:1.0, display:"none"}).fadeIn(hideDelay);
+            }).mousemove(
+            function(kmouse) {
+//                tooltip.css({left:kmouse.pageX - 10, top:kmouse.pageY - 130});
+            }).mouseout(function() {
+        tooltip.animate({ opacity: "hide" }, "slow")
+//        tooltip.fadeOut(400);
+    });
+};
+
+
+/* sliding 3х строк слогана на главной странице */
+$(function() {
+    $('#index #slogan-line1').animate({opacity: "show", left: "100px"}, 1200);
+    $('#index #slogan-line2').animate({opacity: "show", left: "120px"}, 1200);
+    $('#index #slogan-line3').animate({opacity: "show", left: "140px"}, 1200);
+});

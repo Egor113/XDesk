@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 5","header":"Пресс не пресует","ticketStateId": 0,"servic"
-"eId": "2905","files": [],"shopId": "-1"}"
+"{"text":"Ogdanets text 1","header":"Ключ сломан в замке (се�\xB9ф Закр�"
+"�т)","ticketStateId": 0,"serviceId": "3001","files": [],"shopId": "5"}"

@@ -2622,26 +2622,6 @@ UC01_Login()
 		"Mode=HTML", 
 		"LAST");
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
 	lr_start_transaction("UC01_TR01_Login");
@@ -2729,10 +2709,9 @@ UC01_Login()
 # 5 "c:\\users\\student\\desktop\\ogdanets\\xdesk\\uc01_task_create\\\\combined_UC01_task_create.c" 2
 
 # 1 "UC01_Create_incident.c" 1
-int j;
-int shopID_index;
-int inventoryNumberId_index;
+int j, shopID_index, inventoryNumberId_index, request_size_before = 0;;
 long FileVarriable;
+
 
 UC01_Create_incident()
 {

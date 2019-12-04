@@ -1,0 +1,155 @@
+/**
+ * @author: Andrey Filatov ICICALL
+ * @created: 13.04.11 11:42
+ */
+
+// задание имени аттрибута для поиска в html
+var translate_attrib = "i18n";
+
+// словарь перевода в формате JSON
+var translate_dict = null;
+
+/**
+ * Функция перевода элементов DOM документов на основе предварительно созданных словарей
+ *
+ * @param language наименование языка перевода {"en", "ru"}
+ *
+ */
+function doTranslate(language) {
+    if (language == "en") {
+//        return;
+    }
+
+    var json_location = "i18n/dictionary.json";
+    $("#logo img").attr("src", "images/logos/icicall-" + language + ".png");
+
+    // загрузка JSON данных со словарём перевода из файла json_location
+    $.getJSON(json_location, function(data) {
+        translate_dict = data;
+        // пробегаем по всем элементам data
+        $("*[" + translate_attrib + "]").each(function() {
+            $(this).html(translateMarker($(this).attr(translate_attrib), language));
+        });
+
+        iDealBubble();
+        initializeNews($.cookie('ui_language'));
+    });
+
+    // Сохраняем выбранный для пользователя язык
+    $.cookie('ui_language', language, {expires: 7});
+}
+
+/**
+ * Функция получения перевода метки token на указанный язык из локального хранилища
+ * @param marker наименование метки для перевода
+ * @param language язык перевода { "ru", "en" }
+ */
+function translateMarker(marker, language) {
+
+    if (translate_dict != null) {
+
+        var array = marker.split(".");
+        switch (array.length) {
+            case 1:
+                return translate_dict[array[0]][language];
+            case 2:
+                return translate_dict[array[0]][array[1]][language];
+                break;
+            default:
+                return "too deep hierarchy in the dictionary";
+        }
+    } else {
+        return "translation dictionary not yet loaded";
+    }
+}
+
+function initializeNews(language) {
+
+
+    var months = [];
+    if (language == "ru") {
+
+        months = [translateMarker("months.jan", "ru"), translateMarker("months.feb", "ru"), translateMarker("months.march", "ru"), 
+            translateMarker("months.apr", "ru"), translateMarker("months.may", "ru"), translateMarker("months.june", "ru"), 
+            translateMarker("months.july", "ru"), translateMarker("months.aug", "ru"), translateMarker("months.sept", "ru"), 
+            translateMarker("months.oct", "ru"), translateMarker("months.nov", "ru"), translateMarker("months.dec", "ru")];
+
+//        months = [translateMarker("янв", "ru"), "февр", "март", "апр", "май", "июнь", "июль", "авг", "сент", "окт", "ноябр", "дек"];
+    } else {
+        months = [translateMarker("months.jan", "en"), translateMarker("months.feb", "en"), translateMarker("months.march", "en"), 
+            translateMarker("months.apr", "en"), translateMarker("months.may", "en"), translateMarker("months.june", "en"), 
+            translateMarker("months.july", "en"), translateMarker("months.aug", "en"), translateMarker("months.sept", "en"), 
+            translateMarker("months.oct", "en"), translateMarker("months.nov", "en"), translateMarker("months.dec", "en")];
+    }
+
+    $.getJSON("i18n/news.json", function(data) {
+
+        $("#old-news").html('');
+        $("#current-news").html('');
+        var years = [];
+        $.each(data, function(year, data) {
+            years.push(year);
+        });
+        years.sort();
+
+        for(var i = 0; i < years.length; i++) {
+            var year = years[i];
+
+            var year_div = "<div>";
+            year_div += "<h2><b>" + year + "</b></h2><div class=\"line-hor\"></div>";
+
+            var news = [];
+            var news_index = 0;
+
+            $.each(data[year], function(month, data) {
+                $.each(data, function(day, text) {
+                    news[news_index] = "<li><span><strong>" + day + "</strong><b>" + months[month - 1] +
+                            "</b></span><em>" + text[language] + "</em></li>";
+                    news_index++;
+//                    alert("месяц=" + month + " день=" + day + " новость=" + text["ru"]);
+                });
+            });
+
+            year_div += "<div class=\"col-1\"><ul class=\"list-2\">";
+//            alert(year + " news count" + news.length);
+            for (var j = 0; j < news.length / 2; j++) {
+                year_div += news[j];
+            }
+            year_div += "</ul></div>";
+            year_div += "<div class=\"col-2\"><ul class=\"list-2\">";
+            for (var k = Math.round(news.length / 2); k < news.length; k++) {
+                year_div += news[k];
+            }
+            year_div += "</ul></div>";
+            year_div += "</div><div class=\"clear\"></div>";
+
+            if (i == years.length - 1) {
+                $("#current-news").html(year_div);
+            } else {
+                $("#old-news").prepend(year_div);
+            }
+        }
+        $("#old-news").hide();
+    });
+}
+
+
+$(function() {
+    // При загрузке документа выставляем выбранный пользователем перевод
+    if ($.cookie('ui_language') != null)
+        doTranslate($.cookie('ui_language'));
+    else {
+        // при первом заходе пользователя на сайт, пока у него ещё нет cookie
+        // считываем локаль ОС
+        // window.navigator.userLanguage - работает только в IE
+        // window.navigator.language - для всех остальных браузеров
+        var language = window.navigator.userLanguage || window.navigator.language;
+        if (language == "ru")
+            doTranslate("ru");
+        else
+            doTranslate("en");
+    };
+});
+
+
+

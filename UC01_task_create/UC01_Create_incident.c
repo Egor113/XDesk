@@ -1,7 +1,6 @@
-int j;
-int shopID_index;
-int inventoryNumberId_index;
+int j, shopID_index, inventoryNumberId_index, request_size_before = 0;;
 long FileVarriable;
+
 
 UC01_Create_incident()
 {

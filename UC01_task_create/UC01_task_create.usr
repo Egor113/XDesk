@@ -61,14 +61,12 @@ UC01_Create_incident=cci
 UC01_Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC01_TR01_Login__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC01_TR04_Logout"
+Order="UC01_TR01_Login__*delimiter*__UC01_TR04_Logout"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC01_TR01_Login=
-UC01_TR02_Create_incident=
-UC01_TR03_Incident_data=
 UC01_TR04_Logout=

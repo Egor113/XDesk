@@ -1,0 +1,99 @@
+/*======= index.html =======*/
+
+#index .line-ver-1 {background-position: 326px 0%;}
+#index .line-ver-2 {background-position: 653px 0%;}
+#index .row-1 p {text-align:left;}
+#index .row-1 .col-1 {width: 281px; padding: 0 20px 0 0;}
+#index .row-1 .col-2 {width: 283px; padding: 0 20px 0 24px;}
+#index .row-1 .col-3 {width: 272px; padding: 0 0 0 28px;}
+
+#index .row-2 .col-1 {width: 45%; padding: 0 54px 0 0;}
+#index .row-2 .col-2 {width: 45%;}
+
+#index .row-2 h1 {padding: 0 0 10px 0;}
+#index .row-2 h2 {padding: 0 0 0 0;}
+
+div#fb-recommend {position:relative; left:20px; top: 2px }
+
+
+/*======= about.html =======*/
+
+#about .col-1 {width: 600px; padding: 0 15px 0 0;}
+#about .col-2 {width: 350px; padding: 20px 15px 0 0;}
+
+#about .col-1 .block-1 {width: 246px; padding: 0 60px 18px 0;}
+#about .col-1 .block-2 {width: 250px; padding: 0 0 18px 0;}
+
+/*======= mission.html =======*/
+
+#mission .col-1 {width: 600px; padding: 0 15px 0 0;}
+#mission .col-2 {width: 350px; padding: 20px 15px 0 0;}
+
+#mission .col-1 .block-1 {width: 246px; padding: 0 60px 18px 0;}
+#mission .col-1 .block-2 {width: 250px; padding: 0 0 18px 0;}
+
+/*======= management.html =======*/
+
+#management .col-1 {width: 600px; padding: 0 15px 0 0;}
+#management .col-2 {width: 350px; padding: 20px 15px 0 0;}
+
+#management .col-1 .block-1 {width: 246px; padding: 0 60px 18px 0;}
+#management .col-1 .block-2 {width: 250px; padding: 0 0 18px 0;}
+
+
+/*======= solutions.html =======*/
+
+#solutions .line-ver-1 {background-position: 326px 0%;}
+#solutions .row-1 .col-1 {width: 281px; padding: 0 20px 0 0;}
+#solutions .row-1 .col-2 {width: 579px; padding: 0 20px 0 28px;}
+
+#solutions .row-2 .col-1 {width: 450px; padding: 0 15px 0 0;}
+#solutions .row-2 .col-2 {width: 450px;}
+
+#solutions .row-2 H3 {color:#5E991A;}
+
+/*======= ideal.html =======*/
+
+#ideal .line-ver-1 {background-position: 326px 0%;}
+#ideal .row-1 .col-1 {width: 281px; padding: 0 20px 0 0;}
+#ideal .row-1 .col-2 {width: 579px; padding: 0 20px 0 28px;}
+
+#ideal .row-2 .col-1 {width: 450px; padding: 0 15px 0 0;}
+#ideal .row-2 .col-2 {width: 450px;}
+
+#ideal .row-2 a {color:#5E991A;}
+
+/*#ideal .col-1 {width: 600px; padding: 0 15px 0 0;}*/
+/*#ideal .col-2 {width: 350px; padding: 20px 15px 0 0;}*/
+
+/*======= services.html =======*/
+
+#services .col-1 {width: 600px; padding: 0 15px 0 0;}
+#services .col-2 {width: 350px; padding: 20px 15px 0 0;}
+
+/*#services .box-1 {width: 597px; float: left; margin-right: 39px}*/
+/*#services dl {padding: 39px 42px 0 36px;}*/
+
+/*======= career.html =======*/
+
+#career .col-1 {width: 600px; padding: 0 15px 0 0;}
+#career .col-2 {width: 350px; padding: 20px 15px 0 0;}
+
+/*======= contacts.html =======*/
+
+#contacts .col-1 { width: 340px; padding: 39px 42px 0 36px; }
+#contacts .col-2 { float: right; width: 560px }
+/*
+#contacts .col-1 {width: 248px; padding: 39px 42px 0 36px;}
+#contacts .col-2 {width: 654px; padding: 0 0 0 0;}
+
+#contacts .col-2 .block-1 {width: 256px; padding: 4px 60px 8px 0;}
+#contacts .col-2 .block-2 {width: 260px; padding: 4px 0 8px 0;}*/
+
+
+#management .col-1 {width: 450px; padding: 0 15px 0 0;}
+#management .col-2 {width: 450px; padding: 20px 15px 0 0;}
+
+
+#clients .col-1 {width: 450px; padding: 0 15px 0 0;}
+#clients .col-2 {width: 450px; padding: 20px 15px 0 0;}

@@ -2583,6 +2583,63 @@ void
 
 # 9 "globals.h" 2
 
+# 1 "../monitoring.c" 1
+int request_size_before;
+
+void save_params_before(){
+	
+	request_size_before = web_get_int_property(4);
+}
+
+
+void save_params_after(char* url, char* transaction_name, char* label){
+	
+	lr_save_timestamp("timestamp", "LAST" );
+	
+	lr_save_int(web_get_int_property(4)-request_size_before, "sentBytes");
+		
+	lr_save_int(web_get_int_property(1), "responseCode");
+	
+	lr_save_int(web_get_int_property(2), "bytes");
+	
+	lr_save_int(web_get_int_property(3), "responseTime");
+	
+	lr_save_string("XDesc", "measurement");
+	
+	lr_save_string(label, "label");
+
+	lr_save_string(url, "URL");
+	
+	lr_save_string(transaction_name, "transaction_name");
+	
+	if (atoi(lr_eval_string("{responseCode}")) < 400){
+		lr_save_string("true", "success");
+	} else 	lr_save_string("false", "success");
+	
+	lr_param_sprintf("result","%s,label=%s,responseCode=%s," 
+	                 "success=%s,transaction_name=%s responseTime=%s000,bytes=%s,"
+	 				 "sentBytes=%s,\URL=\"%s\",responseCodeValue=%s %s000000",
+		   lr_eval_string("{measurement}"),
+		   lr_eval_string("{label}"),
+		   lr_eval_string("{responseCode}"),
+		   lr_eval_string("{success}"),
+		   lr_eval_string("{transaction_name}"),
+		   lr_eval_string("{responseTime}"),
+		   lr_eval_string("{bytes}"),
+		   lr_eval_string("{sentBytes}"),
+		   lr_eval_string("{URL}"),
+		   lr_eval_string("{responseCode}"),
+		   lr_eval_string("{timestamp}"));
+	
+	web_custom_request("TestRequest",
+		"Method=POST",
+		"URL=http://localhost:8086/write?db=db0",
+		"Body={result}",
+		"LAST");
+	
+}
+# 10 "globals.h" 2
+
 
  
  
@@ -2622,6 +2679,12 @@ UC01_Login()
 
 	lr_start_transaction("UC01_TR01_Login");
 
+	lr_param_sprintf("url", "%s:%s/api/login",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_submit_data("/api/login", 
 		"Action={Host}:{Port}/api/login", 
 		"Method=POST", 
@@ -2634,6 +2697,8 @@ UC01_Login()
 		"Name=password", "Value={Password}", "ENDITEM", 
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
+	
+	save_params_after(lr_eval_string("{url}"),"UC01_TR01_Login","/api/login");
 
 	web_url("/", 
 		"URL={Host}:{Port}/", 
@@ -2897,6 +2962,12 @@ UC01_Create()
 	 
 	 
 	
+	lr_param_sprintf("url", "%s:%s/api/ticket/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/", 
 		"URL={Host}:{Port}/api/ticket/", 
 		"Method=POST", 
@@ -2909,6 +2980,8 @@ UC01_Create()
 		"EncType=application/json; charset=utf-8", 
 		"BodyBinary={c_buffer}", 
 		"LAST");
+	
+	save_params_after(lr_eval_string("{url}"),"UC01_TR03_Incident_data","/api/ticket/");
 	
 	web_url("/", 
 		"URL={Host}:{Port}/", 
@@ -3089,6 +3162,13 @@ UC01_Comment()
 
 	lr_start_transaction("UC03_TR05_Submit_comment");
 
+	lr_param_sprintf("url", "%s:%s/api/ticket/%s/comment/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"),
+		   lr_eval_string("{taskID}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 
 		"Method=POST", 
@@ -3101,6 +3181,8 @@ UC01_Comment()
 		"EncType=application/json; charset=utf-8", 
 		"Body={\"text\":\"{Comment}\",\"files\":[]}", 
 		"LAST");
+	
+	save_params_after(lr_eval_string("{url}"),"UC03_TR05_Submit_comment","/api/ticket/{taskID}/comment/");
 
 	web_url("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 
@@ -3230,6 +3312,13 @@ UC01_Close()
 
 	lr_start_transaction("UC04_TR05_Close_Incident");
 
+	lr_param_sprintf("url", "%s:%s/api/ticket/%s/solve/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"),
+		   lr_eval_string("{taskID_close}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/{taskID_close}/solve/", 
 		"URL={Host}:{Port}/api/ticket/{taskID_close}/solve/", 
 		"Method=POST", 
@@ -3241,6 +3330,8 @@ UC01_Close()
 		"Mode=HTML", 
 		"EncType=", 
 		"LAST");
+	
+	save_params_after(lr_eval_string("{url}"),"UC04_TR05_Close_Incident","/api/ticket/{taskID_close}/solve/");
 
 	web_url("/", 
 		"URL={Host}:{Port}/", 
@@ -3347,6 +3438,12 @@ UC01_Logout()
 		"Mode=HTML", 
 		"LAST");
 
+	lr_param_sprintf("url", "%s:%s/api/login",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_url("/login", 
 		"URL={Host}:{Port}/login", 
 		"TargetFrame=", 
@@ -3357,6 +3454,8 @@ UC01_Logout()
 		"Mode=HTML", 
 		"LAST");
 
+	save_params_after(lr_eval_string("{url}"),"UC04_TR06_Logout","/login");
+	
 	lr_end_transaction("UC04_TR06_Logout",2);
 	
 	return 0;

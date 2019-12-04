@@ -1,0 +1,3 @@
+"XDesc,label=/api/ticket/,responseCode=500,success=false,transaction_name=UC01_TR03_Incident_da"
+"ta responseTime=1098000,bytes=546,sentBytes=512,URL="http://learning2.pflb.ru:56902/api/ticket"
+"/",responseCodeValue=500 1575473364307000000"

@@ -1,0 +1,8 @@
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Request-Id: fed29b2b-16aa-11ea-8209-0242ac140002
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.7.9
+X-Request-Id: fed29b2b-16aa-11ea-8209-0242ac140002
+Date: Wed, 04 Dec 2019 15:30:26 GMT
+

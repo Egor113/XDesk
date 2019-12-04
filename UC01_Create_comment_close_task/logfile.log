@@ -1,2 +1,3 @@
-c:\users\student\desktop\ogdanets\xdesk\uc01_create_comment_close_task\\pre_cci.c: UC01_Create.c:293: warning: missing return value
-c:\users\student\desktop\ogdanets\xdesk\uc01_create_comment_close_task\\pre_cci.c: UC01_Comment.c:117: warning: missing return value
+c:\users\student\desktop\ogdanets\xdesk\uc01_create_comment_close_task\\pre_cci.c: ../monitoring.c:33: warning: unrecognized character escape sequence `\U'
+c:\users\student\desktop\ogdanets\xdesk\uc01_create_comment_close_task\\pre_cci.c: UC01_Create.c:301: warning: missing return value
+c:\users\student\desktop\ogdanets\xdesk\uc01_create_comment_close_task\\pre_cci.c: UC01_Comment.c:126: warning: missing return value

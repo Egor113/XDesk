@@ -2,9 +2,9 @@
 SnapshotIndex=I1_vuser_init
 [UC01_Comment]
 SnapshotIndex=I1_UC01_Comment
-[UC01_Logout]
-SnapshotIndex=I1_UC01_Logout
-[UC01_Create]
-SnapshotIndex=I1_UC01_Create
+[UC01_Close]
+SnapshotIndex=I1_UC01_Close
 [UC01_Login]
 SnapshotIndex=I1_UC01_Login
+[UC01_Create]
+SnapshotIndex=I1_UC01_Create

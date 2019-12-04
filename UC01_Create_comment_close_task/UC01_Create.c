@@ -192,6 +192,12 @@ UC01_Create()
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
+	lr_param_sprintf("url", "%s:%s/api/ticket/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/", 
 		"URL={Host}:{Port}/api/ticket/", 
 		"Method=POST", 
@@ -204,6 +210,8 @@ UC01_Create()
 		"EncType=application/json; charset=utf-8", 
 		"BodyBinary={c_buffer}", 
 		LAST);
+	
+	save_params_after(lr_eval_string("{url}"),"UC01_TR03_Incident_data","/api/ticket/");
 	
 	web_url("/", 
 		"URL={Host}:{Port}/", 

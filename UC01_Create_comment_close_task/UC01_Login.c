@@ -22,6 +22,12 @@ UC01_Login()
 
 	lr_start_transaction("UC01_TR01_Login");
 
+	lr_param_sprintf("url", "%s:%s/api/login",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_submit_data("/api/login", 
 		"Action={Host}:{Port}/api/login", 
 		"Method=POST", 
@@ -34,6 +40,8 @@ UC01_Login()
 		"Name=password", "Value={Password}", ENDITEM, 
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
+	
+	save_params_after(lr_eval_string("{url}"),"UC01_TR01_Login","/api/login");
 
 	web_url("/", 
 		"URL={Host}:{Port}/", 

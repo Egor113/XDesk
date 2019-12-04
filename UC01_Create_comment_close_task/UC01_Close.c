@@ -109,6 +109,13 @@ UC01_Close()
 
 	lr_start_transaction("UC04_TR05_Close_Incident");
 
+	lr_param_sprintf("url", "%s:%s/api/ticket/%s/solve/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"),
+		   lr_eval_string("{taskID_close}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/{taskID_close}/solve/", 
 		"URL={Host}:{Port}/api/ticket/{taskID_close}/solve/", 
 		"Method=POST", 
@@ -120,6 +127,8 @@ UC01_Close()
 		"Mode=HTML", 
 		"EncType=", 
 		LAST);
+	
+	save_params_after(lr_eval_string("{url}"),"UC04_TR05_Close_Incident","/api/ticket/{taskID_close}/solve/");
 
 	web_url("/", 
 		"URL={Host}:{Port}/", 

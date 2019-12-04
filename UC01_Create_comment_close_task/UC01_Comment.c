@@ -88,6 +88,13 @@ UC01_Comment()
 
 	lr_start_transaction("UC03_TR05_Submit_comment");
 
+	lr_param_sprintf("url", "%s:%s/api/ticket/%s/comment/",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"),
+		   lr_eval_string("{taskID}"));
+	
+	save_params_before();
+	
 	web_custom_request("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 
 		"Method=POST", 
@@ -100,6 +107,8 @@ UC01_Comment()
 		"EncType=application/json; charset=utf-8", 
 		"Body={\"text\":\"{Comment}\",\"files\":[]}", 
 		LAST);
+	
+	save_params_after(lr_eval_string("{url}"),"UC03_TR05_Submit_comment","/api/ticket/{taskID}/comment/");
 
 	web_url("/api/ticket/{taskID}/comment/", 
 		"URL={Host}:{Port}/api/ticket/{taskID}/comment/", 

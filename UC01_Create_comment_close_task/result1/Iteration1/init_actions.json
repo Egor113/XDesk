@@ -6,58 +6,58 @@
                 "stepId": "STEP1",
                 "stepName": "Url: /",
                 "infFile": "t1.inf",
-                "time": 1575463837014
+                "time": 1575473308062
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: /login",
                 "infFile": "t2.inf",
-                "time": 1575463837439
+                "time": 1575473308272
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: /",
-                "infFile": "t4.inf",
-                "time": 1575463837748
+                "infFile": "t5.inf",
+                "time": 1575473308728
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: /api/checkLogin",
-                "infFile": "t5.inf",
-                "time": 1575463837830
+                "infFile": "t6.inf",
+                "time": 1575473308808
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Url: /api/user/info",
-                "infFile": "t6.inf",
-                "time": 1575463837915
+                "infFile": "t7.inf",
+                "time": 1575473308891
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Url: /api/ticket/countByState/4",
-                "infFile": "t7.inf",
-                "time": 1575463838093
+                "infFile": "t8.inf",
+                "time": 1575473308976
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: /api/ticket/countByState/",
-                "infFile": "t8.inf",
-                "time": 1575463838263
+                "infFile": "t9.inf",
+                "time": 1575473309067
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Custom Request: /api/ticket/",
-                "infFile": "t9.inf",
-                "time": 1575463841883
+                "infFile": "t10.inf",
+                "time": 1575473312183
             }
         ],
         "transactions": [
             {
                 "transactionName": "UC01_TR01_Login",
-                "rawStartTime": 1575463837440,
-                "rawEndTime": 1575463841883,
+                "rawStartTime": 1575473308272,
+                "rawEndTime": 1575473312183,
                 "thinkTime": 0.0,
-                "wastedTime": 0.14135527610778809
+                "wastedTime": 0.15968656539916993
             }
         ]
     }

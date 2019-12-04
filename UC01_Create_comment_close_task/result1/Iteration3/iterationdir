@@ -1,0 +1,10 @@
+[UC01_Comment]
+SnapshotIndex=I3_UC01_Comment
+[vuser_end]
+SnapshotIndex=I3_vuser_end
+[UC01_Create]
+SnapshotIndex=I3_UC01_Create
+[UC01_Close]
+SnapshotIndex=I3_UC01_Close
+[UC01_Logout]
+SnapshotIndex=I3_UC01_Logout

@@ -11,6 +11,12 @@ UC01_Logout()
 		"Mode=HTML", 
 		LAST);
 
+	lr_param_sprintf("url", "%s:%s/api/login",
+		   lr_eval_string("{Host}"),
+		   lr_eval_string("{Port}"));
+	
+	save_params_before();
+	
 	web_url("/login", 
 		"URL={Host}:{Port}/login", 
 		"TargetFrame=", 
@@ -21,6 +27,8 @@ UC01_Logout()
 		"Mode=HTML", 
 		LAST);
 
+	save_params_after(lr_eval_string("{url}"),"UC04_TR06_Logout","/login");
+	
 	lr_end_transaction("UC04_TR06_Logout",LR_AUTO);
 	
 	return 0;

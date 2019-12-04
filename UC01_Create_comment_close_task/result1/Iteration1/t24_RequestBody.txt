@@ -1,0 +1,2 @@
+"{"text":"Ogdanets text 1","header":"Вентиляция не греет","ticketStateId": 0,""
+"serviceId": "2935","files": [],"shopId": "-2"}"

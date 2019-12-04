@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 1","header":"Ключ сломан в замке (се�\xB9ф Закр�"
-"�т)","ticketStateId": 0,"serviceId": "3001","files": [],"shopId": "5"}"
+"{"text":"Ogdanets text 1","header":"Нет вывоза вторичного сырья","tick"
+"etStateId": 0,"serviceId": "2813","files": [],"shopId": "2"}"

@@ -1,7 +1,7 @@
 [Profile Actions]
 MercIniTreeFather=""
 MercIniTreeSectionName="Profile Actions"
-Profile Actions name=vuser_init,UC01_Login,vuser_end
+Profile Actions name=vuser_init,UC01_Login,UC01_Create,UC01_Comment,UC01_Close,UC01_Logout,vuser_end
 [RunLogicEndRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicEndRoot"
@@ -53,16 +53,40 @@ RunLogicObjectKind="Action"
 [RunLogicRunRoot]
 MercIniTreeFather=""
 MercIniTreeSectionName="RunLogicRunRoot"
-MercIniTreeSons="UC01_Login"
+MercIniTreeSons="UC01_Login,UC01_Create,UC01_Comment,UC01_Close,UC01_Logout"
 Name="Run"
-RunLogicActionOrder="UC01_Login"
+RunLogicActionOrder="UC01_Login,UC01_Create,UC01_Comment,UC01_Close,UC01_Logout"
 RunLogicActionType="VuserRun"
 RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
+[RunLogicRunRoot:UC01_Close]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC01_Close"
+Name="UC01_Close"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UC01_Comment]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC01_Comment"
+Name="UC01_Comment"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UC01_Create]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC01_Create"
+Name="UC01_Create"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
 [RunLogicRunRoot:UC01_Login]
 MercIniTreeFather="RunLogicRunRoot"
 MercIniTreeSectionName="UC01_Login"
 Name="UC01_Login"
+RunLogicActionType="VuserRun"
+RunLogicObjectKind="Action"
+[RunLogicRunRoot:UC01_Logout]
+MercIniTreeFather="RunLogicRunRoot"
+MercIniTreeSectionName="UC01_Logout"
+Name="UC01_Logout"
 RunLogicActionType="VuserRun"
 RunLogicObjectKind="Action"

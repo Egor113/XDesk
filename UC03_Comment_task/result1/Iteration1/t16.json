@@ -1,1 +1,1 @@
-{"id":127786,"authorId":106,"text":"New comment Ogdanets 2","createDate":1575272778275,"syncMask":"PORTAL_ONLY","ticketId":149758}
+{"code":500,"httpStatus":"INTERNAL_SERVER_ERROR","message":"I/O error: Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)"}

@@ -25,6 +25,10 @@ ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
 UC01_Login=UC01_Login.c
+UC01_Create=UC01_Create.c
+UC01_Comment=UC01_Comment.c
+UC01_Close=UC01_Close.c
+UC01_Logout=UC01_Logout.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -37,21 +41,37 @@ globals.h=
 [Modified Actions]
 vuser_init=0
 UC01_Login=1
+UC01_Create=1
+UC01_Comment=1
+UC01_Close=1
+UC01_Logout=0
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
 UC01_Login=0
+UC01_Create=0
+UC01_Comment=0
+UC01_Close=0
+UC01_Logout=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
 UC01_Login=1
+UC01_Create=1
+UC01_Comment=1
+UC01_Close=1
+UC01_Logout=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
 UC01_Login=cci
+UC01_Create=cci
+UC01_Comment=cci
+UC01_Close=cci
+UC01_Logout=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC01_TR01_Login"
+Order="UC01_TR01_Login__*delimiter*__UC01_TR02_Create_incident__*delimiter*__UC01_TR03_Incident_data__*delimiter*__UC03_TR02_Show_tasks__*delimiter*__UC03_TR03_Open_task__*delimiter*__UC03_TR04_Add_comment__*delimiter*__UC03_TR05_Submit_comment__*delimiter*__UC04_TR02_Tasks__*delimiter*__UC04_TR03_Choose_task__*delimiter*__UC04_TR04_To_Incident__*delimiter*__UC04_TR05_Close_Incident"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,3 +79,13 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC01_TR01_Login=
+UC01_TR02_Create_incident=
+UC01_TR03_Incident_data=
+UC03_TR02_Show_tasks=
+UC03_TR03_Open_task=
+UC03_TR04_Add_comment=
+UC03_TR05_Submit_comment=
+UC04_TR02_Tasks=
+UC04_TR03_Choose_task=
+UC04_TR04_To_Incident=
+UC04_TR05_Close_Incident=

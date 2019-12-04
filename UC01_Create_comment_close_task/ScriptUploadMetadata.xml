@@ -5,6 +5,10 @@
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
     <FileEntry Name="UC01_Login.c" Filter="2" />
+    <FileEntry Name="UC01_Create.c" Filter="2" />
+    <FileEntry Name="UC01_Comment.c" Filter="2" />
+    <FileEntry Name="UC01_Close.c" Filter="2" />
+    <FileEntry Name="UC01_Logout.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
@@ -15,6 +19,9 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_UC01_Create_comment_close_task.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="122992232440.idx" Filter="1" />
+    <FileEntry Name="196046425440.idx" Filter="1" />
+    <FileEntry Name="221413022440.idx" Filter="1" />
     <FileEntry Name="265467040440.idx" Filter="1" />
     <FileEntry Name="29922044440.idx" Filter="1" />
     <FileEntry Name="81200000440.idx" Filter="1" />

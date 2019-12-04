@@ -1,7 +1,5 @@
 [vuser_init]
 SnapshotIndex=I1_vuser_init
-[UC03_Logout]
-SnapshotIndex=I1_UC03_Logout
 [UC03_Comment]
 SnapshotIndex=I1_UC03_Comment
 [UC03_Login]

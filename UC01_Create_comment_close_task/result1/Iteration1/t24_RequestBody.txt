@@ -1,3 +1,2 @@
-"{"text":"Ogdanets text 1","header":"Отсутствие индикации (не вращаю"
-"тся ролики или индикации электр. табло)","ticketStateId": 0,"s"
-"erviceId": "2822","files": [],"shopId": "5"}"
+"{"text":"Ogdanets text 1","header":"Отлов птиц","ticketStateId": 0,"serviceId": "2816"
+"","files": [],"shopId": "-2"}"

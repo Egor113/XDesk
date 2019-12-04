@@ -1,3 +1,3 @@
 "XDesc,label=/api/login,responseCode=200,success=true,transaction_name=UC01_TR01_Login response"
-"Time=158000,bytes=485,sentBytes=389,URL="http://learning2.pflb.ru:56902/api/login",responseCod"
-"eValue=200 1575473308474000000"
+"Time=157000,bytes=485,sentBytes=389,URL="http://learning2.pflb.ru:56902/api/login",responseCod"
+"eValue=200 1575474808599000000"

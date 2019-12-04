@@ -1,9 +1,0 @@
-GET /api/task/countByState/ HTTP/1.1
-Referer: http://learning2.pflb.ru:56902/
-User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: Keep-Alive
-Host: learning2.pflb.ru:56902
-Cookie: SESSION=2b695a72-0d5e-47d7-a30b-d6917e094fca
-

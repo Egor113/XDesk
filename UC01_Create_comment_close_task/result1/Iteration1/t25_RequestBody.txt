@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 1","header":"Не работает замок (нельзя Закры�"
-"�ь)","ticketStateId": 0,"serviceId": "3003","files": [],"shopId": "5"}"
+"{"text":"Ogdanets text 1","header":"Не работает холодильник в столо"
+"во�\xB9","ticketStateId": 0,"serviceId": "2964","files": [],"shopId": "2"}"

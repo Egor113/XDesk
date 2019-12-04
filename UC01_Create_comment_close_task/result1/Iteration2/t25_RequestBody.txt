@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 2","header":"DESCRIPTION","ticketStateId": 0,"serviceId": "2501","files"
-"": [],"shopId": "-1"}"

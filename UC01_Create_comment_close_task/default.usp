@@ -69,7 +69,7 @@ MercIniTreeSons="Block0,Block1,Block2"
 Name="Run"
 RunLogicActionOrder="Block0,Block1,Block2"
 RunLogicActionType="VuserRun"
-RunLogicNumOfIterations="3"
+RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
 [RunLogicRunRoot:Block0]

@@ -1,3 +1,0 @@
-"XDesc,label=/api/ticket/{taskID}/comment/,responseCode=200,success=true,transaction_name=UC03_"
-"TR05_Submit_comment responseTime=362000,bytes=457,sentBytes=455,URL="http://learning2.pflb.ru:"
-"56902/api/ticket/150627/comment/",responseCodeValue=200 1575473382311000000"

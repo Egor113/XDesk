@@ -1,0 +1,3 @@
+"XDesc,label=/login,responseCode=200,success=true,transaction_name=UC04_TR06_Logout responseTim"
+"e=14000,bytes=1268,sentBytes=243,URL="http://learning2.pflb.ru:56902/api/login",responseCodeVa"
+"lue=200 1575474876993000000"

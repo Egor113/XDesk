@@ -1,2 +1,0 @@
-"{"text":"Ogdanets text 3","header":"Не работает калитка","ticketStateId": 0,""
-"serviceId": "2889","files": [],"shopId": "5"}"

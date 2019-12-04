@@ -1,2 +1,2 @@
-"{"text":"Ogdanets text 1","header":"Выпала рама, оторвалась петля","t"
-"icketStateId": 0,"serviceId": "2861","files": [],"shopId": "5"}"
+"{"text":"Ogdanets text 1","header":"Отсутствие моющих средств","ticketS"
+"tateId": 0,"serviceId": "2798","files": [],"shopId": "-2"}"

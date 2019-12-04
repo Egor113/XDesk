@@ -1,3 +1,3 @@
 "XDesc,label=/api/ticket/{taskID_close}/solve/,responseCode=200,success=true,transaction_name=U"
-"C04_TR05_Close_Incident responseTime=177000,bytes=1664,sentBytes=361,URL="http://learning2.pfl"
-"b.ru:56902/api/ticket/150630/solve/",responseCodeValue=200 1575473347300000000"
+"C04_TR05_Close_Incident responseTime=564000,bytes=1581,sentBytes=361,URL="http://learning2.pfl"
+"b.ru:56902/api/ticket/150667/solve/",responseCodeValue=200 1575474856595000000"

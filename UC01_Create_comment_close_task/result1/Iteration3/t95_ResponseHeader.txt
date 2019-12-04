@@ -1,8 +1,0 @@
-HTTP/1.1 204 No Content
-Content-Type: application/json
-Request-Id: 804d4fe5-16ab-11ea-821e-0242ac140002
-X-Influxdb-Build: OSS
-X-Influxdb-Version: 1.7.9
-X-Request-Id: 804d4fe5-16ab-11ea-821e-0242ac140002
-Date: Wed, 04 Dec 2019 15:34:03 GMT
-

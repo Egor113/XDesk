@@ -1,3 +1,0 @@
-"XDesc,label=/api/ticket/,responseCode=200,success=true,transaction_name=UC01_TR03_Incident_dat"
-"a responseTime=438000,bytes=1294,sentBytes=556,URL="http://learning2.pflb.ru:56902/api/ticket/"
-"",responseCodeValue=200 1575473415578000000"

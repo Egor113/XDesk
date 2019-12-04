@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2">
-  <HTTPTask id="1360" hostname="localhost:8086" path="/write?db=db0" url="http://localhost:8086/write?db=db0" ip="127.0.0.1" port="8086" client_ip="127.0.0.1" client_port="8240" connectionId="2508" origin="Primary" encodingType="ANSI" startDateTime="2019-12-04T12:04:59.966+03:00" startTime="42964" endTime="42976" blockedTime="-1" dnsTime="-1" connectTime="-1" sendTime="0" waitTime="3" receiveTime="8" sslNegotiateTime="-1" responseBodySize="248">
+  <HTTPTask id="1360" hostname="localhost:8086" path="/write?db=db0" url="http://localhost:8086/write?db=db0" ip="127.0.0.1" port="8086" client_ip="127.0.0.1" client_port="10056" connectionId="2984" origin="Primary" encodingType="ANSI" startDateTime="2019-12-04T15:44:14.195+03:00" startTime="45360" endTime="45374" blockedTime="-1" dnsTime="-1" connectTime="-1" sendTime="0" waitTime="4" receiveTime="8" sslNegotiateTime="-1" responseBodySize="248">
     <QueryString>
       <HTTPDataSet>
         <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -105,7 +105,7 @@
       <HTTPBody>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-            <ActualData>bG9hZHJ1bm5lcixsYWJlbD0vLHJlc3BvbnNlQ29kZT0yMDAsc3VjY2Vzcz10cnVlIHJlc3BvbnNlVGltZT0xOTIwMDAsYnl0ZXM9MTA3NjU4LHNlbnRCeXRlcz0zNjQ4LFVSTD0iaHR0cDovL3d3dy5pY2ljYWxsLnJ1L2lkZWFsLmh0bWwiIDE1NzU0NTAyOTk5MzQwMDAwMDA=</ActualData>
+            <ActualData>bG9hZHJ1bm5lcixsYWJlbD0vLHJlc3BvbnNlQ29kZT0yMDAsc3VjY2Vzcz10cnVlIHJlc3BvbnNlVGltZT0yNDgwMDAsYnl0ZXM9MTA3NjY1LHNlbnRCeXRlcz0zNjQ4LFVSTD0iaHR0cDovL3d3dy5pY2ljYWxsLnJ1L2lkZWFsLmh0bWwiIDE1NzU0NjM0NTQxNjcwMDAwMDA=</ActualData>
           </HTTPData>
         </HTTPDataSet>
         <IsExternalData>false</IsExternalData>
@@ -125,7 +125,7 @@
         <HTTPHeaderEntity name="Request-Id" index="1">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>MjY2OWRjZjAtMTY3NS0xMWVhLTgwNWYtMDI0MmFjMTQwMDAy</ActualData>
+              <ActualData>YzZmMjAzNWUtMTY5My0xMWVhLTgwZGUtMDI0MmFjMTQwMDAy</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -149,7 +149,7 @@
         <HTTPHeaderEntity name="X-Request-Id" index="4">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>MjY2OWRjZjAtMTY3NS0xMWVhLTgwNWYtMDI0MmFjMTQwMDAy</ActualData>
+              <ActualData>YzZmMjAzNWUtMTY5My0xMWVhLTgwZGUtMDI0MmFjMTQwMDAy</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -157,7 +157,7 @@
         <HTTPHeaderEntity name="Date" index="5">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDo1OSBHTVQ=</ActualData>
+              <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0NDoxNCBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -165,7 +165,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbg0KUmVxdWVzdC1JZDogMjY2OWRjZjAtMTY3NS0xMWVhLTgwNWYtMDI0MmFjMTQwMDAyDQpYLUluZmx1eGRiLUJ1aWxkOiBPU1MNClgtSW5mbHV4ZGItVmVyc2lvbjogMS43LjkNClgtUmVxdWVzdC1JZDogMjY2OWRjZjAtMTY3NS0xMWVhLTgwNWYtMDI0MmFjMTQwMDAyDQpEYXRlOiBXZWQsIDA0IERlYyAyMDE5IDA5OjA0OjU5IEdNVA0KDQo=</ActualData>
+              <ActualData>SFRUUC8xLjEgMjA0IE5vIENvbnRlbnQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbg0KUmVxdWVzdC1JZDogYzZmMjAzNWUtMTY5My0xMWVhLTgwZGUtMDI0MmFjMTQwMDAyDQpYLUluZmx1eGRiLUJ1aWxkOiBPU1MNClgtSW5mbHV4ZGItVmVyc2lvbjogMS43LjkNClgtUmVxdWVzdC1JZDogYzZmMjAzNWUtMTY5My0xMWVhLTgwZGUtMDI0MmFjMTQwMDAyDQpEYXRlOiBXZWQsIDA0IERlYyAyMDE5IDEyOjQ0OjE0IEdNVA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>

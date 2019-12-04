@@ -35,7 +35,7 @@ UC01_Login()
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
 
-	web_url("{/", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 

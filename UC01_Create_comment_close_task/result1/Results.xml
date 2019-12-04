@@ -135,132 +135,132 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="04.12.2019 - 15:20:33" eTime="04.12.2019 - 15:20:33" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="04.12.2019 - 15:50:34" eTime="04.12.2019 - 15:50:34" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
 </Action>
-<DIter rID="T3" iterID="1" >
-<Action rID="T4">
+<Action rID="T3">
 <AName><![CDATA[UC01_Login]]></AName>
-<Step rID="T5">
+<Step rID="T4">
 <Obj plainTxt="False" ><![CDATA[Url: /]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:33]]></Time>
-<TimeTick>1575462033</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="8" status="Passed" >
 <Disp><![CDATA[Url: /]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T6">
+<Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: /login]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:33]]></Time>
-<TimeTick>1575462033</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="10" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: /login]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T7">
+<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Data: /api/login]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:33]]></Time>
-<TimeTick>1575462033</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="11" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Data: /api/login]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Url: {/]]></Obj>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Url: /]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:34]]></Time>
-<TimeTick>1575462034</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="12" status="Passed" >
-<Disp><![CDATA[Url: {/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="11" status="Passed" >
+<Disp><![CDATA[Url: /]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T9">
+<Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:34]]></Time>
-<TimeTick>1575462034</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="13" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="12" status="Passed" >
 <Disp><![CDATA[Url: /api/checkLogin]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T10">
+<Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/info]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:34]]></Time>
-<TimeTick>1575462034</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="14" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:37]]></Time>
+<TimeTick>1575463837</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: /api/user/info]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T11">
+<Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/4]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:34]]></Time>
-<TimeTick>1575462034</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="15" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:38]]></Time>
+<TimeTick>1575463838</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="14" status="Passed" >
 <Disp><![CDATA[Url: /api/ticket/countByState/4]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
+<Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:34]]></Time>
-<TimeTick>1575462034</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="16" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:38]]></Time>
+<TimeTick>1575463838</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="15" status="Passed" >
 <Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t8.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T13">
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:35]]></Time>
-<TimeTick>1575462035</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="17" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:41]]></Time>
+<TimeTick>1575463841</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="16" status="Passed" >
 <Disp><![CDATA[Custom Request: /api/ticket/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t9.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.12.2019 - 15:20:33" eTime="04.12.2019 - 15:20:35" passed="9" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Summary sTime="04.12.2019 - 15:50:34" eTime="04.12.2019 - 15:50:41" passed="9" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="7" status="Passed" >
 <Disp><![CDATA[UC01_Login Summary]]></Disp>
 </NodeArgs>
 </Action>
+<DIter rID="T13" iterID="1" >
 <Action rID="T14">
 <AName><![CDATA[UC01_Create]]></AName>
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/0/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="20" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="20" status="Passed" >
 <Disp><![CDATA[Url: /api/user/catalog/node/0/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t10.inf]]></Path>
@@ -270,8 +270,8 @@
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>shopIDs</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..id</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="21" >
 <Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
@@ -279,9 +279,9 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Url: /api/shops]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="22" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="22" status="Passed" >
 <Disp><![CDATA[Url: /api/shops]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t12.inf]]></Path>
@@ -291,9 +291,9 @@
 <Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Url: /api/shops]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="23" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="23" status="Passed" >
 <Disp><![CDATA[Url: /api/shops]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t13.inf]]></Path>
@@ -303,9 +303,9 @@
 <Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/0/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="24" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="24" status="Passed" >
 <Disp><![CDATA[Url: /api/user/catalog/node/0/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t14.inf]]></Path>
@@ -315,8 +315,8 @@
 <Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>serviceIdS</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..id</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="25" >
 <Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
@@ -324,8 +324,8 @@
 <Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>serviceNames</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..name</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
+<Time><![CDATA[04.12.2019 - 15:50:42]]></Time>
+<TimeTick>1575463842</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="26" >
 <Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
@@ -333,9 +333,9 @@
 <Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/treeview]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="27" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:43]]></Time>
+<TimeTick>1575463843</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="27" status="Passed" >
 <Disp><![CDATA[Url: /api/user/catalog/treeview]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t17.inf]]></Path>
@@ -345,9 +345,9 @@
 <Step rID="T23">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/146/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="28" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:44]]></Time>
+<TimeTick>1575463844</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="28" status="Passed" >
 <Disp><![CDATA[Url: /api/user/catalog/node/146/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t18.inf]]></Path>
@@ -357,9 +357,9 @@
 <Step rID="T24">
 <Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/146/service/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="29" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:44]]></Time>
+<TimeTick>1575463844</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="29" status="Passed" >
 <Disp><![CDATA[Url: /api/user/catalog/node/146/service/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t19.inf]]></Path>
@@ -369,9 +369,9 @@
 <Step rID="T25">
 <Obj plainTxt="False" ><![CDATA[Url: }/api/user/catalog/breadcrumbs/146]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="30" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:44]]></Time>
+<TimeTick>1575463844</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="30" status="Passed" >
 <Disp><![CDATA[Url: }/api/user/catalog/breadcrumbs/146]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t20.inf]]></Path>
@@ -381,8 +381,8 @@
 <Step rID="T26">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>inventoryNumbers</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..name</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:36]]></Time>
-<TimeTick>1575462036</TimeTick>
+<Time><![CDATA[04.12.2019 - 15:50:44]]></Time>
+<TimeTick>1575463844</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="31" >
 <Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
@@ -390,9 +390,9 @@
 <Step rID="T27">
 <Obj plainTxt="False" ><![CDATA[Url: /api/inventoryNumbers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:37]]></Time>
-<TimeTick>1575462037</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="32" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:44]]></Time>
+<TimeTick>1575463844</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="32" status="Passed" >
 <Disp><![CDATA[Url: /api/inventoryNumbers]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t22.inf]]></Path>
@@ -402,9 +402,9 @@
 <Step rID="T28">
 <Obj plainTxt="False" ><![CDATA[Url: /api/inventoryNumbers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:37]]></Time>
-<TimeTick>1575462037</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="33" status="Passed" >
+<Time><![CDATA[04.12.2019 - 15:50:45]]></Time>
+<TimeTick>1575463845</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="33" status="Passed" >
 <Disp><![CDATA[Url: /api/inventoryNumbers]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t23.inf]]></Path>
@@ -413,10 +413,10 @@
 </Step>
 <Step rID="T29">
 <Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="34" status="Passed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="34" status="Failed" >
 <Disp><![CDATA[Custom Request: /api/ticket/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t24.inf]]></Path>
@@ -424,458 +424,522 @@
 </NodeArgs>
 </Step>
 <Step rID="T30">
-<Obj plainTxt="False" ><![CDATA[Url: /]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="1" nRep="35" status="Failed" >
+<Disp><![CDATA[Script Aborted!]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="04.12.2019 - 15:50:41" eTime="04.12.2019 - 15:50:52" passed="10" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="19" status="Failed" >
+<Disp><![CDATA[UC01_Create Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T31">
+<AName><![CDATA[UC01_Create]]></AName>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/0/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="35" status="Passed" >
-<Disp><![CDATA[Url: /]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="38" status="Passed" >
+<Disp><![CDATA[Url: /api/user/catalog/node/0/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t25.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T31">
-<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="36" status="Passed" >
-<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t26.inf]]></Path>
-</BtmPane>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>shopIDs</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..id</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="39" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T32">
-<Obj plainTxt="False" ><![CDATA[Url: /api/user/info]]></Obj>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Url: /api/shops]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="37" status="Passed" >
-<Disp><![CDATA[Url: /api/user/info]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="40" status="Passed" >
+<Disp><![CDATA[Url: /api/shops]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t27.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T33">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/4]]></Obj>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Url: /api/shops]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="38" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/countByState/4]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="41" status="Passed" >
+<Disp><![CDATA[Url: /api/shops]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t28.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T34">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/0/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="39" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="42" status="Passed" >
+<Disp><![CDATA[Url: /api/user/catalog/node/0/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t29.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T35">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:38]]></Time>
-<TimeTick>1575462038</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="40" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t30.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T36">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:40]]></Time>
-<TimeTick>1575462040</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="41" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t31.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
 <Step rID="T37">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>serviceIdS</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..id</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="43" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>serviceNames</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..name</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:52]]></Time>
+<TimeTick>1575463852</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="44" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/treeview]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:41]]></Time>
-<TimeTick>1575462041</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="42" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="45" status="Passed" >
+<Disp><![CDATA[Url: /api/user/catalog/treeview]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t32.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.12.2019 - 15:20:35" eTime="04.12.2019 - 15:20:41" passed="19" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="19" status="Passed" >
-<Disp><![CDATA[UC01_Create Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T38">
-<AName><![CDATA[UC01_Comment]]></AName>
-<Step rID="T39">
-<Obj plainTxt="False" ><![CDATA[Url: /api/task/countByState/]]></Obj>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/146/children/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:41]]></Time>
-<TimeTick>1575462041</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="45" status="Passed" >
-<Disp><![CDATA[Url: /api/task/countByState/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="46" status="Passed" >
+<Disp><![CDATA[Url: /api/user/catalog/node/146/children/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t33.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T40">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>taskIdS</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$.content[*].id</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:41]]></Time>
-<TimeTick>1575462041</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="46" >
-<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/catalog/node/146/service/]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="47" status="Passed" >
+<Disp><![CDATA[Url: /api/user/catalog/node/146/service/]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t34.inf]]></Path>
+</BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T41">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/task/]]></Obj>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[Url: }/api/user/catalog/breadcrumbs/146]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:42]]></Time>
-<TimeTick>1575462042</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="47" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/task/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="48" status="Passed" >
+<Disp><![CDATA[Url: }/api/user/catalog/breadcrumbs/146]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t35.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T42">
-<Obj plainTxt="False" ><![CDATA[Url: /api/task/{taskID}]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:42]]></Time>
-<TimeTick>1575462042</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="48" status="Passed" >
-<Disp><![CDATA[Url: /api/task/{taskID}]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t36.inf]]></Path>
-</BtmPane>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>inventoryNumbers</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$..services..name</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="49" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T43">
-<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[Url: /api/inventoryNumbers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:43]]></Time>
-<TimeTick>1575462043</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="49" status="Passed" >
-<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="50" status="Passed" >
+<Disp><![CDATA[Url: /api/inventoryNumbers]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t37.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T44">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Obj>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Url: /api/inventoryNumbers]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:43]]></Time>
-<TimeTick>1575462043</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="50" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:53]]></Time>
+<TimeTick>1575463853</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="51" status="Passed" >
+<Disp><![CDATA[Url: /api/inventoryNumbers]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t38.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T45">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Obj>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:43]]></Time>
-<TimeTick>1575462043</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="51" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:59]]></Time>
+<TimeTick>1575463859</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="52" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/ticket/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t39.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T46">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Obj>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[Url: /]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:44]]></Time>
-<TimeTick>1575462044</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="52" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:59]]></Time>
+<TimeTick>1575463859</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="53" status="Passed" >
+<Disp><![CDATA[Url: /]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t40.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.12.2019 - 15:20:41" eTime="04.12.2019 - 15:20:44" passed="7" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="44" status="Passed" >
-<Disp><![CDATA[UC01_Comment Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T47">
-<AName><![CDATA[UC01_Close]]></AName>
 <Step rID="T48">
-<Obj plainTxt="False" ><![CDATA[Url: /api/task/countByState/]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:44]]></Time>
-<TimeTick>1575462044</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="55" status="Passed" >
-<Disp><![CDATA[Url: /api/task/countByState/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:59]]></Time>
+<TimeTick>1575463859</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="54" status="Passed" >
+<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t41.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T49">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>taskIdS_close</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$.content[?(@.stateId = 1)].id</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:44]]></Time>
-<TimeTick>1575462044</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="56" >
-<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Url: /api/user/info]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:50:59]]></Time>
+<TimeTick>1575463859</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="55" status="Passed" >
+<Disp><![CDATA[Url: /api/user/info]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t42.inf]]></Path>
+</BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T50">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/task/]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/4]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:45]]></Time>
-<TimeTick>1575462045</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="57" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/task/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:50:59]]></Time>
+<TimeTick>1575463859</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="56" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/countByState/4]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t43.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T51">
-<Obj plainTxt="False" ><![CDATA[Url: {/api/task/{taskID_close}}]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:45]]></Time>
-<TimeTick>1575462045</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="58" status="Passed" >
-<Disp><![CDATA[Url: {/api/task/{taskID_close}}]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:00]]></Time>
+<TimeTick>1575463860</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="57" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t44.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T52">
-<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:45]]></Time>
-<TimeTick>1575462045</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="59" status="Passed" >
-<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:00]]></Time>
+<TimeTick>1575463860</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="58" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t45.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T53">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID_close}/comment/]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:46]]></Time>
-<TimeTick>1575462046</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="60" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/{taskID_close}/comment/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:04]]></Time>
+<TimeTick>1575463864</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="59" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/ticket]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t46.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
 <Step rID="T54">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/{taskID_close}]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:46]]></Time>
-<TimeTick>1575462046</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="61" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket/{taskID_close}]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:08]]></Time>
+<TimeTick>1575463868</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="60" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/ticket]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t47.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T55">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID_close}/comment/]]></Obj>
+<Summary sTime="04.12.2019 - 15:50:52" eTime="04.12.2019 - 15:51:08" passed="19" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="37" status="Passed" >
+<Disp><![CDATA[UC01_Create Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T55">
+<AName><![CDATA[UC01_Comment]]></AName>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[Url: /api/task/countByState/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="62" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/{taskID_close}/comment/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:08]]></Time>
+<TimeTick>1575463868</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="63" status="Passed" >
+<Disp><![CDATA[Url: /api/task/countByState/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t48.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T56">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/{taskID_close}/solve/]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="63" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket/{taskID_close}/solve/]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t49.inf]]></Path>
-</BtmPane>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>taskIdS</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$.content[*].id</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:08]]></Time>
+<TimeTick>1575463868</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="64" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T57">
-<Obj plainTxt="False" ><![CDATA[Url: /]]></Obj>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/task/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="64" status="Passed" >
-<Disp><![CDATA[Url: /]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:10]]></Time>
+<TimeTick>1575463870</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="65" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/task/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t50.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T58">
-<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA[Url: /api/task/{taskID}]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="65" status="Passed" >
-<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:14]]></Time>
+<TimeTick>1575463874</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="66" status="Passed" >
+<Disp><![CDATA[Url: /api/task/{taskID}]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t51.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T59">
-<Obj plainTxt="False" ><![CDATA[Url: /api/user/info]]></Obj>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="66" status="Passed" >
-<Disp><![CDATA[Url: /api/user/info]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:14]]></Time>
+<TimeTick>1575463874</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="67" status="Passed" >
+<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t52.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T60">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/4]]></Obj>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:47]]></Time>
-<TimeTick>1575462047</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="67" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/countByState/4]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:16]]></Time>
+<TimeTick>1575463876</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="68" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t53.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T61">
-<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/countByState/]]></Obj>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:48]]></Time>
-<TimeTick>1575462048</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="68" status="Passed" >
-<Disp><![CDATA[Url: /api/ticket/countByState/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:18]]></Time>
+<TimeTick>1575463878</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="69" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t54.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T62">
-<Obj plainTxt="False" ><![CDATA[Url: /api/task/countByState/]]></Obj>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:48]]></Time>
-<TimeTick>1575462048</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="69" status="Passed" >
-<Disp><![CDATA[Url: /api/task/countByState/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:18]]></Time>
+<TimeTick>1575463878</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="70" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t55.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T63">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/task/]]></Obj>
+<Summary sTime="04.12.2019 - 15:51:08" eTime="04.12.2019 - 15:51:18" passed="7" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="62" status="Passed" >
+<Disp><![CDATA[UC01_Comment Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T64">
+<AName><![CDATA[UC01_Comment]]></AName>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[Url: /api/task/countByState/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:48]]></Time>
-<TimeTick>1575462048</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="70" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/task/]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:19]]></Time>
+<TimeTick>1575463879</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="73" status="Passed" >
+<Disp><![CDATA[Url: /api/task/countByState/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t56.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T64">
-<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:50]]></Time>
-<TimeTick>1575462050</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="71" status="Passed" >
-<Disp><![CDATA[Custom Request: /api/ticket/]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t57.inf]]></Path>
-</BtmPane>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Json]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>taskIdS</FONT></STRONG><BR>QueryString = <STRONG><FONT COLOR=#00AF00>$.content[*].id</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:19]]></Time>
+<TimeTick>1575463879</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="74" >
+<Disp><![CDATA[Service: Reg Save Param Json]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="04.12.2019 - 15:20:44" eTime="04.12.2019 - 15:20:50" passed="16" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="54" status="Passed" >
-<Disp><![CDATA[UC01_Close Summary]]></Disp>
-</NodeArgs>
-</Action>
-<Action rID="T65">
-<AName><![CDATA[UC01_Logout]]></AName>
-<Step rID="T66">
-<Obj plainTxt="False" ><![CDATA[Url: /api/logout]]></Obj>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/task/]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:50]]></Time>
-<TimeTick>1575462050</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="74" status="Passed" >
-<Disp><![CDATA[Url: /api/logout]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:20]]></Time>
+<TimeTick>1575463880</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="75" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/task/]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t58.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T67">
-<Obj plainTxt="False" ><![CDATA[Url: /login]]></Obj>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[Url: /api/task/{taskID}]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[04.12.2019 - 15:20:50]]></Time>
-<TimeTick>1575462050</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="75" status="Passed" >
-<Disp><![CDATA[Url: /login]]></Disp>
+<Time><![CDATA[04.12.2019 - 15:51:21]]></Time>
+<TimeTick>1575463881</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="76" status="Passed" >
+<Disp><![CDATA[Url: /api/task/{taskID}]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t59.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="04.12.2019 - 15:20:50" eTime="04.12.2019 - 15:20:50" passed="2" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="73" status="Passed" >
+<Step rID="T69">
+<Obj plainTxt="False" ><![CDATA[Url: /api/checkLogin]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:21]]></Time>
+<TimeTick>1575463881</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="77" status="Passed" >
+<Disp><![CDATA[Url: /api/checkLogin]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t60.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T70">
+<Obj plainTxt="False" ><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:21]]></Time>
+<TimeTick>1575463881</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="78" status="Passed" >
+<Disp><![CDATA[Url: /api/ticket/{taskID}/comment/]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t61.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:22]]></Time>
+<TimeTick>1575463882</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="79" status="Passed" >
+<Disp><![CDATA[Custom Request: /api/ticket/{taskID}/comment/]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t62.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="04.12.2019 - 15:51:18" eTime="04.12.2019 - 15:51:22" passed="6" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="72" status="Passed" >
+<Disp><![CDATA[UC01_Comment Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T72">
+<AName><![CDATA[UC01_Logout]]></AName>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[Url: /api/logout]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:23]]></Time>
+<TimeTick>1575463883</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="82" status="Passed" >
+<Disp><![CDATA[Url: /api/logout]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t63.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[Url: /login]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[04.12.2019 - 15:51:23]]></Time>
+<TimeTick>1575463883</TimeTick>
+<NodeArgs eType="General" icon="3" nRep="83" status="Passed" >
+<Disp><![CDATA[Url: /login]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t64.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="04.12.2019 - 15:51:22" eTime="04.12.2019 - 15:51:23" passed="2" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="81" status="Passed" >
 <Disp><![CDATA[UC01_Logout Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
-<Disp><![CDATA[UC01_Create_comment_close_task Iteration 1 (Row 1)]]></Disp>
-</NodeArgs>
-</DIter>
-<Action rID="T68">
+<Action rID="T75">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="04.12.2019 - 15:20:50" eTime="04.12.2019 - 15:20:50" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="78" >
+<Summary sTime="04.12.2019 - 15:51:23" eTime="04.12.2019 - 15:51:23" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="85" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="04.12.2019 - 15:20:33" eTime="04.12.2019 - 15:20:50" passed="53" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<NodeArgs eType="StartIteration" icon="6" nRep="18" status="Failed" >
+<Disp><![CDATA[UC01_Create_comment_close_task Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Summary sTime="04.12.2019 - 15:50:34" eTime="04.12.2019 - 15:51:23" passed="53" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test UC01_Create_comment_close_task Summary]]></Disp>
 </NodeArgs>
 </Doc>

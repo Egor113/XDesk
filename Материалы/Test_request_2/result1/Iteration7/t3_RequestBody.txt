@@ -1,2 +1,2 @@
-"loadrunner,label=/,responseCode=200,success=true responseTime=197000,bytes=107658,sentBytes=36"
-"48,URL="http://www.icicall.ru/ideal.html" 1575450259697000000"
+"loadrunner,label=/,responseCode=200,success=true responseTime=248000,bytes=107658,sentBytes=36"
+"48,URL="http://www.icicall.ru/ideal.html" 1575463411958000000"

@@ -71,7 +71,7 @@ public class Actions
 			String insert_query = "INSERT INTO task (id, change_id," +
 			"ticket_id, guid, header, text, priority_id, state_id," +
 	        "client_id, create_date, external_system) select " + id + 
-			",'IDC2D620524153zdzPWAoX9OFgW4UB'," + id + ", guid, header, text, '3', '2'," +
+			",'IDC2D620524153zdzPWAoX9OFgW4UB'," + id + ", guid, header, text, '3', '1'," +
 			"'106', create_date, 'ASKO' from ticket " +
 			"where id = " + id;
 	        statement.execute(insert_query);

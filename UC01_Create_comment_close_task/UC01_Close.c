@@ -46,7 +46,7 @@ UC01_Close()
 
 	lr_start_transaction("UC04_TR03_Choose_task");
 
-	web_url("{/api/task/{taskID_close}}", 
+	web_url("/api/task/{taskID_close}}", 
 		"URL={Host}:{Port}/api/task/{taskID_close}", 
 		"TargetFrame=", 
 		"Resource=0", 

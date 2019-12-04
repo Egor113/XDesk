@@ -2635,7 +2635,7 @@ UC01_Login()
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
 
-	web_url("{/", 
+	web_url("/", 
 		"URL={Host}:{Port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2873,7 +2873,6 @@ UC01_Create()
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		    
 		   lr_eval_string("{shopID}"));
 	}
 	else {
@@ -2890,7 +2889,6 @@ UC01_Create()
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		    
 		   lr_eval_string("{inventoryNumberId}"),
 		   lr_eval_string("{shopID}"));
 	}
@@ -3169,7 +3167,7 @@ UC01_Close()
 
 	lr_start_transaction("UC04_TR03_Choose_task");
 
-	web_url("{/api/task/{taskID_close}}", 
+	web_url("/api/task/{taskID_close}}", 
 		"URL={Host}:{Port}/api/task/{taskID_close}", 
 		"TargetFrame=", 
 		"Resource=0", 

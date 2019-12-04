@@ -7,6 +7,6 @@ Accept-Encoding: gzip, deflate
 Accept: */*
 Connection: Keep-Alive
 Host: learning2.pflb.ru:56902
-Cookie: SESSION=a5a553ce-6dc8-4c63-bb4c-218e3a89c7cd
-Content-Length: 233
+Cookie: SESSION=af39a0f0-302a-4679-b098-72b5d8fbb50b
+Content-Length: 189
 

@@ -168,7 +168,6 @@ UC01_Create()
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		   //lr_eval_string("{FileID}"),
 		   lr_eval_string("{shopID}"));
 	}
 	else {
@@ -185,7 +184,6 @@ UC01_Create()
 		   lr_eval_string("{Text}"),
 		   lr_paramarr_idx("serviceNames", j),
 		   lr_eval_string("{serviceId}"),
-		   //lr_eval_string("{FileID}"),
 		   lr_eval_string("{inventoryNumberId}"),
 		   lr_eval_string("{shopID}"));
 	}

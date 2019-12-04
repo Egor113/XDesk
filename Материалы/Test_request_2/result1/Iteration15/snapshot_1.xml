@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1">
-  <HTTPTask id="225" hostname="www.icicall.ru" path="/ideal.html" url="http://www.icicall.ru/ideal.html" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7671" connectionId="2268" origin="Primary" encodingType="ANSI" startDateTime="2019-12-04T12:04:22.655+03:00" startTime="5653" endTime="5670" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="2" receiveTime="11" sslNegotiateTime="-1" responseBodySize="2240">
+  <HTTPTask id="225" hostname="www.icicall.ru" path="/ideal.html" url="http://www.icicall.ru/ideal.html" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9489" connectionId="2240" origin="Primary" encodingType="ANSI" startDateTime="2019-12-04T15:43:34.953+03:00" startTime="6118" endTime="6134" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="2" receiveTime="9" sslNegotiateTime="-1" responseBodySize="2240">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name="User-Agent" index="0">
@@ -67,7 +67,7 @@
         <HTTPHeaderEntity name="Date" index="1">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+              <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -139,7 +139,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI4IE1hciAyMDE5IDExOjA4OjIxIEdNVA0KRVRhZzogIjE1MDA5MDAtMmE3Zi01ODUyNTkyN2U4MGQzIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDE5NDANCg0K</ActualData>
+              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI4IE1hciAyMDE5IDExOjA4OjIxIEdNVA0KRVRhZzogIjE1MDA5MDAtMmE3Zi01ODUyNTkyN2U4MGQzIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDE5NDANCg0K</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -154,7 +154,7 @@
         <IsExternalData>false</IsExternalData>
       </HTTPBody>
     </HTTPResponse>
-    <HTTPTask id="226" hostname="www.icicall.ru" path="/css/style.css" url="http://www.icicall.ru/css/style.css" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7672" connectionId="2364" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2019-12-04T12:04:22.673+03:00" startTime="5672" endTime="5684" blockedTime="-1" dnsTime="-1" connectTime="0" sendTime="3" waitTime="3" receiveTime="5" sslNegotiateTime="-1" responseBodySize="3123">
+    <HTTPTask id="226" hostname="www.icicall.ru" path="/css/style.css" url="http://www.icicall.ru/css/style.css" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9490" connectionId="2372" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2019-12-04T15:43:34.970+03:00" startTime="6135" endTime="6152" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="3" waitTime="4" receiveTime="8" sslNegotiateTime="-1" responseBodySize="3123">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -229,7 +229,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -301,7 +301,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9jc3MNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTMgR01UDQpFVGFnOiAiMTUyMDk3ZS0zNjc3LTRlOTc2ZjljOWIwNDAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KVmFyeTogQWNjZXB0LUVuY29kaW5nDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDb250ZW50LUxlbmd0aDogMjgyNA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9jc3MNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTMgR01UDQpFVGFnOiAiMTUyMDk3ZS0zNjc3LTRlOTc2ZjljOWIwNDAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KVmFyeTogQWNjZXB0LUVuY29kaW5nDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDb250ZW50LUxlbmd0aDogMjgyNA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -317,7 +317,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="227" hostname="www.icicall.ru" path="/css/layout.css" url="http://www.icicall.ru/css/layout.css" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7673" connectionId="2284" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2019-12-04T12:04:22.673+03:00" startTime="5672" endTime="5708" blockedTime="-1" dnsTime="-1" connectTime="0" sendTime="3" waitTime="32" receiveTime="0" sslNegotiateTime="-1" responseBodySize="975">
+    <HTTPTask id="227" hostname="www.icicall.ru" path="/css/layout.css" url="http://www.icicall.ru/css/layout.css" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9491" connectionId="2172" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2019-12-04T15:43:34.970+03:00" startTime="6135" endTime="6142" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="3" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="975">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -392,7 +392,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -464,7 +464,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9jc3MNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTMgR01UDQpFVGFnOiAiMTUyMDk4MC1kMDktNGU5NzZmOWM5YjA0MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiA2NzgNCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9jc3MNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTMgR01UDQpFVGFnOiAiMTUyMDk4MC1kMDktNGU5NzZmOWM5YjA0MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiA2NzgNCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -480,7 +480,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="228" hostname="www.icicall.ru" path="/js/jquery-1.6.2.js" url="http://www.icicall.ru/js/jquery-1.6.2.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7674" connectionId="2368" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2019-12-04T12:04:22.673+03:00" startTime="5672" endTime="5771" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="37" receiveTime="56" sslNegotiateTime="-1" responseBodySize="68225">
+    <HTTPTask id="228" hostname="www.icicall.ru" path="/js/jquery-1.6.2.js" url="http://www.icicall.ru/js/jquery-1.6.2.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9492" connectionId="2100" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2019-12-04T15:43:34.971+03:00" startTime="6135" endTime="6235" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="3" waitTime="40" receiveTime="54" sslNegotiateTime="-1" responseBodySize="68225">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -555,7 +555,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -627,7 +627,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTQgR01UDQpFVGFnOiAiMTVjMDlhYS0zOWFhYS00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IFRodSwgMjQgT2N0IDIwMTMgMDY6NDU6MTQgR01UDQpFVGFnOiAiMTVjMDlhYS0zOWFhYS00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -643,7 +643,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="229" hostname="www.icicall.ru" path="/js/jquery.cookie.js" url="http://www.icicall.ru/js/jquery.cookie.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7675" connectionId="2384" origin="HTML" encodingType="ANSI" ordinal="4" startDateTime="2019-12-04T12:04:22.673+03:00" startTime="5672" endTime="5678" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="1" receiveTime="0" sslNegotiateTime="-1" responseBodySize="1803">
+    <HTTPTask id="229" hostname="www.icicall.ru" path="/js/jquery.cookie.js" url="http://www.icicall.ru/js/jquery.cookie.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9493" connectionId="2188" origin="HTML" encodingType="ANSI" ordinal="4" startDateTime="2019-12-04T15:43:34.971+03:00" startTime="6136" endTime="6237" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="96" receiveTime="1" sslNegotiateTime="-1" responseBodySize="1803">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -718,7 +718,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -790,7 +790,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWFjLTEwOTYtNGU5NzZmOWQ4ZjI4MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiAxNDkwDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWFjLTEwOTYtNGU5NzZmOWQ4ZjI4MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiAxNDkwDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -806,7 +806,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="230" hostname="www.icicall.ru" path="/js/i18n.js" url="http://www.icicall.ru/js/i18n.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7676" connectionId="2392" origin="HTML" encodingType="ANSI" ordinal="5" startDateTime="2019-12-04T12:04:22.674+03:00" startTime="5672" endTime="5778" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="101" receiveTime="0" sslNegotiateTime="-1" responseBodySize="2288">
+    <HTTPTask id="230" hostname="www.icicall.ru" path="/js/i18n.js" url="http://www.icicall.ru/js/i18n.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9494" connectionId="2148" origin="HTML" encodingType="ANSI" ordinal="5" startDateTime="2019-12-04T15:43:34.971+03:00" startTime="6136" endTime="6239" blockedTime="-1" dnsTime="-1" connectTime="1" sendTime="2" waitTime="98" receiveTime="0" sslNegotiateTime="-1" responseBodySize="2288">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -881,7 +881,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -953,7 +953,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWFkLTE3YjMtNGU5NzZmOWQ4ZjI4MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiAxOTc1DQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWFkLTE3YjMtNGU5NzZmOWQ4ZjI4MCINCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCkNvbnRlbnQtTGVuZ3RoOiAxOTc1DQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -969,7 +969,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="231" hostname="www.icicall.ru" path="/js/effects.js" url="http://www.icicall.ru/js/effects.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7671" connectionId="2268" origin="HTML" encodingType="ANSI" ordinal="6" startDateTime="2019-12-04T12:04:22.673+03:00" startTime="5671" endTime="5675" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="3" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="1248">
+    <HTTPTask id="231" hostname="www.icicall.ru" path="/js/effects.js" url="http://www.icicall.ru/js/effects.js" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9489" connectionId="2240" origin="HTML" encodingType="ANSI" ordinal="6" startDateTime="2019-12-04T15:43:34.970+03:00" startTime="6135" endTime="6139" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="3" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="1248">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1044,7 +1044,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1116,7 +1116,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWE5LThmNC00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDkzNw0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vamF2YXNjcmlwdA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogVGh1LCAyNCBPY3QgMjAxMyAwNjo0NToxNCBHTVQNCkVUYWc6ICIxNWMwOWE5LThmNC00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDkzNw0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1132,7 +1132,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="232" hostname="www.icicall.ru" path="/" url="http://www.icicall.ru/" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7671" connectionId="2268" origin="HTML" encodingType="ANSI" ordinal="7" startDateTime="2019-12-04T12:04:22.678+03:00" startTime="5676" endTime="5705" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="9" waitTime="0" receiveTime="19" sslNegotiateTime="-1" responseBodySize="2616">
+    <HTTPTask id="232" hostname="www.icicall.ru" path="/" url="http://www.icicall.ru/" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9489" connectionId="2240" origin="HTML" encodingType="ANSI" ordinal="7" startDateTime="2019-12-04T15:43:34.975+03:00" startTime="6140" endTime="6166" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="13" waitTime="0" receiveTime="12" sslNegotiateTime="-1" responseBodySize="2616">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1207,7 +1207,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1279,7 +1279,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI4IE1hciAyMDE5IDExOjA2OjMwIEdNVA0KRVRhZzogIjE1MDA5MDEtMjlkOC01ODUyNThiZTMwZWY4Ig0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDIzMTYNCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI4IE1hciAyMDE5IDExOjA2OjMwIEdNVA0KRVRhZzogIjE1MDA5MDEtMjlkOC01ODUyNThiZTMwZWY4Ig0KQWNjZXB0LVJhbmdlczogYnl0ZXMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KQ29udGVudC1MZW5ndGg6IDIzMTYNCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1295,7 +1295,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="233" hostname="www.icicall.ru" path="/images/flags/english.png" url="http://www.icicall.ru/images/flags/english.png" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7675" connectionId="2384" origin="HTML" encodingType="ANSI" ordinal="8" startDateTime="2019-12-04T12:04:22.680+03:00" startTime="5679" endTime="5776" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="96" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="1365">
+    <HTTPTask id="233" hostname="www.icicall.ru" path="/images/flags/english.png" url="http://www.icicall.ru/images/flags/english.png" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9491" connectionId="2172" origin="HTML" encodingType="ANSI" ordinal="8" startDateTime="2019-12-04T15:43:34.978+03:00" startTime="6143" endTime="6170" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="26" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="1365">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1370,7 +1370,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1426,7 +1426,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1YTA5ZDYtNDU5LTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDExMTMNCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1YTA5ZDYtNDU5LTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDExMTMNCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1442,7 +1442,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="234" hostname="www.icicall.ru" path="/images/flags/russian.png" url="http://www.icicall.ru/images/flags/russian.png" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7672" connectionId="2364" origin="HTML" encodingType="ANSI" ordinal="9" startDateTime="2019-12-04T12:04:22.687+03:00" startTime="5685" endTime="5706" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="21" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="590">
+    <HTTPTask id="234" hostname="www.icicall.ru" path="/images/flags/russian.png" url="http://www.icicall.ru/images/flags/russian.png" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9490" connectionId="2372" origin="HTML" encodingType="ANSI" ordinal="9" startDateTime="2019-12-04T15:43:34.988+03:00" startTime="6153" endTime="6168" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="14" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="590">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1517,7 +1517,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1573,7 +1573,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1YTA5ZDUtMTUzLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDMzOQ0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1YTA5ZDUtMTUzLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDMzOQ0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1589,7 +1589,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="235" hostname="www.icicall.ru" path="/images/3page-title1.gif" url="http://www.icicall.ru/images/3page-title1.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7671" connectionId="2268" origin="HTML" encodingType="ANSI" ordinal="10" startDateTime="2019-12-04T12:04:22.707+03:00" startTime="5706" endTime="5710" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="3" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="509">
+    <HTTPTask id="235" hostname="www.icicall.ru" path="/images/3page-title1.gif" url="http://www.icicall.ru/images/3page-title1.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9489" connectionId="2240" origin="HTML" encodingType="ANSI" ordinal="10" startDateTime="2019-12-04T15:43:35.002+03:00" startTime="6167" endTime="6172" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="509">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1664,7 +1664,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1720,7 +1720,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMzEtMTAyLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDI1OA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMzEtMTAyLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDI1OA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1736,7 +1736,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="236" hostname="www.icicall.ru" path="/images/3page-title2.gif" url="http://www.icicall.ru/images/3page-title2.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7672" connectionId="2364" origin="HTML" encodingType="ANSI" ordinal="11" startDateTime="2019-12-04T12:04:22.709+03:00" startTime="5707" endTime="5712" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="859">
+    <HTTPTask id="236" hostname="www.icicall.ru" path="/images/3page-title2.gif" url="http://www.icicall.ru/images/3page-title2.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9490" connectionId="2372" origin="HTML" encodingType="ANSI" ordinal="11" startDateTime="2019-12-04T15:43:35.004+03:00" startTime="6169" endTime="6175" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="5" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="859">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1811,7 +1811,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1867,7 +1867,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMTQtMjYwLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDYwOA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMTQtMjYwLTRlOTc2ZjlkOGYyODAiDQpBY2NlcHQtUmFuZ2VzOiBieXRlcw0KQ29udGVudC1MZW5ndGg6IDYwOA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1883,7 +1883,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="237" hostname="www.icicall.ru" path="/images/3page-img1.gif" url="http://www.icicall.ru/images/3page-img1.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7673" connectionId="2284" origin="HTML" encodingType="ANSI" ordinal="12" startDateTime="2019-12-04T12:04:22.711+03:00" startTime="5709" endTime="5774" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="4" waitTime="0" receiveTime="61" sslNegotiateTime="-1" responseBodySize="15167">
+    <HTTPTask id="237" hostname="www.icicall.ru" path="/images/3page-img1.gif" url="http://www.icicall.ru/images/3page-img1.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9491" connectionId="2172" origin="HTML" encodingType="ANSI" ordinal="12" startDateTime="2019-12-04T15:43:35.006+03:00" startTime="6171" endTime="6179" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="5" waitTime="0" receiveTime="2" sslNegotiateTime="-1" responseBodySize="15167">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -1958,7 +1958,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2014,7 +2014,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMTAtM2E0MS00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtTGVuZ3RoOiAxNDkxMw0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMTAtM2E0MS00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtTGVuZ3RoOiAxNDkxMw0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2030,7 +2030,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="238" hostname="www.icicall.ru" path="/images/ideal.gif" url="http://www.icicall.ru/images/ideal.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="7671" connectionId="2268" origin="HTML" encodingType="ANSI" ordinal="13" startDateTime="2019-12-04T12:04:22.713+03:00" startTime="5711" endTime="5773" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="61" waitTime="0" receiveTime="0" sslNegotiateTime="-1" responseBodySize="5949">
+    <HTTPTask id="238" hostname="www.icicall.ru" path="/images/ideal.gif" url="http://www.icicall.ru/images/ideal.gif" ip="93.174.131.38" port="80" client_ip="192.168.14.226" client_port="9489" connectionId="2240" origin="HTML" encodingType="ANSI" ordinal="13" startDateTime="2019-12-04T15:43:35.009+03:00" startTime="6174" endTime="6177" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="2" waitTime="0" receiveTime="1" sslNegotiateTime="-1" responseBodySize="5949">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -2105,7 +2105,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2161,7 +2161,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMmItMTY0MC00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtTGVuZ3RoOiA1Njk2DQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54LzAuNy42NQ0KRGF0ZTogV2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQNCkNvbnRlbnQtVHlwZTogaW1hZ2UvZ2lmDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpMYXN0LU1vZGlmaWVkOiBUaHUsIDI0IE9jdCAyMDEzIDA2OjQ1OjE0IEdNVA0KRVRhZzogIjE1NjBhMmItMTY0MC00ZTk3NmY5ZDhmMjgwIg0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtTGVuZ3RoOiA1Njk2DQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2177,7 +2177,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="239" hostname="www.facebook.com" path="/favicon.ico" url="http://www.facebook.com/favicon.ico" ip="31.13.72.36" port="80" client_ip="192.168.14.226" client_port="7677" connectionId="2400" origin="HTML" encodingType="ANSI" ordinal="14" startDateTime="2019-12-04T12:04:22.674+03:00" startTime="5672" endTime="5848" blockedTime="-1" dnsTime="-1" connectTime="106" sendTime="22" waitTime="46" receiveTime="1" sslNegotiateTime="-1" responseBodySize="701">
+    <HTTPTask id="239" hostname="www.facebook.com" path="/favicon.ico" url="http://www.facebook.com/favicon.ico" ip="31.13.72.36" port="80" client_ip="192.168.14.226" client_port="9495" connectionId="2136" origin="HTML" encodingType="ANSI" ordinal="14" startDateTime="2019-12-04T15:43:34.971+03:00" startTime="6136" endTime="6314" blockedTime="-1" dnsTime="-1" connectTime="103" sendTime="24" waitTime="47" receiveTime="2" sslNegotiateTime="-1" responseBodySize="701">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -2324,7 +2324,7 @@
           <HTTPHeaderEntity name="X-FB-Debug" index="10">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>eENhYXROZFZlRkZjOUdsTVhreUxHOFdVMVhiMnBHcW1XQ2RtMkZ0MlluQjRFZitXS2daWFFWTllXRUZ4aGx4TlhqazBiYkZDM3Bad040UmVhclNHUnc9PQ==</ActualData>
+                <ActualData>dzBnOE5ydzlaV3p6d08zOTBoM0VPMVR5V0Q0UkN5RS9MRkhpV0pOV0dSeWxZendrSjJ3L3ovYUdIb0c5UXRXZU42QVhOMS9rcmF4emM2ZzRCQ0NUcGc9PQ==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2332,7 +2332,7 @@
           <HTTPHeaderEntity name="Date" index="11">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAwOTowNDoyMyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwNCBEZWMgMjAxOSAxMjo0MzozNSBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -2356,7 +2356,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDb250ZW50LVR5cGU6IGltYWdlL3BuZw0KUHJhZ21hOiBuby1jYWNoZQ0KQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbm8tY2FjaGUsIG5vLXN0b3JlLCBtdXN0LXJldmFsaWRhdGUNClgtRnJhbWUtT3B0aW9uczogREVOWQ0KVmFyeTogQWNjZXB0LUVuY29kaW5nDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpYLVVBLUNvbXBhdGlibGU6IElFPWVkZ2UNClgtWFNTLVByb3RlY3Rpb246IDANCkV4cGlyZXM6IFNhdCwgMDEgSmFuIDIwMDAgMDA6MDA6MDAgR01UDQpYLUZCLURlYnVnOiB4Q2FhdE5kVmVGRmM5R2xNWGt5TEc4V1UxWGIycEdxbVdDZG0yRnQyWW5CNEVmK1dLZ1pYUVZOWVdFRnhobHhOWGprMGJiRkMzcFp3TjRSZWFyU0dSdz09DQpEYXRlOiBXZWQsIDA0IERlYyAyMDE5IDA5OjA0OjIzIEdNVA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KQ29udGVudC1MZW5ndGg6IDIwNA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQpDb250ZW50LVR5cGU6IGltYWdlL3BuZw0KUHJhZ21hOiBuby1jYWNoZQ0KQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbm8tY2FjaGUsIG5vLXN0b3JlLCBtdXN0LXJldmFsaWRhdGUNClgtRnJhbWUtT3B0aW9uczogREVOWQ0KVmFyeTogQWNjZXB0LUVuY29kaW5nDQpYLUNvbnRlbnQtVHlwZS1PcHRpb25zOiBub3NuaWZmDQpYLVVBLUNvbXBhdGlibGU6IElFPWVkZ2UNClgtWFNTLVByb3RlY3Rpb246IDANCkV4cGlyZXM6IFNhdCwgMDEgSmFuIDIwMDAgMDA6MDA6MDAgR01UDQpYLUZCLURlYnVnOiB3MGc4TnJ3OVpXenp3TzM5MGgzRU8xVHlXRDRSQ3lFL0xGSGlXSk5XR1J5bFl6d2tKMncvei9hR0hvRzlRdFdlTjZBWE4xL2tyYXh6YzZnNEJDQ1RwZz09DQpEYXRlOiBXZWQsIDA0IERlYyAyMDE5IDEyOjQzOjM1IEdNVA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KQ29udGVudC1MZW5ndGg6IDIwNA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>

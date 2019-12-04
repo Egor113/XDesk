@@ -1,1 +1,2 @@
-"{"text":"New comment Ogdanets 1","files":[]}"
+"{"text":"Ogdanets text 1","header":"ЦХМ издает посторонние звуки","ti"
+"cketStateId": 0,"serviceId": "2954","files": [],"shopId": "2"}"
